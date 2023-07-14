@@ -1,0 +1,90 @@
+/* =========
+   Get Fonts */
+@import url(http://fonts.googleapis.com/css?family=Quicksand);
+@import url(http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+/* ================
+   Assign Variables */
+/* ===========================
+   Setup Mixins/Helper Classes */
+.clearfix:after, .container:after, .tab-nav:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* ==========
+   Setup Page */
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 3em;
+  background-image: url(http://subtlepatterns.com/patterns/retina_wood.png);
+  color: grey;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* =================
+   Container Styling */
+.container {
+  position: relative;
+  background: white;
+  padding: 3em;
+  border-radius: 10px;
+}
+
+/* ===========
+   Tab Styling */
+.tab-group {
+  position: relative;
+  border: 1px solid #eee;
+  margin-top: 2.5em;
+  border-radius: 0 0 10px 10px;
+}
+.tab-group section {
+  opacity: 0;
+  height: 0;
+  padding: 0 1em;
+  overflow: hidden;
+  transition: opacity 0.4s ease, height 0.4s ease;
+}
+.tab-group section.active {
+  opacity: 1;
+  height: auto;
+  overflow: visible;
+}
+
+.tab-nav {
+  list-style: none;
+  margin: -2.5em -1px 0 0;
+  padding: 0;
+  height: 2.5em;
+  overflow: hidden;
+}
+.tab-nav li {
+  display: inline;
+}
+.tab-nav li a {
+  top: 1px;
+  position: relative;
+  display: block;
+  float: left;
+  border-radius: 10px 10px 0 0;
+  background: #eee;
+  line-height: 2em;
+  padding: 0 1em;
+  text-decoration: none;
+  color: grey;
+  margin-top: .5em;
+  margin-right: 1px;
+  transition: background .2s ease, line-height .2s ease, margin .2s ease;
+}
+.tab-nav li.active a {
+  background: #6EB590;
+  color: white;
+  line-height: 2.5em;
+  margin-top: 0;
+}
