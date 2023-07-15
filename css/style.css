@@ -15,6 +15,7 @@
 
 	body {
 	  font-family: 'Quicksand', sans-serif;
+		font-size:15px;
 	}
 
 	/* =================
@@ -36,6 +37,7 @@
 	}
 	.tab-group section {
 		color:#666;
+		line-height: 2.5em;
 	  opacity: 0;
 	  height: 0;
 	  padding: 0 1em;
