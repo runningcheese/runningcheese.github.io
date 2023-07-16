@@ -8,7 +8,8 @@
 
 <style type="text/css">
 	
-	.clearfix:after, .container:after, .tab-nav:after {
+	
+.clearfix:after, .container:after, .tab-nav:after {
 	  content: ".";
 	  display: block;
 	  height: 0;
@@ -16,19 +17,18 @@
 	  visibility: hidden;
 	}
 
-	/* ==========
-	   Setup Page */
+	/* ========== 主页面 */
 	*, *:before, *:after {
 	  box-sizing: border-box;
 	}
 
 	body {
-	  font-family: 'Quicksand', sans-serif;
 	  font-size:15px;
 	}
 
-	/* =================
-	   Container Styling */
+
+
+/* ============ 容器样式 */
 	.container {
 	  position: relative;
 	  padding: 3em;
@@ -36,8 +36,10 @@
 		max-width: 860px !important;
 	}
 
-	/* ===========
-	   Tab Styling */
+
+
+
+/* =========== 表格样式 */
 	.tab-group {
 	  position: relative;
 	  border: 1px solid #eee;
@@ -64,7 +66,6 @@
       margin: -2.5em -6px 0 -1px;
       padding: 0;
       height: 2.5em;
-      overflow: hidden;
     }
     .tab-nav li {
       display: inline;  
@@ -96,6 +97,31 @@
     font-weight: bold;
     }
 	
+
+
+/* =========== 窗口样式 */
+
+@media only screen and (max-width: 1200px) {
+    .tab-nav li a {
+     width:19% !important;}
+}
+@media only screen and (max-width: 769px) {
+    .tab-nav li a {
+     width:24% !important;}
+}
+@media only screen and (max-width: 581px) {
+    .tab-nav li a { width:32% !important;}
+        .column-1, .column-2 {min-width:125px !important; vertical-align:middle !important;}
+        .content_post table td, .content_post table th {
+         padding: 5px 0px !important;}
+        .content_post table{font-size:13px !important;}
+}
+.tab-nav li { text-align:left  !important;  }
+.tab-nav li a { padding-left:25px !important;   }
+@media only screen and (max-width: 581px) {
+.tab-nav li a { padding-left:16px !important;   }
+}
+	
 </style>
 
 <script src="js/prefixfree.min.js"></script>
@@ -107,9 +133,7 @@
 	  <div class="tab-group">
 		<section id="tab1" title="人工智能指南">
 
-		  <h3>
-			A - 人工智能指南
-		  </h3>
+<p style="text-align: center; padding-top: 55px;margin-bottom:65px;"><span style="font-size: 15px;"><strong>人工智能指南</strong> - <a href="https://github.com/runningcheese/Awesome-ChatGPT" rel="noopener noreferrer" target="_blank">详细  <img class="ico" src="https://www.runningcheese.com/icons/open.svg"></a></span></p>
 
 <table>
 <thead>
