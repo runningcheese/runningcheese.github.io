@@ -33,16 +33,17 @@
 
 
 
-想看某部电影，可优先使用“**电影搜索**”，你总能找到想看的电影。
-
-
-
 | ▼ **电影搜索**                              |                                       |                                       |                                     |
 | ------------------------------------------- | ------------------------------------- | ------------------------------------- | ----------------------------------- |
 | [爱看机器人](https://www.ikanbot.com/)      | [茶杯狐](https://cupfox.app/)         | [搜片.com](https://soupian.app/)      | [豌豆PRO](https://www.wandou.la/)   |
 | [电影狗](https://www.dianyinggou.com/)      | [茶杯虎 ](https://www.725998.com/)    | [影搜](https://yingshiso.com/)        | [青麦](https://www.qmtv.pro/)       |
 | [电影淘淘](https://www.dianyingtaotao.com/) | [影猫の仓库](https://search.ymck.me/) | [Doge分享](https://dogechan.com/)     | [追影猫](https://zhuiyingmao2.com/) |
 | [酷搜](https://www.ressou.com/)             | [土拨鼠电影](https://tbsdy.com/)      | [悟空视频](https://wukongshipin.com/) | [MXONE](https://www.xmxone.cn/)     |
+| [7080影视搜](https://7080.wang/index.html)  |                                       |                                       |                                     |
+
+
+
+
 
 
 
@@ -52,27 +53,30 @@
 
 
 
-以“**国内资源**”为主，包括“**综艺**”、“**电影**”、“**电视剧**”。
+| ▼ 综艺追剧                                |                                             |                                         |                                          |
+| ----------------------------------------- | ------------------------------------------- | --------------------------------------- | ---------------------------------------- |
+| [全集网](https://www.yijia5.com/)         | [追影猫](https://zhuiyingmao2.com/)         | [热播之家](https://rebozj.pro/)         | [大师兄影视](https://dsxys.pro/)         |
+| [欧乐影院 NEW](https://new.olevod.com/)   | [欧乐影院](https://olevod.com/)             | [COKEMV](https://cokemv.me/)            | [腐剧TV](https://www.fuju1.tv/)          |
+| [片吧](https://www.pbpbs.com/)            | [真不卡影院](https://www.bkyb.net/)         | [WZ影视](https://wzyshi.com/)           | [奈飞中文影视](https://www.netfly.tv/)   |
+| [APP影院](https://www.appmovie.cc/)       | [天天视频](https://ttsp.tv/)                | [爱欧乐影院](https://www.iole.tv/)      | [云播TV](https://www.yunbtv.net/)        |
+| [红领巾影院](https://www.honglingjin.tv/) | [独播库](https://duboku.su/)                | [努努影院](https://www.nunuyy5.org/)    | [唐人街影院](https://www.tangrenjie.tv/) |
+| [大米星球](https://dami5.vip/)            | [饭团影视](https://www.fantuanhd.com/)      | [HuaHua影院](https://hua355.com/)       | [熊猫影院](https://xmvod520.com/)        |
+| [爱壹帆v](https://www.iyf1.tv/)           | [555电影](https://55dy9.vip/)               | [七味网](https://www.pkmkv.com/)        | [看B站](https://kanb.tv/)                |
+| [电影先生](https://dianyi.ng/)            | [爱看影院](https://www.3ayy.com/)           | [华联社影院](https://www.cctv365.co/)   | [MK影视](https://www.mkvdo.com/)         |
+| [全能影视](http://www.qnkk8.com/)         | [爱迪影视](https://adys.tv/)                | [星影视频](https://www.xy1080.net/)     | [臭蛋蛋影视](https://cddys.vip/)         |
+| [新视觉影院](https://www.6080yy1.com/)    | [毛驴影视](https://www.maolvys.com/)        | [1080迷](https://www.1080p.club/)       | [宝片视频](https://zpsps.com/)           |
+| [朴樱影视](https://www.pyys.top/)         | [爱看影院](https://www.3ayy.com/)           | [麻衣呀呼](https://www.huanyuxing.com/) | [Xmxone](https://www.xmxone.cn/)         |
+| [饭团影视](https://www.fantuan1.com/)     | [秋霞影视](https://www.qiuxia678.com/)      | [Chok 吧](https://www.chok8.cc/)        | [影视工场](https://www.ysgc.fun/)        |
+| [你牛影视](https://www.06ys.com/)         | [星视界](https://www.histar.tv/)            | [小鸭看看](https://xiaoyakankan.com/)   | [爱壹帆清爽版](https://www.iyf1.tv/)     |
+| [看看电影](https://www.kkdy.live/)        | [OK电影院](https://www.okdyy.com/)          | [达达龟](https://dadagui.me/)           | [筷子视频](https://www.kuaizi.tv/)       |
+| [蓝光影院](https://www.fuxiafood.com/)    | [小宝影院](https://xiaobaotv.net/index.php) | [网飞TV](https://www.wangfei.de/)       | [HOHO TV](https://www.hoho.tv/)          |
+| [神马电影](https://www.shenma4480.com/)   | [稀饭影视](https://www.xifanys.com/)        | [星视界](https://www.histar.tv/)        |                                          |
 
 
 
-| ▼ 综艺追剧                                |                         |                                   |                         |
-| ----------------------------------------- | -------------------------------------- | ------------------------------------------- | ---------------------------------------- |
-| [全集网](https://www.yijia5.com/)         | [追影猫](https://zhuiyingmao2.com/)    | [热播之家](https://rebozj.pro/)             | [大师兄影视](https://dsxys.pro/)         |
-| [COKEMV](https://cokemv.me/)              | [腐剧TV](https://www.fuju1.tv/)        | [WZ影视](https://wzyshi.com/)               | [奈飞中文影视](https://www.netfly.tv/)   |
-| [片吧](https://www.pbpbs.com/)            | [真不卡影院](https://www.bkyb.net/)    | [爱欧乐影院](https://www.iole.tv/)          | [云播TV](https://www.yunbtv.net/)        |
-| [HOHO TV](https://www.hoho.tv/)           | [天天视频](https://ttsp.tv/)           | [小宝影院](https://xiaobaotv.net/index.php) | [网飞TV](https://www.wangfei.de/)        |
-| [红领巾影院](https://www.honglingjin.tv/) | [独播库](https://duboku.su/)           | [努努影院](https://www.nunuyy5.org/)        | [唐人街影院](https://www.tangrenjie.tv/) |
-| [大米星球](https://dami5.vip/)            | [饭团影视](https://www.fantuanhd.com/) | [HuaHua影院](https://hua355.com/)           | [熊猫影院](https://xmvod520.com/)        |
-| [爱壹帆v](https://www.iyf1.tv/)           | [555电影](https://55dy9.vip/)          | [七味网](https://www.pkmkv.com/)            | [看B站](https://kanb.tv/)                |
-| [电影先生](https://dianyi.ng/)            | [爱看影院](https://www.3ayy.com/)      | [华联社影院](https://www.cctv365.co/)       | [MK影视](https://www.mkvdo.com/)         |
-| [全能影视](http://www.qnkk8.com/)         | [爱迪影视](https://adys.tv/)           | [星影视频](https://www.xy1080.net/)         | [臭蛋蛋影视](https://cddys.vip/)         |
-| [新视觉影院](https://www.6080yy1.com/)    | [毛驴影视](https://www.maolvys.com/)   | [1080迷](https://www.1080p.club/)           | [宝片视频](https://zpsps.com/)           |
-| [朴樱影视](https://www.pyys.top/)         | [爱看影院](https://www.3ayy.com/)      | [麻衣呀呼](https://www.huanyuxing.com/)     | [Xmxone](https://www.xmxone.cn/)         |
-| [饭团影视](https://www.fantuan1.com/)     | [秋霞影视](https://www.qiuxia678.com/) | [Chok 吧](https://www.chok8.cc/)            | [影视工场](https://www.ysgc.fun/)        |
-| [你牛影视](https://www.06ys.com/)         | [星视界](https://www.histar.tv/)       | [小鸭看看](https://xiaoyakankan.com/)       | [爱壹帆清爽版](https://www.iyf1.tv/)     |
-| [看看电影](https://www.kkdy.live/)        | [OK电影院](https://www.okdyy.com/)     | [达达龟](https://dadagui.me/)               | [筷子视频](https://www.kuaizi.tv/)       |
-| [蓝光影院](https://www.fuxiafood.com/)    |                                        |                                             |                                          |
+
+
+
 
 
 
@@ -81,10 +85,6 @@
 
 
 ## 03、海外影视
-
-
-
-以“**海外资源**”为主，包括“**电影**”和“**电视剧**”。
 
 
 
@@ -104,7 +104,7 @@
 | [美剧行星](https://www.nfyingshi.com/)     | [91美剧网](https://www.91mjtt.cc/)              | [爱美剧TV](https://www.aimeijutv.com/)           | [美剧吧](https://www.meiju5.net/)                            |
 | [天天美剧](https://www.meijuttk.cc/)       | [爱美剧](https://www.2meiju.cc/)                | [美剧的天堂](https://www.xxhezi.com/)            | [看美剧](https://kanmeiju.net/)                              |
 | ▼ **英剧**                                 |                                                 |                                                  |                                                              |
-| [冰冰字幕组](https://www.icezmz.com/)      | [英剧大全](https://www.meijumi.net/en/)         |                                                  |                                                              |
+| [冰冰字幕组](https://www.icezmz.com/)      | [英剧大全](https://www.meijumi.net/en/)         | [英剧吧](https://www.ivazimova.com/)             |                                                              |
 | ▼ **韩剧**                                 |                                                 |                                                  |                                                              |
 | [韩迷网](https://www.hanmi.org/)           | [韩剧网](https://www.tvn.cc/)                   | [韩饭网](https://www.hanfan.cc/)                 | [韓劇網](https://321tw.com/)                                 |
 | [看韩剧tv](https://www.kan.cc/)            | [韩剧看看](https://www.hanjukankan.com/)        | [韩剧网](https://01hanju.com/)                   | [韩剧播](https://www.hanju7.com/)                            |
@@ -129,29 +129,28 @@
 
 
 
-以“**动漫番剧**”为主。
-
-
-
-| ▼ 动漫频道                         |                                          |                                         |                                                   |
-| ---------------------------------- | ---------------------------------------- | --------------------------------------- | ------------------------------------------------- |
-| [搜漫](https://www.soman.com/)     | [叽哩叽哩](https://www.jiligamefun.com/) | [Bangumi 番组计划](https://bangumi.tv/) |                                                   |
-| ▼ 动漫番剧                         |                                          |                                         |                                                   |
-| [樱花动漫](https://www.yhmgo.com/) | [风车动漫](https://www.dmla1.com/)       | [異世界動漫](https://ysjdm.net/)        | [AGE动漫](https://www.agemys.org/)                |
-| [異世界動漫](https://gqdm.net/)    | [アニメ新番組 ](https://bangumi.online/) | [动漫岛](http://www.dmd77.com/)         | [girigiri爱动漫](https://anime.girigirilove.com/) |
-| [妮可动漫](http://www.nicotv.fun/) | [Z动漫](https://www.dm2022.com/)         | [柒之社](https://07vods.fun/)           | [PangCI](https://pangciacg.com/)                  |
-| [P站](http://www.pilipili.ink/)    | [漫岛动漫](https://www.mandaowang.com/)  | [哈哩哈哩](http://halihali15.com/)      | [heitai动漫](https://www.heitaifun.com/)          |
-| [MX动漫](http://www.mxdm9.com/)    | [萌番](https://www.mengfan.tv/)          |                                         |                                                   |
-
-
-
+| ▼ 动漫频道                            |                                          |                                         |                                                   |
+| ------------------------------------- | ---------------------------------------- | --------------------------------------- | ------------------------------------------------- |
+| [搜漫](https://www.soman.com/)        | [叽哩叽哩](https://www.jiligamefun.com/) | [Bangumi 番组计划](https://bangumi.tv/) |                                                   |
+| ▼ **漫画网站**                        |                                          |                                         |                                                   |
+| [Mangabz](https://www.mangabz.com/)   | [拷貝漫畫](https://copymanga.site/)      | [COLA漫画](https://www.colamanhua.com/) | [包子漫画](https://cn.baozimh.com/)               |
+| [動漫狂](https://www.cartoonmad.com/) | [动漫之家](https://www.dmzj.com/)        |                                         |                                                   |
+| ▼ **动漫番剧**                        |                                          |                                         |                                                   |
+| [樱花动漫](https://www.yhmgo.com/)    | [风车动漫](https://www.dmla1.com/)       | [異世界動漫](https://ysjdm.net/)        | [AGE动漫](https://www.agemys.org/)                |
+| [異世界動漫](https://gqdm.net/)       | [アニメ新番組 ](https://bangumi.online/) | [动漫岛](http://www.dmd77.com/)         | [girigiri爱动漫](https://anime.girigirilove.com/) |
+| [妮可动漫](http://www.nicotv.fun/)    | [Z动漫](https://www.dm2022.com/)         | [柒之社](https://07vods.fun/)           | [PangCI](https://pangciacg.com/)                  |
+| [P站](http://www.pilipili.ink/)       | [漫岛动漫](https://www.mandaowang.com/)  | [哈哩哈哩](http://halihali15.com/)      | [heitai动漫](https://www.heitaifun.com/)          |
+| [MX动漫](http://www.mxdm9.com/)       | [萌番](https://www.mengfan.tv/)          | [異世界動漫2](https://www.sbdm.net/)    | [樱花动漫 2](http://www.yinghuavideo.com/)        |
 
 
 
 
-## 05、记录片
 
 
+
+
+
+## 05、纪录片
 
 
 
@@ -167,46 +166,11 @@
 
 
 
-## 06、电视直播
-
-
-
-| ▼ **电视直播**                               |                                                              |                                                  |                                                              |
-| -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------------------ |
-| [央视直播](http://www.yangshizhibo.com/)     | [电视牛](https://www.tvniu.com/)                             | [365直播网](http://www.haoqiu365.com/)           | [126直播网](http://www.126zhibo.net/)                        |
-| [乐视直播网](http://www.lshitv.com/)         | [爱看直播网](http://www.360live.cc/)                         | [好趣网](http://tv.haoqu99.com/)                 |                                                              |
-| ▼ **全球直播**                               |                                                              |                                                  |                                                              |
-| [看全球](http://www.tvquanqiu.com/)          | [Nettv.live](http://nettv.live/)                             |                                                  |                                                              |
-| ▼ **直播源**                                 |                                                              |                                                  |                                                              |
-| [iptv.org](https://github.com/iptv-org/iptv) | [EPG 电视节目表](https://epg.pw/test_channel_page.html?lang=zh-hans) | [IPTV直播源](https://github.com/kimcrowing/IPTV) | [Tvlist Awesome](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) |
 
 
 
 
-
-
-
-## 07、体育直播
-
-
-
-| ▼ **体育直播**                                 |                                               |                                                  |                                             |
-| ---------------------------------------------- | --------------------------------------------- | ------------------------------------------------ | ------------------------------------------- |
-| [直播8](https://www.zhibo8.com/)               | [球迷汇](https://www.qiumihui.tv/)            | [柠檬直播](https://www.ningmengzhibo.cc/)        | [优直播](https://www.yoozhibo.net/)         |
-| [直播吧](https://www.zhiboz.com/)              | [懂球帝](https://dongqiudi.com/)              | [篮球帝](https://www.lanqiudi.com/)              | [一直播 ](https://www.zhibo1.cc/index.html) |
-| [看看直播](https://www.kankanzhibo.com/)       | [515直播](http://www.515.tv/)                 | [篮球直播吧](http://www.lanqiuzhibo.com/)        | [98直播吧](https://www.98zhibo.com/)        |
-| [直播车](http://www.zhiboche5.com/)            | [体育6](https://www.zb06.com/)                |                                                  |                                             |
-| ▼ **体育下载**                                 |                                               |                                                  |                                             |
-| [Sport Video](https://www.sport-video.org.ua/) | [米尔体育网](http://www.miejw.com/html/mdown) | [巧克力直播网](http://www.qklnews.com/matchdown) | [天下足球网](https://www.txzqw.me/)         |
-| [球迷网](http://www.qm5.cc/)                   |                                               |                                                  |                                             |
-
-
-
-
-
-
-
-## 08、VIP 解析
+## 06、VIP 解析
 
 
 
@@ -226,12 +190,58 @@
 
 
 
-## 09、个人影院
 
 
+
+
+## 07、电视直播
+
+
+
+
+| ▼ **在线直播**                               |                                                              |                                                              |                                                              |
+| -------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [央视直播](http://www.yangshizhibo.com/)     | [电视牛](https://www.tvniu.com/)                             | [365直播](http://www.haoqiu365.com/)                         | [126直播](http://www.126zhibo.net/)                          |
+| [乐视直播](http://www.lshitv.com/)           | [爱看直播](http://www.360live.cc/)                           | [好趣网](http://tv.haoqu99.com/)                             | [电视眼](http://www.tvyan.com/)                              |
+| [M3U8 IPTV Player](http://zqjy.info/t/)      | [eja.tv](https://eja.tv/)                                    | [Nettv.live](http://nettv.live/)                             | [看全球](http://www.tvquanqiu.com/)                          |
+| ▼ **直播源**                                 |                                                              |                                                              |                                                              |
+| [IPTV.org](https://github.com/iptv-org/iptv) | [Fanmingming Live](https://live.fanmingming.com/)            | [Tvlist](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) | [EPG 电视节目表](https://epg.pw/test_channel_page.html?lang=zh-hans) |
+| [IPTV Link Search](http://tonkiang.us/)      | [IPTV Link Search 2](https://www.foodieguide.com/iptvsearch/) |                                                              |                                                              |
+| ▼ **直播源软件**                             |                                                              |                                                              |                                                              |
+| **Windows**：                                | 首选：[VLC](https://www.videolan.org/index.zh.html)          | 可选：[Potplayer ](https://potplayer.daum.net/)              | [直播源列表格式转换](https://guihet.com/tvlistconvert.html)  |
+| **Mac**：                                    | 首选：[VLC](https://www.videolan.org/index.zh.html)          | 可选：[IINA](https://iina.io/)                               | 可选：[‎APTV](https://apps.apple.com/cn/app/id1630403500)     |
+| **iOS**：                                    | 首选：[VLC](https://www.videolan.org/index.zh.html)          | 可选：[ntPlayer](https://apps.apple.com/cn/app/ntplayer/id1613758141) | 可选：[‎APTV](https://apps.apple.com/cn/app/id1630403500)     |
+| **Android**：                                | 首选：[VLC](https://www.videolan.org/index.zh.html)          | 可选：DIYP影音                                               |                                                              |
+
+
+
+
+
+
+
+## 08、体育直播
+
+
+
+| ▼ **体育直播**                                 |                                               |                                                  |                                             |
+| ---------------------------------------------- | --------------------------------------------- | ------------------------------------------------ | ------------------------------------------- |
+| [直播8](https://www.zhibo8.com/)               | [球迷汇](https://www.qiumihui.tv/)            | [柠檬直播](https://www.ningmengzhibo.cc/)        | [优直播](https://www.yoozhibo.net/)         |
+| [直播吧](https://www.zhiboz.com/)              | [懂球帝](https://dongqiudi.com/)              | [篮球帝](https://www.lanqiudi.com/)              | [一直播 ](https://www.zhibo1.cc/index.html) |
+| [JRKAN直播](http://www.jrkan2023.com/)         | [515直播](http://www.515.tv/)                 | [篮球直播吧](http://www.lanqiuzhibo.com/)        | [98直播吧](https://www.98zhibo.com/)        |
+| [看看直播](https://www.kankanzhibo.com/)       | [体育6](https://www.zb06.com/)                | [直播车](http://www.zhiboche5.com/)              |                                             |
+| ▼ **体育下载**                                 |                                               |                                                  |                                             |
+| [Sport Video](https://www.sport-video.org.ua/) | [米尔体育网](http://www.miejw.com/html/mdown) | [巧克力直播网](http://www.qklnews.com/matchdown) | [天下足球网](https://www.txzqw.me/)         |
+| [球迷网](http://www.qm5.cc/)                   |                                               |                                                  |                                             |
+
+
+
+
+
+
+
+## 09、电视盒子
 
 更新中....
-
 
 
 
@@ -251,17 +261,11 @@
 
 
 
-**软件下载：**
-
-
-
 **ZY  Player** 是一款开源的、跨平台的电脑端视频播放器，支持 Windows、macOS、Linux 多个平台。
 
 
 
-原项目：[https://github.com/Hunlongyu/ZY-Player](https://github.com/Hunlongyu/ZY-Player)
-
-新项目：[https://github.com/Hiram-Wong/ZyPlayer](https://github.com/Hiram-Wong/ZyPlayer)
+项目：[https://github.com/Hiram-Wong/ZyPlayer](https://github.com/Hiram-Wong/ZyPlayer)
 
 下载：[Windows 版](https://ghproxy.com/https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.2.7/zyplayer-win-3.2.7-x64.exe)、[Mac Intel 版](https://ghproxy.com/https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.2.7/zyplayer-mac-3.2.7-x64.dmg)、[Mac ARM 版](https://ghproxy.com/https://github.com/Hiram-Wong/ZyPlayer/releases/download/v3.2.7/zyplayer-mac-3.2.7-arm64.dmg)
 
@@ -272,8 +276,6 @@
 
 
 **ZY Player** 使用的是接口解析的方式，因此需要订阅 m3u8 链接。
-
-
 
 推荐链接：来自 [@ls125781003](https://github.com/ls125781003/dmtg)
 
@@ -318,35 +320,41 @@ https://gcore.jsdelivr.net/gh/ls125781003/dmtg/zy_yuan.json
 
 
 
-## 11、安卓APP
+## 11、手机APP
+
+
+更新中....
 
 
 
 
-更新中...
+| ▼ **苹果安卓**                                         |                                                              |                                                              |                                                          |
+| ------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------------------------- |
+| [大师兄影视](https://dsxys.pro/app/)                   | [蛋播星球](https://danboxingqiu.github.io/)                  | [乐看视频](https://lekan.app/)                               | [555电影](https://www.555dy.app/)                        |
+| [柚子影视](https://www.yzys.app/)                      | [88影视](https://www.88ys.app/)                              | [大米星球](https://www.dmys.tv/)                             | [加菲猫影视](https://jinju1.app/)                        |
+| [青橙影视](https://qcjlpro.com/)                       | [黑豹影视](https://heib.cc/)                                 | [萌妹官网](https://www.dmmd.tv/)                             | [考拉TV](https://ikaola.tv/app/)                         |
+| [筷子视频](https://www.akuaizi.vip/)                   | [伊人追剧](https://yrzj.tv/)                                 |                                                              |                                                          |
+| ▼ **苹果**                                             |                                                              |                                                              |                                                          |
+| [柿子电影](https://apps.apple.com/cn/app/id1525848430) | [今日影视](https://apps.apple.com/cn/app/id1322243737)       | [影视大全](https://apps.apple.com/cn/app/id1135798414)       | [月亮播放器](https://apps.apple.com/cn/app/id1525688578) |
+| [电视直播](https://apps.apple.com/cn/app/id1594160763) | [美剧TV](https://apps.apple.com/cn/app/id1630151775?platform=ipad) | [港剧TV](https://apps.apple.com/cn/app/%E6%B8%AF%E5%89%A7tv-%E6%B8%AF%E5%89%A7%E7%BD%91/id1510213105) |                                                          |
+|                                                        |                                                              |                                                              |                                                          |
+|                                                        |                                                              |                                                              |                                                          |
+| ▼ **安卓**                                             |                                                              |                                                              |                                                          |
+| [茶杯狐](https://cupfox.app/app)                       | [龙门影视](https://www.looo.top/)                            | [COKEMV](https://cokemv.me/index.php/label/down.html)        | [土拨鼠电影](https://tbsdy.com/download.html)            |
+| [追剧影院](http://www.zhuijuapp.com/)                  | [AG美剧](https://mj2.app/)                                   | [萌妹视频](https://www.dmmd.tv/)                             |                                                          |
+|                                                        |                                                              |                                                              |                                                          |
 
 
 
 
-## 12、苹果APP
 
 
 
-
-更新中...
-
-
-
-
-
-
-
-## 13、电影下载
+## 12、电影下载
 
 
 
 如果想看高清、超高清、无广告、无删减的电影，则需要单独下载，一般有**磁力**和**网盘**两种下载形式。
-
 
 
 | ▼ **磁力下载**                       |                                        |                                                 |                                                            |
@@ -364,13 +372,10 @@ https://gcore.jsdelivr.net/gh/ls125781003/dmtg/zy_yuan.json
 
 
 
-
-## 14、电影字幕
-
+## 13、电影字幕
 
 
 大多数原语种资源（无删减、无广告）都没有字幕，你需要为此单独下载字幕。
-
 
 
 | ▼ **电影字幕**                               |                                   |                                                              |                                     |
@@ -384,65 +389,27 @@ https://gcore.jsdelivr.net/gh/ls125781003/dmtg/zy_yuan.json
 
 
 
+## 14、电影台词
+
+更新中....
 
 
 
 
 
 
+## 15、电影频道
+
+更新中....
 
 
 
 
 
 
+## 16、个人影院
 
-
-
-## 15、电影台词
-
-
-
-
-更新中...
-
-
-
-
-## 16、电影频道
-
-
-
-
-更新中...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 其他
-
-
-
-更新中...
-
-
-
-
-
-
-
+更新中....
 
 
 
