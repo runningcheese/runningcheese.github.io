@@ -85,7 +85,7 @@
 
 
 
-桌面端听歌，可选择**洛雪音乐助手**。
+桌面端听歌，可以选择**洛雪音乐助手**。
 
 
 
@@ -99,23 +99,26 @@
 
 官网地址：[https://lxmusic.toside.cn/](https://lxmusic.toside.cn/)
 
-项目地址：https://github.com/lyswhut/lx-music-desktop
+项目地址：[https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 
 
 
-桌面端：支持 Windows、Mac、Linux。[[GitHub 下载](https://github.com/lyswhut/lx-music-desktop/releases)]
+**桌面端：**
 
-手机端：支持 安卓，不支持 iOS。[[GitHub 下载](https://github.com/lyswhut/lx-music-mobile/releases)]
-
-网盘下载：https://www.lanzoui.com/b0bf2cfa，密码：glqw
+支持 Windows、Mac、Linux。[[GitHub 下载](https://github.com/lyswhut/lx-music-desktop/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
 
 
 
-浏览器：
+**手机端：**
 
-可配合脚本一键调用播放
+支持 安卓，不支持 iOS。[[GitHub 下载](https://github.com/lyswhut/lx-music-mobile/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
 
-https://greasyfork.org/zh-CN/scripts/438148
+
+
+**浏览器**：
+
+可配合脚本一键调用播放，地址：[https://greasyfork.org/zh-CN/scripts/438148](https://greasyfork.org/zh-CN/scripts/438148)
+
 
 
 
