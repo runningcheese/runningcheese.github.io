@@ -9,6 +9,7 @@
 
 
 
+&nbsp;
 
 ## 1、在线听歌
 
@@ -81,6 +82,7 @@
 
 
 &nbsp;
+
 ## 2、听歌应用
 
 
@@ -103,36 +105,25 @@
 
 
 
-**桌面端：**
+**桌面端：**支持 Windows、Mac、Linux。下载：[[GitHub 下载](https://github.com/lyswhut/lx-music-desktop/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
 
-支持 Windows、Mac、Linux。[[GitHub 下载](https://github.com/lyswhut/lx-music-desktop/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
+**手机端：**支持 安卓，不支持 iOS。下载：[[GitHub 下载](https://github.com/lyswhut/lx-music-mobile/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
 
-
-
-**手机端：**
-
-支持 安卓，不支持 iOS。[[GitHub 下载](https://github.com/lyswhut/lx-music-mobile/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
+**浏览器**：可配合脚本一键调用播放，地址：[https://greasyfork.org/zh-CN/scripts/438148](https://greasyfork.org/zh-CN/scripts/438148)
 
 
 
-**浏览器**：
-
-可配合脚本一键调用播放，地址：[https://greasyfork.org/zh-CN/scripts/438148](https://greasyfork.org/zh-CN/scripts/438148)
-
-
-
-
-| ▼ **桌面应用**                                               | **简介**                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 📥 [洛雪音乐](https://github.com/lyswhut/lx-music-desktop)    | 音乐搜索软件，支持版权音乐，支持 Windows、Mac、Linux         |
-| 📜 [洛雪音乐脚本](https://greasyfork.org/zh-CN/scripts/438148) | 从网页端一键调用洛雪音乐来播放“**灰色**”音乐                 |
-| 📥 [Listen1](https://listen1.github.io/listen1/)              | 多平台聚合音乐播放软，支持 Win、Mac、Linux                   |
-| 📥 [魔音](http://morin.feiyu.vin/)                            | 类似洛雪音乐，但仅支持 Win、安卓                             |
-| 📥 [Cider](https://cider.sh/)                                 | Apple Music 第三方客户端，支持 Win、Mac、Linux               |
-| 📥 [YesPlayMusic](https://github.com/qier222/YesPlayMusic)    | 高颜值第三方网易云播放器，支持 Win、Mac、Linux               |
-| ▼ **手机应用**                                               | **简介**                                                     |
-| 📥 [洛雪音乐 APP](https://github.com/lyswhut/lx-music-desktop) | 音乐搜索软件，支持版权音乐，仅支持 [安卓](https://github.com/lyswhut/lx-music-mobile) |
-| 📥 [歌词适配](https://www.gecishipei.com/)                    | 主打下载歌曲，下载之后的歌曲需要用其他播放器打开，仅支持安卓 |
+| ▼ **桌面应用**                                               | **简介**                                                 |
+| ------------------------------------------------------------ | -------------------------------------------------------- |
+| 📥 [洛雪音乐](https://github.com/lyswhut/lx-music-desktop)    | 音乐搜索软件，支持版权音乐，支持 Windows、Mac、Linux     |
+| 📜 [洛雪音乐脚本](https://greasyfork.org/zh-CN/scripts/438148) | 从网页端一键调用洛雪音乐来播放“**灰色**”音乐             |
+| 📥 [Listen1](https://listen1.github.io/listen1/)              | 多平台聚合音乐播放软，支持 Win、Mac、Linux               |
+| 📥 [魔音](http://morin.feiyu.vin/)                            | 类似洛雪音乐，但仅支持 Win、安卓                         |
+| 📥 [Cider](https://cider.sh/)                                 | Apple Music 第三方客户端，支持 Win、Mac、Linux           |
+| 📥 [YesPlayMusic](https://github.com/qier222/YesPlayMusic)    | 高颜值第三方网易云播放器，支持 Win、Mac、Linux           |
+| ▼ **手机应用**                                               | **简介**                                                 |
+| 📥 [洛雪音乐 APP](https://github.com/lyswhut/lx-music-mobile) | 音乐搜索软件，支持版权音乐，仅支持安卓。                 |
+| 📥 [歌词适配](https://www.gecishipei.com/)                    | 主打下载歌曲，下载之后需要用其他播放器打开，仅支持安卓。 |
 
 
 
@@ -156,34 +147,138 @@
 
 
 
+
 &nbsp;
+
 ## 4、网易云音乐
 
 
 
-更新中...
+不得不承认，听歌应用也是存在“**鄙视链**”的。
+
+
+
+除了 Apple Music 外，网易云音乐可以说是众多听歌应用里的“**新浪微博**”，很多原创歌手都在“**云村**”里集合。
+
+
+
+因此，网易云音乐，是很多人听歌的**第一选择**。
+
+
 
 
 &nbsp;
+**4.1、BetterNCM**
+
+
+
+但网易云音乐客户端，并是怎么好用。
+
+
+
+因此，有一个叫 BetterNCM 的增强插件诞生了，它可以通过自定义插件为网易云音乐实现各类新功能。
+
+
+
+主要包括“**扩展**”和“**主题**”两个部分，与浏览器的使用方法类似。
+
+
+
+项目主页：https://github.com/MicroCBer/BetterNCM
+
+一键安装：https://github.com/MicroCBer/BetterNCM-Installer
+
+
+
+![S17_BetterNCM](https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/7a6a15d5gy1hho9q029pxj22801e0npe.jpg)
+
+
+&nbsp;
+**4.2、Go Musicfox**
+
+
+
+如果你不想要那么多**花里胡哨**的功能，就想单纯的听歌。
+
+
+
+使用 Go 语言编写的网易音乐“**命令行**”客户端 **Go Musicfox** 是一个不错的选择，支持 Windows 、Mac 、Linux。
+
+
+
+它可以通过命令行的方式实现登录、播放、下载、搜索、歌词、Last.fm、签到等功能。
+
+
+
+按快捷键 D 就是下载前当播放的音乐。
+
+
+
+下载地址：[https://github.com/go-musicfox/go-musicfox/releases](https://github.com/go-musicfox/go-musicfox/releases)
+
+代理下载：[https://githubfast.com/go-musicfox/go-musicfox/releases](https://githubfast.com/go-musicfox/go-musicfox/releases)
+
+
+
+![S17_MusicFox](https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/7a6a15d5gy1hho9q0gci7j21uo18aqei.jpg)
+
+
+
+&nbsp;
+
+**4.3、UnblockNeteaseMusic**
+
+
+
+但一些歌曲，由于版权被买断，导致网易云音乐曲库少，因为很多音乐都没办法听。
+
+
+
+插件 [UnblockNeteaseMusic](https://github.com/UnblockNeteaseMusic/server#音源清单)，则可以自动使用[各类音源](https://github.com/UnblockNeteaseMusic/server#音源清单)替换变灰歌曲链接，包括 QQ / 酷狗 / 酷我  等音源。
+
+
+
+使用方法一：BetterNCM 插件
+
+项目地址：[https://github.com/nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic)
+
+一键安装：[https://github.com/ReviveUnblockNCMInstaller/RevivedUnblockInstaller](https://github.com/ReviveUnblockNCMInstaller/RevivedUnblockInstaller)
+
+
+
+使用方法二：独立安装包
+
+独立插件包一键安装，可参考 52pojie 论坛文章：[https://www.52pojie.cn/thread-1664098-1-1.html](https://www.52pojie.cn/thread-1664098-1-1.html)
+
+
+
+
+
+&nbsp;
+
 ## 5、本地播放器
 
 
 
-| **▼ 本地播放器**                                   | **简介**                                                     |
+| **▼ Win 播放器**                                   | **简介**                                                     |
 | -------------------------------------------------- | ------------------------------------------------------------ |
 | 📥 [MPC-HC](https://github.com/clsid2/mpc-hc)       | 纯碎的、小巧的、极致快速的音乐播放器，MPC-HC 的 Fork 版本。  |
 | 📥 [MPC-BE](https://github.com/Aleksoid1978/MPC-BE) | 纯碎的、小巧的、极致快速的的音乐播放器，MPC-HC 的 BE 版本。  |
-| 📥 [Foobar2000](https://www.foobar2000.org)         | 支持高度定制化的音乐播放器，支持 Win、Mac，推荐配置 [Foobox](https://github.com/dream7180/foobox-cn)。 |
+| 📥 [Foobar2000](https://www.foobar2000.org)         | 插件丰富，支持高度定制化的音乐播放器，推荐配置 [Foobox](https://github.com/dream7180/foobox-cn)。 |
 | 📥 [VLC](https://www.videolan.org/index.zh.html)    | 开源的多媒体播放器，支持几乎所有音视频格式，全平台支持。     |
 | 📥 [AIMP](http://www.aimp.ru/)                      | 来自俄罗斯的一款多媒体播放器（非开源），支持 Win、安卓。     |
 | 📥 [Winamp](https://www.winamp.com/)                | 化石级播放器，现已重新回归，并拥有了全新的设计，仅支持 Windows。 |
+| ▼ **Mac 播放器**                                   | **简介**                                                     |
 | 📥 [IINA](https://iina.io/)                         | 可能是 Mac 最受欢迎的多媒体播放器，开源免费，简洁美观。      |
+| 📥 [Foobar2000](https://www.foobar2000.org)         | 支持高度定制化的音乐播放器，现在也支持 Mac 版本了。          |
 | 📥 [LyricsX](https://github.com/ddddxxx/LyricsX)    | Mac 下的歌词辅助工具，支持搜索和滚动显示歌词，支持本地任何播放器。 |
 
 
 
 
+
 &nbsp;
+
 ## 6、无损音乐
 
 
@@ -192,30 +287,32 @@
 
 
 
-| ▼ **无损音乐**                                        | **简介**                                               |
-| ----------------------------------------------------- | ------------------------------------------------------ |
-| 🌐 [下歌吧](https://xiageba.com/)                      | 免登陆、网盘下载 👍                                     |
-| 🌐 [熊猫无损音乐](https://www.xmwav.com/)              | 免登陆、网盘下载                                       |
-| 🌐 [23ape.net](http://www.23ape.net/)                  | 免登陆、网盘下载                                       |
-| 🌐 [无损音乐吧](https://tieba.baidu.com/f?kw=无损音乐) | 免登陆、网盘下载                                       |
-| 🌐 [MP3BST](https://mp3bst.com/)                       | 免登陆、城通网盘下载                                   |
-| 🌐 [我爱无损音乐网](http://www.52wusun.com/)           | 免登陆、城通网盘下载                                   |
-| ▼ **无损音乐（登陆）**                                |                                                        |
-| 🌐 [HiFiNi](https://www.hifini.com/)                   | 要登陆、网盘下载。（需要注册，登陆后即可无限制使用。） |
-| 🌐 [CD包音乐网](https://www.cdbao.net/)                | 要登陆、网盘下载                                       |
-| 🌐 [无损音乐网](https://wusunyinyue.cn/)               | 要登陆、网盘下载                                       |
-| 🌐 [无损音乐](http://www.ape-flac.com/)                | 要登陆、网盘下载                                       |
-| 🌐 [易音](https://sacdr.net/)                          | 要登陆、网盘下载                                       |
-| 🌐 [万籁音乐](https://www.onelai.cn/)                  | 要关注公众号、网盘下载                                 |
-| 🌐 [享乐音乐论坛](https://www.xlebbs.com/)             | 要登陆、网盘下载、部分收费                             |
-| 🌐 [DTshot](https://www.dtshot.com/)                   | 要登陆、网盘下载、部分收费                             |
+| ▼ **无损音乐**                                        | **简介**                                                     |
+| ----------------------------------------------------- | ------------------------------------------------------------ |
+| 🌐 [下歌吧](https://xiageba.com/)                      | 免登陆、网盘下载 👍                                           |
+| 🌐 [熊猫无损音乐](https://www.xmwav.com/)              | 免登陆、网盘下载                                             |
+| 🌐 [23ape.net](http://www.23ape.net/)                  | 免登陆、网盘下载                                             |
+| 🌐 [无损音乐吧](https://tieba.baidu.com/f?kw=无损音乐) | 免登陆、网盘下载                                             |
+| 🌐 [MP3BST](https://mp3bst.com/)                       | 免登陆、城通网盘下载                                         |
+| 🌐 [我爱无损音乐网](http://www.52wusun.com/)           | 免登陆、城通网盘下载                                         |
+| ▼ **无损音乐（登陆）**                                |                                                              |
+| 🌐 [HiFiNi](https://www.hifini.com/)                   | 要登陆、网盘下载。（需要注册，登陆后即可无限制使用。）       |
+| 🌐 [CD包音乐网](https://www.cdbao.net/)                | 要登陆、网盘下载                                             |
+| 🌐 [无损音乐网](https://wusunyinyue.cn/)               | 要登陆、网盘下载                                             |
+| 🌐 [无损音乐](http://www.ape-flac.com/)                | 要登陆、网盘下载                                             |
+| 🌐 [易音](https://sacdr.net/)                          | 要登陆、网盘下载                                             |
+| 🌐 [万籁音乐](https://www.onelai.cn/)                  | 要关注公众号、网盘下载                                       |
+| 🌐 [享乐音乐论坛](https://www.xlebbs.com/)             | 要登陆、网盘下载、部分收费                                   |
+| 🌐 [DTshot](https://www.dtshot.com/)                   | 要登陆、网盘下载、部分收费                                   |
+| ▼ **无损资源**                                        |                                                              |
+| 📥 资源 1                                              | 🔗 [洛雪音乐 200T 音乐大合集](https://www.aliyundrive.com/s/fTHhCLg1J3W)、🔗 [2 万首音乐 MTV](https://www.aliyundrive.com/s/xymEytGyymx/folder/6190bd57c147df52764f45f2b7d0157a2c95c220) |
+| 📥 资源 2                                              | 🔗 [美国 Billboard Top100](https://pan.quark.cn/s/f98de583cff9#/list/share)、🔗 [老歌珍藏 一人一首成名曲](https://www.aliyundrive.com/s/7yE49zBCHr8) |
+| 📥 资源 3                                              | 🔗 [豆瓣音乐Top250无损音乐](https://cloud.189.cn/web/share?code=Jj2MravyQ7fe)、🔗 [700G 无损音乐](https://www.aliyundrive.com/s/kT6accQfFow) |
+| 📥 资源 4                                              | 🔗 [世界名曲 6CD](https://www.aliyundrive.com/s/QNnwcyZJrTK)、🔗 [班得瑞全14张专辑](https://www.aliyundrive.com/s/Xyobrwvm7K1) |
+| 📥 资源 5                                              | 🔗 [中国戏曲大全mp3格式](https://www.aliyundrive.com/s/yK1tK7Y38mL) |
+| 📥 资源 6                                              | 🔗 [周杰伦所有音乐在线听](https://lvyueyang.github.io/web-music/)、🔗 [周杰伦张专辑无损珍藏版](https://www.aliyundrive.com/s/VEoHM3CQrzy) |
+| 📥 资源 7                                              | 🔗 [邓丽君195首无损](https://www.aliyundrive.com/s/Pkjzg69LXiG)、🔗 [久石让 51张专辑无损](https://www.aliyundrive.com/s/GYs3v6pg7N7) |
 
-
-
-| ▼ **无损资源**                                               |                                                              |                                                              |                                                              |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [洛雪音乐 200T 音乐大合集](https://www.aliyundrive.com/s/fTHhCLg1J3W) | [美国 Billboard Top100](https://pan.quark.cn/s/f98de583cff9#/list/share) | [2 万首音乐 MTV](https://www.aliyundrive.com/s/xymEytGyymx/folder/6190bd57c147df52764f45f2b7d0157a2c95c220) | [世界名曲 6CD](https://www.aliyundrive.com/s/QNnwcyZJrTK)    |
-| [老歌珍藏 一人一首成名曲](https://www.aliyundrive.com/s/7yE49zBCHr8) | [豆瓣音乐Top250无损音乐](https://cloud.189.cn/web/share?code=Jj2MravyQ7fe) | [班得瑞全14张专辑](https://www.aliyundrive.com/s/Xyobrwvm7K1) | [中国戏曲大全mp3格式](https://www.aliyundrive.com/s/yK1tK7Y38mL) |
 
 
 
@@ -225,7 +322,43 @@
 ## 7、白噪音
 
 
-更新中...
+
+| ▼ **白噪音**                                            |                                                              |
+| ------------------------------------------------------- | ------------------------------------------------------------ |
+| 🌐 [Raining FM](https://raining.fm/)                     | 下雨音效。                                                   |
+| 🌐 [Rainyscope](https://rainyscope.com/)                 | 下雨音效。                                                   |
+| 🌐 [Rainy Mood](https://www.rainymood.com/)              | 下雨音效。                                                   |
+| 🌐 [Tree.FM](https://www.tree.fm)                        | 森林音效。                                                   |
+| 🌐 [Earth.FM](https://earth.fm/)                         | 森林音效，各地风景都有。                                     |
+| 🌐 [Virtual Ocean](https://virtocean.com/#)              | 海洋音效，可自定义混合。                                     |
+| 🌐 [Defonic](https://defonic.com/)                       | 自然音效，可自定义混合。                                     |
+| 🌐 [A Soft Murmur](https://asoftmurmur.com/)             | 自然音效，可自定义混合。                                     |
+| 🌐 [Noisli](https://www.noisli.com/)                     | 自然音效，可自定义混合，需要登陆使用。                       |
+| 🌐 [NSSJP](https://music.163.com/#/artist?id=22095)      | 自然音效，网易云音乐播放，日本自然之声协会出品。             |
+| 📥 [Ambie](https://github.com/jenius-apps/ambie)         | 自然音效，一款播放自然声音的应用程序，仅支持 Windows。       |
+| ▼ **场景音效**                                          |                                                              |
+| 🌐 [Sound Of Colleagues](https://soundofcolleagues.com/) | 大学教室场景。                                               |
+| 🌐 [IMissTheOffice](https://imisstheoffice.eu/)          | 办公室场景。                                                 |
+| 🌐 [Coffitivity](https://coffitivity.com/)               | 咖啡馆场景。                                                 |
+| 🌐 [I Miss My Bar](http://imissmybar.com/)               | 酒吧场景。                                                   |
+| 🌐 [WindowSwap](https://www.window-swap.com/)            | 窗外场景，需要登陆使用。                                     |
+| 🌐 [This is a thing](https://www.thisisathing.io/)       | 冥想音效。                                                   |
+| 🌐 [Calm](https://www.calm.com/)                         | 冥想和睡眠音效，但只有“[白噪音](https://www.calm.com/app/scenes)”是免费的，需要登陆使用。 |
+| 🌐 [Lofi.co](https://app.lofi.co/)                       | 生产力音效，提供各种高质量场景，但免费只能用 2 个。          |
+| 🌐 [潮汐](https://tide.fm/zh_CN/)                        | 主打自然，场景，环境音乐，冥想音乐等综合性网站，支持 APP 和扩展。 |
+| 🌐 [泡泡白噪音](https://www.ppbzy.com/)                  | 主打场景白噪音，可自定义混合。                               |
+| ▼ **环境音乐**                                          |                                                              |
+| 🌐 [myNoise](https://mynoise.net/)                       | 环境音乐。                                                   |
+| 🌐 [Kaizen Flow](https://kaizenflow.co/)                 | 工作音效，同时支持“番茄时钟”。                               |
+| 🌐 [Melofi](https://melofi.app/)                         | 环境音乐。                                                   |
+| 🌐 [Soundscape](https://soundscape.world/)               | 环境音乐。                                                   |
+| 🌐 [LavaRadio](https://www.lavaradio.com/milieumusic)    | 高品质情景造乐师，使用[客户端](https://www.lavaradio.com/shopmusic)（音乐宽带版），功能更齐全。👍 |
+| 🌐 [lofi.cafe](https://www.lofi.cafe/)                   | 环境音乐。                                                   |
+| 🌐 [JazzAndRain](https://www.jazzandrain.com/)           | 环境音乐。                                                   |
+| 🌐 [Ambicular](https://ambicular.com/index.html)         | 环境音乐。                                                   |
+| 🌐 [Ambient Mixer](https://www.ambient-mixer.com/)       | 环境音乐。                                                   |
+| 🌐 [Lounge V Studio](https://www.loungev.com/)           | 放松音乐+自然音效，还有 4K 超清视频，这是它的 [U2B 频道](https://www.youtube.com/@LoungeVstudio/videos)。👍 |
+
 
 
 &nbsp;
@@ -235,15 +368,6 @@
 
 
 
-
-
-
-&nbsp;
-## 9、音乐相关
-
-
-
-更新中...
 
 
 
