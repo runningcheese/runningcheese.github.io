@@ -105,9 +105,9 @@
 
 
 
-**桌面端：**支持 Windows、Mac、Linux。下载：[[GitHub 下载](https://github.com/lyswhut/lx-music-desktop/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
+**桌面端**：支持 Windows、Mac、Linux。下载：[[GitHub 下载](https://github.com/lyswhut/lx-music-desktop/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
 
-**手机端：**支持 安卓，不支持 iOS。下载：[[GitHub 下载](https://github.com/lyswhut/lx-music-mobile/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
+**手机端**：支持 安卓，不支持 iOS。下载：[[GitHub 下载](https://github.com/lyswhut/lx-music-mobile/releases)]、[[网盘下载](https://www.lanzoui.com/b0bf2cfa)]、密码：glqw
 
 **浏览器**：可配合脚本一键调用播放，地址：[https://greasyfork.org/zh-CN/scripts/438148](https://greasyfork.org/zh-CN/scripts/438148)
 
