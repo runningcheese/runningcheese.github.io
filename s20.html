@@ -1,578 +1,416 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><title>音乐导航</title><style>table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-moz-box-sizing:border-box;box-sizing:border-box}body,input,select,textarea,button{font:13px Helvetica,arial,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";line-height:1.4}body{min-width:1020px;color:#333;background-color:#fff}a{color:#4183c4;text-decoration:none}a:hover,a:focus,a:active{text-decoration:underline}tt,code,pre{font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;font-size:12px}small{font-size:90%}blockquote{margin:0}.container{width:980px;margin:40px auto}#readme .markdown-body{background-color:#fff;border:1px solid #ddd;border-bottom-left-radius:3px;border-bottom-right-radius:3px;padding:30px;word-wrap:break-word}#readme .plain pre{font-size:15px;white-space:pre-wrap}.markdown-body{overflow:hidden;font-family:"Helvetica Neue",Helvetica,Arial,freesans,sans-serif;font-size:16px;line-height:1.6;word-wrap:break-word}.markdown-body>*:first-child{margin-top:0!important}.markdown-body>*:last-child{margin-bottom:0!important}.markdown-body .absent{color:#c00}.markdown-body .anchor{position:absolute;top:0;bottom:0;left:0;display:block;padding-right:6px;padding-left:30px;margin-left:-30px}.markdown-body .anchor:focus{outline:none}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{position:relative;margin-top:1em;margin-bottom:16px;font-weight:700}.markdown-body h4,.markdown-body h5,.markdown-body h6{line-height:1.4}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{display:none;color:#000;vertical-align:middle}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{height:1em;padding-left:8px;margin-left:-30px;line-height:1;text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{display:inline-block}.markdown-body h1 tt,.markdown-body h1 code,.markdown-body h2 tt,.markdown-body h2 code,.markdown-body h3 tt,.markdown-body h3 code,.markdown-body h4 tt,.markdown-body h4 code,.markdown-body h5 tt,.markdown-body h5 code,.markdown-body h6 tt,.markdown-body h6 code{font-size:inherit}.markdown-body h1{font-size:2.25em;line-height:1.2}.markdown-body h1,.markdown-body h2{padding-bottom:.3em;border-bottom:1px solid #eee}.markdown-body h2{font-size:1.75em;line-height:1.225}.markdown-body h3{font-size:1.5em;line-height:1.43}.markdown-body h4{font-size:1.25em}.markdown-body h5{font-size:1em}.markdown-body h6{font-size:1em;color:#777}.markdown-body p,.markdown-body blockquote,.markdown-body ul,.markdown-body ol,.markdown-body dl,.markdown-body table,.markdown-body pre{margin-top:0;margin-bottom:16px}.markdown-body hr{height:4px;padding:0;margin:16px 0;background-color:#e7e7e7;border:0 none}.markdown-body ul,.markdown-body ol{padding-left:2em}.markdown-body ul.no-list,.markdown-body ol.no-list{padding:0;list-style-type:none}.markdown-body ul ul,.markdown-body ul ol,.markdown-body ol ol,.markdown-body ol ul{margin-top:0;margin-bottom:0}.markdown-body li>p{margin-top:16px}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body blockquote{padding:0 15px;color:#777;border-left:4px solid #ddd}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body table{display:block;width:100%;overflow:auto}.markdown-body table th{font-weight:700}.markdown-body table th,.markdown-body table td{padding:6px 13px;border:1px solid #ddd}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{max-width:100%;-moz-box-sizing:border-box;box-sizing:border-box}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}.markdown-body span.align-center{display:block;overflow:hidden;clear:both}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{display:block;overflow:hidden;clear:both}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}.markdown-body code:before,.markdown-body code:after,.markdown-body tt:before,.markdown-body tt:after{letter-spacing:-.2em;content:"\00a0"}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit;vertical-align:text-top}.markdown-body pre>code{padding:0;margin:0;font-size:100%;white-space:pre;background:0 0;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}.markdown-body .highlight pre{margin-bottom:0}.markdown-body pre{word-wrap:normal}.markdown-body pre code,.markdown-body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code:before,.markdown-body pre code:after,.markdown-body pre tt:before,.markdown-body pre tt:after{content:normal}.highlight{background:#fff}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k,.highlight .o{font-weight:700}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:700}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:700;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs,.highlight .gu{font-weight:700}.highlight .gu{color:purple}.highlight .gt{color:#a00}.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr,.highlight .kt{font-weight:700}.highlight .kt{color:#458}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .n{color:#333}.highlight .na{color:teal}.highlight .nb{color:#0086b3}.highlight .nc{color:#458;font-weight:700}.highlight .no{color:teal}.highlight .ni{color:purple}.highlight .ne,.highlight .nf{color:#900;font-weight:700}.highlight .nn{color:#555}.highlight .nt{color:navy}.highlight .nv{color:teal}.highlight .ow{font-weight:700}.highlight .w{color:#bbb}.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo{color:#099}.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc,.highlight .vg,.highlight .vi{color:teal}.highlight .il{color:#099}.highlight .gc{color:#999;background-color:#EAF2F5}.type-csharp .highlight .k,.type-csharp .highlight .kt{color:#00f}.type-csharp .highlight .nf{color:#000;font-weight:400}.type-csharp .highlight .nc{color:#2b91af}.type-csharp .highlight .nn{color:#000}.type-csharp .highlight .s,.type-csharp .highlight .sc{color:#a31515}</style></head><body><div id="readme" class="container"><article class="markdown-body">
-
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+		<title>软件导航 - 奔跑中的奶酪</title>
+		<meta name="color-scheme" content="light dark">
+		<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/css/markdown4.css">
+		<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/css/gh-fork-ribbon.min.css">
+		<!--<script type='text/javascript' src='toc.js'></script>-->
+		<style>
+			.github-fork-ribbon:before {
+				background-color: #121612;
+			}
+		</style>
+	</head>
+	<body>
+		<article class="markdown-body">
 
 
 <br/>
-<p align="center">  <img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/s17/s17logo.png" width="148" height="148"/></p>
-<h1 align="center">音乐导航</h1>
-<p align="center">纯路人，想听下架的《 只因你太美 》怎么办</p>
-
-&nbsp;
+<p align="center">  <a href="javascript:! function() { %22use strict%22; const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22; let _; const l = () => { const o = []; let _ = 0; for (const t of e) if (document.querySelectorAll(t).length) { document.querySelectorAll(t).forEach(t => { t.querySelectorAll(n).forEach(t => { var e; o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) }); break } let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>'; if (o.length) { let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0; o.forEach(t => { var e = +t.tagName.replace(/H/g, %22%22); n = n + e - _, n = n < 0 ? 0 : n, _ = e; const o = document.createElement(%22span%22); o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) } return l += '<li class=%22toc_menu_item_footer%22></li>', l }; (() => { const t = document.createElement(%22div%22); _ = t.attachShadow({ mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 5px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #AAAAAC;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 2px .5em;font-size: 16px;font-weight: 400;line-height: 1.6;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 3.5em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 6.5em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 8em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_toggle_button%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t); const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22); o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => { e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }(); void(0);"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s20logo.png"  width="148" height="148"/></a></p>
+<h1 align="center">软件导航</h1>
+<p align="center">纯小白，我应该到那里下载软件？</p>
 
 
-	<p>## 1、在线听歌</p>
-<p>要说 Mp3 搜索和下载的“<strong>众神之王</strong>”，<strong>MyFreeMp3</strong> 当之无愧。</p>
-<p>地址：<a href="https://myfreemp3juices.cc">https://myfreemp3juices.cc</a></p>
-<p><strong>特点一：资源齐全</strong></p>
-<p>网站资源丰富，超过 1 亿首音乐。</p>
-<p>比 Apple Store 还齐全，包括已经下架的音乐也能搜索，比如“<strong>PG One</strong>”的歌，堪称音乐界的 <strong>Z-library</strong>。</p>
-<p><strong>特点二：提供下载</strong></p>
-<p>除了支持在线收听，网站还提供了 <strong>320Kbps</strong> 的 Mp3 下载，要知道这个比特率已经十分接近无损音乐。</p>
-<p>在没有专业设备的情况下，<strong>320Kbps</strong> 的 Mp3 和<strong>无损音乐</strong>没有区别。</p>
-<p>而它的体积，只有无损音乐的 <strong>1/3</strong>。</p>
-<p><strong>特点三：免费无限制</strong></p>
-<p>网站无需注册，没有限制，支持多种语言，支持中文，国内也可以正常访问，音乐搜索里唯一的真神，无误了。</p>
-<p><strong>类似网站：</strong>下面的这些网站与 MyFreeMp3 类似，资源也很齐全。</p>
+
+
+
+
+<p>&nbsp;</p>
+
+<h2>一、软件资讯</h2>
+<p>&nbsp;</p>
+<h3>1.1、<a href="https://github.com/">GitHub</a></h3>
+<p>全球最大开源托管平台。</p>
+<p>是开发者们“<strong>殿堂般</strong>”的存在，很多软件的发布布，都会选择在这里。</p>
+<p>看它的 <a href="https://github.com/trending">GitHub Trends</a> 就知道当下最火的应用是什么，比如最近大火了什么 AI 应用，在这里都能第一时间找到。</p>
+<h3>1.2、<a href="https://www.52pojie.cn">52Pojie</a></h3>
+<p>&nbsp;</p>
+<p>如果说 GitHub 是北乔峰，那么 52Pojie 就是南慕容。</p>
+<p>虽然实力上比不了 GitHub，但它却是中国活跃度最高的软件交流社区。</p>
+<p>它不但养活了一大批“<strong>黑科技</strong>”公众号，而且在这里你能找到很多独属于“<strong>中国网络环境</strong>”的软件。</p>
+<p>比如“视频号下载”这样的软件，就全部出自 52Pojie。地址：<a href="https://www.52pojie.cn"></a></p>
+<p>&nbsp;</p>
+<h3>1.3、<a href="https://www.appinn.com">小众软件</a></h3>
+<p>一个成立了很久时间的软件分享网站。</p>
+<p>在这里你能找到各式各样新鲜的软件，还有它们的使用介绍。</p>
+<p>而且，小众软件还新开了一个“<a href="https://meta.appinn.net/c/faxian/10">发现分享</a>”的频道，在这里你能看到软件开发者们的交流探讨。</p>
+<p>&nbsp;</p>
+<h3>1.4、<a href="https://sspai.com">少数派</a></h3>
+<p>可以理解为软件界的“<strong>小红书</strong>”。</p>
+<p>相比其它网站仅仅是简单的使用介绍，少数派里的文章更多的是“<strong>经验分享</strong>”。</p>
+<p>但也因为少数派社区的“<strong>苹果用户</strong>”占比过高，被调侃“没有 Mac 谈什么生产力”？</p>
+
+<p>&nbsp;</p>
+<h2>二、相似软件</h2>
+<p>查找相似软件或 APP 的网站汇总。</p>
 <table>
 <thead>
 <tr>
-<th>▼ <strong>在线听歌</strong></th>
+<th>▼ <strong>相似软件</strong></th>
 <th><strong>简介</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>🌐 <a href="https://new.myfreemp3juices.cc/">MyFreeMp3</a></td>
-<td>免注册、支持下载、资源丰富。👍</td>
+<td>🌐 <a href="https://www.producthunt.com/">Product Hunt</a></td>
+<td>网外最火的软件资讯网站，右下角的”View all alternatives”就是相似软件。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://slider.kz">Slider.kz</a></td>
-<td>免注册、支持下载、资源丰富。👍</td>
+<td>🌐 <a href="https://alternativeto.net/">AlternativeTo</a></td>
+<td>老牌网站，支持 Windows、macOS、linux、网页、iOS、安卓</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://mu-jie.cc/musicBox/">昔枫音乐盒</a></td>
-<td>免注册、支持下载、支持歌单。</td>
+<td>🌐 <a href="https://zh.altapps.net/">Altapps.net</a></td>
+<td>支持多语言，支持多平台，资源也比较丰富。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://zz123.com/">zz123音乐</a></td>
-<td>免注册、支持下载、支持歌单。</td>
+<td>🌐 <a href="https://progsoft.net/">ProgSoft</a></td>
+<td>支持桌面软件，热度也很高。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://tonzhon.com/">钟铜</a></td>
-<td>免注册、支持下载、支持歌单。</td>
+<td>🌐 <a href="https://alternative.me/">Alternative.me</a></td>
+<td>支持桌面软件，资讯相对较老。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://bailemi.com/dance">百乐米</a></td>
-<td>免注册、支持下载、支持歌单。</td>
+<td>🌐 <a href="https://alternatives.app/">Alternatives.app</a></td>
+<td>支持桌面软件，资讯相对较老。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.gequbao.com/">歌曲宝</a></td>
-<td>免注册、支持下载、支持歌词。</td>
+<td>🌐 <a href="https://www.btw.so/zh/open-source-alternatives">开源替代方案</a></td>
+<td>200 多个开源替代品，可替代企业日常运营所需的工具。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.fangpi.net/">放屁网</a></td>
-<td>免注册、支持下载、支持歌词。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://music.dogged.cn/">顽狗音乐</a></td>
-<td>免注册、支持下载、支持歌词。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://tool.liumingye.cn/music/#/">Liumingye</a></td>
-<td>免注册、支持下载、支持歌词。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.musicenc.com/">MusicEnc</a></td>
-<td>免注册、支持下载、支持歌词，但不支持版权音乐。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.shiyinren.com/">拾音人</a></td>
-<td>免注册、支持下载、支持 MTV 下载，支持无损音质下载。</td>
+<td>🌐 <a href="https://mrfreetools.com">MrFreeTools</a></td>
+<td>查找收费应用的免费方案。</td>
 </tr>
 </tbody>
 </table>
+
+<p>&nbsp;</p>
+
+<h2>三、聚合搜索</h2>
+<p>聚合式软件搜索下载网站。</p>
 <table>
 <thead>
 <tr>
-<th>域名</th>
-<th>状态</th>
-<th></th>
+<th>▼ <strong>软件搜索</strong></th>
+<th><strong>简介</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>√</td>
-<td><a href="https://mp3juices.zone">https://mp3juices.zone</a></td>
-<td>可用</td>
+<td>🌐 <a href="https://rjss.pages.dev/">软件搜搜</a></td>
+<td>Windows 软件搜索引擎。</td>
 </tr>
 <tr>
-<td>√</td>
-<td><a href="https://freemp3hunter.com">https://freemp3hunter.com</a></td>
-<td>可用</td>
+<td>🌐 <a href="https://www.tansuotu.com/">探索兔</a></td>
+<td>Windows 软件搜索引擎。</td>
 </tr>
 <tr>
-<td>√</td>
-<td><a href="https://free-mp3-download.net">https://free-mp3-download.net</a></td>
-<td>可用</td>
+<td>🌐 <a href="https://www.xibuluo.com/">西部落</a></td>
+<td>Windows 软件搜索引擎。</td>
 </tr>
 <tr>
-<td>√</td>
-<td><a href="https://freemp3cloud.com">https://freemp3cloud.com</a></td>
-<td>可用</td>
+<td>🌐 <a href="https://www.huaitui.com/">淮推软件</a></td>
+<td>Windows  软件搜索引擎。</td>
 </tr>
 <tr>
-<td>√</td>
-<td><a href="https://mp3juice.cafe">https://mp3juice.cafe</a></td>
-<td>可用</td>
-</tr>
-<tr>
-<td>√</td>
-<td><a href="https://mp3paw.mobi">https://mp3paw.mobi</a></td>
-<td>可用</td>
-</tr>
-<tr>
-<td>√</td>
-<td><a href="https://mp3db.pro">https://mp3db.pro</a></td>
-<td>可用</td>
-</tr>
-<tr>
-<td>√</td>
-<td><a href="https://mp3juice.party">https://mp3juice.party</a></td>
+<td>🌐 <a href="https://ourmacs.com/">Ourmacs</a></td>
+<td>Mac 软件搜索引擎。</td>
 </tr>
 </tbody>
 </table>
 <p>&nbsp;</p>
-<h2>2、听歌应用</h2>
-<p>桌面端听歌，可以选择<strong>洛雪音乐助手</strong>。</p>
-<p>它是一款<strong>高颜值的第三方音乐播放软件</strong>，基于 Electron + Vue 开发，是 GitHub 上的开源音乐搜索软件。</p>
-<p>支持在线搜索和收听，下载功能需要在“<strong>设置</strong>”里手动开启。</p>
-<p>官网地址：<a href="https://lxmusic.toside.cn/">https://lxmusic.toside.cn/</a></p>
-<p>项目地址：<a href="https://github.com/lyswhut/lx-music-desktop">https://github.com/lyswhut/lx-music-desktop</a></p>
-<p><strong>桌面端</strong>：支持 Windows、Mac、Linux。下载：[<a href="https://github.com/lyswhut/lx-music-desktop/releases">GitHub 下载</a>]、[<a href="https://www.lanzoui.com/b0bf2cfa">网盘下载</a>]、密码：glqw</p>
-<p><strong>手机端</strong>：支持 安卓，不支持 iOS。下载：[<a href="https://github.com/lyswhut/lx-music-mobile/releases">GitHub 下载</a>]、[<a href="https://www.lanzoui.com/b0bf2cfa">网盘下载</a>]、密码：glqw</p>
-<p><strong>浏览器</strong>：可配合脚本一键调用播放，地址：<a href="https://greasyfork.org/zh-CN/scripts/438148">https://greasyfork.org/zh-CN/scripts/438148</a></p>
+
+<h2>四、自定义搜索</h2>
+<p>更新中....</p>
+
+
+
+
+<p>&nbsp;</p>
+<h2>五、Windows</h2>
+<p>Windows 软件搜索下载网站汇总。</p>
+<p>更新中....</p>
 <table>
 <thead>
 <tr>
-<th>▼ <strong>桌面应用</strong></th>
+<th>▼ <strong>第一梯队</strong></th>
 <th><strong>简介</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>📥 <a href="https://github.com/lyswhut/lx-music-desktop">洛雪音乐</a></td>
-<td>音乐搜索软件，支持版权音乐，支持 Windows、Mac、Linux</td>
+<td>🌐 <a href="https://www.423down.com/">423Down</a></td>
+<td>知名网站，软件分享领跑者。👍</td>
 </tr>
 <tr>
-<td>📜 <a href="https://greasyfork.org/zh-CN/scripts/438148">洛雪音乐脚本</a></td>
-<td>从网页端一键调用洛雪音乐来播放“<strong>灰色</strong>”音乐</td>
+<td>🌐 <a href="https://www.6yit.com/">六音软件</a></td>
+<td></td>
 </tr>
 <tr>
-<td>📥 <a href="https://listen1.github.io/listen1/">Listen1</a></td>
-<td>多平台聚合音乐播放软，支持 Win、Mac、Linux</td>
+<td>🌐 <a href="https://www.ghxi.com/">果核剥壳</a></td>
+<td></td>
 </tr>
 <tr>
-<td>📥 <a href="http://morin.feiyu.vin/">魔音</a></td>
-<td>类似洛雪音乐，但仅支持 Win、安卓</td>
+<td>🌐 <a href="https://foxirj.com/">佛系软件</a></td>
+<td></td>
 </tr>
 <tr>
-<td>📥 <a href="https://cider.sh/">Cider</a></td>
-<td>Apple Music 第三方客户端，支持 Win、Mac、Linux</td>
+<td>🌐 <a href="https://www.weidown.com/">微当下载</a></td>
+<td></td>
 </tr>
 <tr>
-<td>📥 <a href="https://github.com/qier222/YesPlayMusic">YesPlayMusic</a></td>
-<td>高颜值第三方网易云播放器，支持 Win、Mac、Linux</td>
+<td>🌐 <a href="https://ruancang.net/#/sim">软仓</a></td>
+<td></td>
 </tr>
 <tr>
-<td>▼ <strong>手机应用</strong></td>
+<td>▼ <strong>第二梯队</strong></td>
 <td><strong>简介</strong></td>
 </tr>
 <tr>
-<td>📥 <a href="https://github.com/lyswhut/lx-music-mobile">洛雪音乐 APP</a></td>
-<td>音乐搜索软件，支持版权音乐，仅支持安卓。</td>
+<td>🌐 <a href="https://ldqk.xyz/">懒得勤快</a></td>
+<td></td>
 </tr>
 <tr>
-<td>📥 <a href="https://mu-jie.cc/musicBox/">昔枫音乐盒</a></td>
-<td>音乐搜索软件，支持版权音乐，仅支持安卓。</td>
+<td>🌐 <a href="http://www.dayanzai.me/">大眼仔旭</a></td>
+<td></td>
 </tr>
 <tr>
-<td>📥 <a href="https://www.gecishipei.com/">歌词适配</a></td>
-<td>主打下载歌曲，下载之后需要用其他播放器打开，仅支持安卓。</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<h2>3、浏览器扩展</h2>
-<table>
-<thead>
-<tr>
-<th>▼ <strong>音乐扩展</strong></th>
-<th><strong>简介</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>音乐收听</td>
-<td><a href="https://listen1.github.io/listen1/">Listen 1</a>，聚合来自网易云音乐、QQ音乐、酷狗等网站的歌曲。👍 <a href="https://github.com/windmiles/listen1_firefox_extension/releases">🟠</a> <a href="https://chrome.google.com/webstore/detail/listen-1/indecfegkejajpaipjipfkkbedgaodbp">🟢</a> <a href="https://microsoftedge.microsoft.com/addons/detail/listen-1/hneiglcmpeedblkmbndhfbeahcpjojjg">🔵</a></td>
+<td>🌐 <a href="http://www.apprcn.com/">反斗软件</a></td>
+<td></td>
 </tr>
 <tr>
-<td>广播收听</td>
-<td><a href="https://chrome.google.com/webstore/detail/search-to-play-the-song/anfmgjkkbagjfdejhbjdiapgkbhpigpm?hl=zh-CN">Search to Play the Song</a>，可以说是 Listen 1的简洁版，还能听广播。<a href="https://chrome.google.com/webstore/detail/search-to-play-the-song/anfmgjkkbagjfdejhbjdiapgkbhpigpm">🟢</a></td>
+<td>🌐 <a href="http://www.qiuquan.cc/">QiuQuan</a></td>
+<td></td>
 </tr>
 <tr>
-<td>歌词展示</td>
-<td>用脚本“<a href="https://greasyfork.org/zh-CN/scripts/386259">U2B Genius Lyrics</a>”更好，支持显示播放音乐的歌词。<a href="https://greasyfork.org/zh-CN/scripts/386259">📜</a>（<a href="https://robwu.nl/lyricshere/">扩展方案</a>）</td>
+<td>🌐 <a href="http://www.th-sjy.com/">th_sjy</a></td>
+<td></td>
 </tr>
 <tr>
-<td>歌曲识别¹</td>
-<td><a href="https://www.aha-music.com/">AHA Music</a>，识别当前浏览器播放中的歌曲，还支持本地音乐。<a href="https://addons.mozilla.org/zh-CN/firefox/addon/song-identifier/?src=search">🟠</a> <a href="https://chrome.google.com/webstore/detail/aha-music-music-identifie/dpacanjfikmhoddligfbehkpomnbgblf">🟢</a> <a href="https://microsoftedge.microsoft.com/addons/detail/aha-music-music-identif/ejfccgmelcclnoadalcepdmnpgcnglfc">🔵</a></td>
+<td>🌐 <a href="https://www.sunweihu.com/">墨涩网</a></td>
+<td></td>
 </tr>
 <tr>
-<td>歌曲识别²</td>
-<td><a href="https://chrome.google.com/webstore/detail/%E4%BA%91%E9%9F%B3%E4%B9%90%E5%90%AC%E6%AD%8C/kemcalcncfhmdkgglekijclbomdoohkp">云音乐听歌</a>，网易云音乐官方出品的歌曲识别工具。️<a href="https://chrome.google.com/webstore/detail/%E4%BA%91%E9%9F%B3%E4%B9%90%E5%90%AC%E6%AD%8C/kemcalcncfhmdkgglekijclbomdoohkp">🟢</a></td>
+<td>🌐 <a href="https://www.mpyit.com/">殁漂遥</a></td>
+<td></td>
 </tr>
 <tr>
-<td>音量增强</td>
-<td><a href="https://www.petasittek.com/">Volume Master</a>，简单可靠的音量增强器，最高 <strong>600%</strong>。<a href="https://addons.mozilla.org/zh-CN/firefox/addon/600-sound-volume/">🟠</a> <a href="https://chrome.google.com/webstore/detail/volume-master/jghecgabfgfdldnmbfkhmffcabddioke">🟢</a></td>
+<td>🌐 <a href="https://www.hezibuluo.com/">盒子部落</a></td>
+<td></td>
 </tr>
 <tr>
-<td>文本阅读</td>
-<td><a href="https://readaloud.app/">Read Aloud</a>，朗读网页内容，同时支持微软和谷歌的语音库。<a href="https://addons.mozilla.org/zh-CN/firefox/addon/read-aloud/">🟠</a> <a href="https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp">🟢</a> <a href="https://microsoftedge.microsoft.com/addons/detail/read-aloud-%E6%96%87%E6%9C%AC%E8%AF%AD%E9%9F%B3%E6%9C%97%E8%AF%BB%E5%8A%A9%E7%90%86/pnfonnnmfjnpfgagnklfaccicnnjcdkm">🔵</a></td>
-</tr>
-<tr>
-<td>音频下载</td>
-<td>用脚本“<a href="https://greasyfork.org/zh-CN/scripts/382057">音视频通用下载器</a>”，可点击页面右边的按钮打开菜单下载。<a href="https://greasyfork.org/zh-CN/scripts/382057">📜</a>（<a href="https://mediasave.ru/en/">扩展方案</a>）</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<h2>4、网易云音乐</h2>
-<p>不得不承认，听歌应用也是存在“<strong>鄙视链</strong>”的。</p>
-<p>除了 Apple Music 外，网易云音乐可以说是众多听歌应用里的“<strong>新浪微博</strong>”，很多原创歌手都在“<strong>云村</strong>”里集合。</p>
-<p>因此，网易云音乐，是很多人听歌的<strong>第一选择</strong>。</p>
-<p>&nbsp;</p>
-<p><strong>4.1、BetterNCM</strong></p>
-<p>但网易云音乐客户端，并是怎么好用。</p>
-<p>因此，有一个叫 BetterNCM 的增强插件诞生了，它可以通过自定义插件为网易云音乐实现各类新功能。</p>
-<p>主要包括“<strong>扩展</strong>”和“<strong>主题</strong>”两个部分，与浏览器的使用方法类似。</p>
-<p>项目主页：<a href="https://github.com/MicroCBer/BetterNCM">https://github.com/MicroCBer/BetterNCM</a></p>
-<p>一键安装：<a href="https://github.com/MicroCBer/BetterNCM-Installer">https://github.com/MicroCBer/BetterNCM-Installer</a></p>
-<p>使用文档：<a href="https://v2e2npdz15.feishu.cn/docx/UZkSd9d46o4fVOxaPNBcGXSenme">https://v2e2npdz15.feishu.cn/docx/UZkSd9d46o4fVOxaPNBcGXSenme</a></p>
-<p><img src="https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/7a6a15d5gy1hho9q029pxj22801e0npe.jpg" alt="S17_BetterNCM"></p>
-<p>&nbsp;</p>
-<p><strong>4.2、Go Musicfox</strong></p>
-<p>如果你不想要那么多<strong>花里胡哨</strong>的功能，就想单纯的听歌。</p>
-<p>使用 Go 语言编写的网易音乐“<strong>命令行</strong>”客户端 <strong>Go Musicfox</strong> 是一个不错的选择，支持 Windows 、Mac 、Linux。</p>
-<p>它可以通过命令行的方式实现登录、播放、下载、搜索、歌词、Last.fm、签到等功能。</p>
-<p>按快捷键 D 就是下载前当播放的音乐。</p>
-<p>下载地址：<a href="https://github.com/go-musicfox/go-musicfox/releases">https://github.com/go-musicfox/go-musicfox/releases</a></p>
-<p>代理下载：<a href="https://githubfast.com/go-musicfox/go-musicfox/releases">https://githubfast.com/go-musicfox/go-musicfox/releases</a></p>
-<p><img src="https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/7a6a15d5gy1hho9q0gci7j21uo18aqei.jpg" alt="S17_MusicFox"></p>
-<p>&nbsp;</p>
-<p><strong>4.3、UnblockNeteaseMusic</strong></p>
-<p>但一些歌曲，由于版权被买断，导致网易云音乐曲库少，因为很多音乐都没办法听。</p>
-<p>插件 <a href="https://github.com/nondanee/UnblockNeteaseMusic">UnblockNeteaseMusic</a>，则可以自动使用各类音源替换变灰歌曲链接，包括 QQ / 酷狗 / 酷我  等音源。</p>
-<p>使用方法一：<strong>BetterNCM 插件</strong></p>
-<p>项目地址：<a href="https://github.com/nondanee/UnblockNeteaseMusic">https://github.com/nondanee/UnblockNeteaseMusic</a></p>
-<p>一键安装：<a href="https://github.com/ReviveUnblockNCMInstaller/RevivedUnblockInstaller">https://github.com/ReviveUnblockNCMInstaller/RevivedUnblockInstaller</a></p>
-<p>使用方法二：<strong>独立安装包</strong></p>
-<p>独立插件包一键安装，可参考 52pojie 论坛文章：<a href="https://www.52pojie.cn/thread-1664098-1-1.html">https://www.52pojie.cn/thread-1664098-1-1.html</a></p>
-<p>&nbsp;</p>
-<h2>5、本地播放器</h2>
-<table>
-<thead>
-<tr>
-<th><strong>▼ Win 播放器</strong></th>
-<th><strong>简介</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>📥 <a href="https://github.com/clsid2/mpc-hc">MPC-HC</a></td>
-<td>纯碎的、小巧的、极致快速的音乐播放器，MPC-HC 的 Fork 版本。</td>
-</tr>
-<tr>
-<td>📥 <a href="https://github.com/Aleksoid1978/MPC-BE">MPC-BE</a></td>
-<td>纯碎的、小巧的、极致快速的的音乐播放器，MPC-HC 的 BE 版本。</td>
-</tr>
-<tr>
-<td>📥 <a href="https://www.foobar2000.org">Foobar2000</a></td>
-<td>插件丰富，支持高度定制化的音乐播放器，推荐配置 <a href="https://github.com/dream7180/foobox-cn">Foobox</a>。</td>
-</tr>
-<tr>
-<td>📥 <a href="https://www.videolan.org/index.zh.html">VLC</a></td>
-<td>开源的多媒体播放器，支持几乎所有音视频格式，全平台支持。</td>
-</tr>
-<tr>
-<td>📥 <a href="http://www.aimp.ru/">AIMP</a></td>
-<td>来自俄罗斯的一款多媒体播放器（非开源），支持 Win、安卓。</td>
-</tr>
-<tr>
-<td>📥 <a href="https://www.winamp.com/">Winamp</a></td>
-<td>化石级播放器，现已重新回归，并拥有了全新的设计，仅支持 Windows。</td>
-</tr>
-<tr>
-<td>▼ <strong>Mac 播放器</strong></td>
+<td>▼ <strong>国外网站</strong></td>
 <td><strong>简介</strong></td>
 </tr>
 <tr>
-<td>📥 <a href="https://iina.io/">IINA</a></td>
-<td>可能是 Mac 最受欢迎的多媒体播放器，开源免费，简洁美观。</td>
-</tr>
-<tr>
-<td>📥 <a href="https://www.foobar2000.org">Foobar2000</a></td>
-<td>支持高度定制化的音乐播放器，现在也支持 Mac 版本了。</td>
-</tr>
-<tr>
-<td>📥 <a href="https://github.com/ddddxxx/LyricsX">LyricsX</a></td>
-<td>Mac 下的歌词辅助工具，支持搜索和滚动显示歌词，支持本地任何播放器。</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<h2>6、无损音乐</h2>
-<p>下面的这些网站免费并提供了下载，但部分需要注册、或者关注公众号才能下载。</p>
-<table>
-<thead>
-<tr>
-<th>▼ <strong>无损音乐</strong></th>
-<th><strong>简介</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>🌐 <a href="https://xiageba.com/">下歌吧</a></td>
-<td>免登陆、网盘下载 👍</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.xmwav.com/">熊猫无损音乐</a></td>
-<td>免登陆、网盘下载</td>
-</tr>
-<tr>
-<td>🌐 <a href="http://www.23ape.net/">23ape.net</a></td>
-<td>免登陆、网盘下载</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://tieba.baidu.com/f?kw=无损音乐">无损音乐吧</a></td>
-<td>免登陆、网盘下载</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://mp3bst.com/">MP3BST</a></td>
-<td>免登陆、城通网盘下载</td>
-</tr>
-<tr>
-<td>🌐 <a href="http://www.52wusun.com/">我爱无损音乐网</a></td>
-<td>免登陆、城通网盘下载</td>
-</tr>
-<tr>
-<td>▼ <strong>无损音乐（登陆）</strong></td>
+<td>🌐 <a href="https://portableapps.com/apps">PortableApps</a></td>
 <td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.hifini.com/">HiFiNi</a></td>
-<td>要登陆、网盘下载。（需要注册，登陆后即可无限制使用。）</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.cdbao.net/">CD包音乐网</a></td>
-<td>要登陆、网盘下载</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://wusunyinyue.cn/">无损音乐网</a></td>
-<td>要登陆、网盘下载</td>
-</tr>
-<tr>
-<td>🌐 <a href="http://www.ape-flac.com/">无损音乐</a></td>
-<td>要登陆、网盘下载</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://sacdr.net/">易音</a></td>
-<td>要登陆、网盘下载</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.onelai.cn/">万籁音乐</a></td>
-<td>要关注公众号、网盘下载</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.xlebbs.com/">享乐音乐论坛</a></td>
-<td>要登陆、网盘下载、部分收费</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.dtshot.com/">DTshot</a></td>
-<td>要登陆、网盘下载、部分收费</td>
-</tr>
-<tr>
-<td>▼ <strong>无损资源</strong></td>
+<td>🌐 <a href="https://en.softonic.com/">Softonic</a></td>
 <td></td>
 </tr>
 <tr>
-<td>📥 资源 1</td>
-<td>🔗 <a href="https://www.aliyundrive.com/s/fTHhCLg1J3W">洛雪音乐 200T 音乐大合集</a>、🔗 <a href="https://www.aliyundrive.com/s/xymEytGyymx/folder/6190bd57c147df52764f45f2b7d0157a2c95c220">2 万首音乐 MTV</a></td>
-</tr>
-<tr>
-<td>📥 资源 2</td>
-<td>🔗 <a href="https://pan.quark.cn/s/f98de583cff9#/list/share">美国 Billboard Top100</a>、🔗 <a href="https://www.aliyundrive.com/s/7yE49zBCHr8">老歌珍藏 一人一首成名曲</a></td>
-</tr>
-<tr>
-<td>📥 资源 3</td>
-<td>🔗 <a href="https://cloud.189.cn/web/share?code=Jj2MravyQ7fe">豆瓣音乐Top250无损音乐</a>、🔗 <a href="https://www.aliyundrive.com/s/kT6accQfFow">700G 无损音乐</a></td>
-</tr>
-<tr>
-<td>📥 资源 4</td>
-<td>🔗 <a href="https://www.aliyundrive.com/s/QNnwcyZJrTK">世界名曲 6CD</a>、🔗 <a href="https://www.aliyundrive.com/s/Xyobrwvm7K1">班得瑞全14张专辑</a></td>
-</tr>
-<tr>
-<td>📥 资源 5</td>
-<td>🔗 <a href="https://www.aliyundrive.com/s/yK1tK7Y38mL">中国戏曲大全mp3格式</a></td>
-</tr>
-<tr>
-<td>📥 资源 6</td>
-<td>🔗 <a href="https://lvyueyang.github.io/web-music/">周杰伦所有音乐在线听</a>、🔗 <a href="https://www.aliyundrive.com/s/VEoHM3CQrzy">周杰伦张专辑无损珍藏版</a></td>
-</tr>
-<tr>
-<td>📥 资源 7</td>
-<td>🔗 <a href="https://www.aliyundrive.com/s/Pkjzg69LXiG">邓丽君195首无损</a>、🔗 <a href="https://www.aliyundrive.com/s/GYs3v6pg7N7">久石让 51张专辑无损</a></td>
-</tr>
-</tbody>
-</table>
-<p><a href="https://pan.quark.cn/s/e32727dcc9e2#/list/share">经典音乐合集 766GB</a></p>
-<p>&nbsp;</p>
-<h2>7、白噪音</h2>
-<table>
-<thead>
-<tr>
-<th>▼ <strong>白噪音</strong></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>🌐 <a href="https://raining.fm/">Raining FM</a></td>
-<td>下雨音效。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://rainyscope.com/">Rainyscope</a></td>
-<td>下雨音效。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.rainymood.com/">Rainy Mood</a></td>
-<td>下雨音效。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.tree.fm">Tree.FM</a></td>
-<td>森林音效。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://earth.fm/">Earth.FM</a></td>
-<td>森林音效，各地风景都有。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://virtocean.com/#">Virtual Ocean</a></td>
-<td>海洋音效，可自定义混合。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://defonic.com/">Defonic</a></td>
-<td>自然音效，可自定义混合。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://asoftmurmur.com/">A Soft Murmur</a></td>
-<td>自然音效，可自定义混合。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.noisli.com/">Noisli</a></td>
-<td>自然音效，可自定义混合，需要登陆使用。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://music.163.com/#/artist?id=22095">NSSJP</a></td>
-<td>自然音效，网易云音乐播放，日本自然之声协会出品。</td>
-</tr>
-<tr>
-<td>📥 <a href="https://github.com/jenius-apps/ambie">Ambie</a></td>
-<td>自然音效，一款播放自然声音的应用程序，仅支持 Windows。</td>
-</tr>
-<tr>
-<td>▼ <strong>场景音效</strong></td>
+<td><a href="https://www.crackingcity.com/">🌐 CrackingCity</a></td>
 <td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://soundofcolleagues.com/">Sound Of Colleagues</a></td>
-<td>大学教室场景。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://imisstheoffice.eu/">IMissTheOffice</a></td>
-<td>办公室场景。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://coffitivity.com/">Coffitivity</a></td>
-<td>咖啡馆场景。</td>
-</tr>
-<tr>
-<td>🌐 <a href="http://imissmybar.com/">I Miss My Bar</a></td>
-<td>酒吧场景。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.window-swap.com/">WindowSwap</a></td>
-<td>窗外场景，需要登陆使用。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.thisisathing.io/">This is a thing</a></td>
-<td>冥想音效。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.calm.com/">Calm</a></td>
-<td>冥想和睡眠音效，但只有“<a href="https://www.calm.com/app/scenes">白噪音</a>”是免费的，需要登陆使用。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://app.lofi.co/">Lofi.co</a></td>
-<td>生产力音效，提供各种高质量场景，但免费只能用 2 个。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://tide.fm/zh_CN/">潮汐</a></td>
-<td>主打自然，场景，环境音乐，冥想音乐等综合性网站，支持 APP 和扩展。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.ppbzy.com/">泡泡白噪音</a></td>
-<td>主打场景白噪音，可自定义混合。</td>
-</tr>
-<tr>
-<td>▼ <strong>环境音乐</strong></td>
+<td>🌐 <a href="https://haxnode.net/">haxNode</a></td>
 <td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://mynoise.net/">myNoise</a></td>
-<td>环境音乐。</td>
+<td>🌐 <a href="https://repack.me/">REPACK.ME</a></td>
+<td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://kaizenflow.co/">Kaizen Flow</a></td>
-<td>工作音效，同时支持“番茄时钟”。</td>
+<td>🌐 <a href="https://www.sadeempc.com/">SadeemPC</a></td>
+<td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.lofly.site/">Lofly</a></td>
-<td>环境音乐+白噪音，可自定义混合，同时支持“番茄时钟”，<strong>需要魔法</strong>。</td>
+<td>🌐 <a href="https://lrepacks.net/">LRepacks</a></td>
+<td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://melofi.app/">Melofi</a></td>
-<td>环境音乐。</td>
+<td>🌐 <a href="https://igetintopc.com/">iGet Into PC</a></td>
+<td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://soundscape.world/">Soundscape</a></td>
-<td>环境音乐。</td>
+<td>🌐 <a href="https://softasm.com/">Softasm</a></td>
+<td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.lavaradio.com/milieumusic">LavaRadio</a></td>
-<td>高品质情景造乐师，使用<a href="https://www.lavaradio.com/shopmusic">客户端</a>（音乐宽带版），功能更齐全。👍</td>
+<td>🌐 <a href="https://en.taiwebs.com/?lang=SG">TaiWebs</a></td>
+<td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.lofi.cafe/">lofi.cafe</a></td>
-<td>环境音乐。</td>
+<td>▼ <strong>稀缺资源</strong></td>
+<td><strong>简介</strong></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.jazzandrain.com/">JazzAndRain</a></td>
-<td>环境音乐。</td>
+<td>🌐 <a href="https://ldqk.xyz/drive#/onedrive/softs">懒勤网盘</a></td>
+<td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://ambicular.com/index.html">Ambicular</a></td>
-<td>环境音乐。</td>
+<td>🌐 <a href="https://yun.naodai.org/Software">瓜子云盘</a></td>
+<td><a href="https://go.naodai.org/">瓜子云盘镜像</a></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.ambient-mixer.com/">Ambient Mixer</a></td>
-<td>环境音乐。</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.loungev.com/">Lounge V Studio</a></td>
-<td>放松音乐+自然音效，还有 4K 超清视频，这是它的 <a href="https://www.youtube.com/@LoungeVstudio/videos">U2B 频道</a>。👍</td>
+<td>🌐 <a href="https://www.fxxkmakeding.xyz/">FXXKMAKEDING</a></td>
 </tr>
 </tbody>
 </table>
 
 
-</article></div></body></html>
+<p>&nbsp;</p>
+<h2>六、Mac</h2>
+<p>Mac 软件搜索下载网站汇总。</p>
+<p>更新中....</p>
+<table>
+<thead>
+<tr>
+<th>▼ <strong>第一梯队</strong></th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://macapp.org.cn/">MacApp分享频道</a></td>
+<td>免注册、高速下载、无广告、资源首发。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.macyy.cn/">MacYY</a></td>
+<td>免注册、高速下载、无广告、资源丰富。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://xclient.info/">xClient</a></td>
+<td>免注册、高速下载、有广告、资源丰富。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://xmac.app/">XMac.App</a></td>
+<td>国外网盘和 IPFS 下载，应用来自 TNT、HCiSO 等知名团队。</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>第二梯队</strong></td>
+<td>简介</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.digit77.com/">Digit77</a></td>
+<td>开启广告屏蔽工具会隐藏下载链接。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.zhiniw.com/">知您网</a></td>
+<td>城通网盘下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.naodai.org/">脑袋瓜子</a></td>
+<td>自建 Alist 网盘下载。<a href="https://go.naodai.org/">资源网盘</a></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.macbl.com/">马可菠萝</a></td>
+<td>百度网盘、城通网盘下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.mac8k.com/">Mac8k</a></td>
+<td>百度网盘下载</td>
+</tr>
+<tr>
+<td>🌐 <a href="http://www.sdifen.com/">史蒂芬周</a></td>
+<td>需要登陆</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.macxin.com/">Mac萌新</a></td>
+<td>需要等待 6 秒</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.macwl.com/">MacWL</a></td>
+<td>内容较少</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>国外网站</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://appstorrent.ru/">AppStorrent</a></td>
+<td></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.macbed.com/">AppKed</a></td>
+<td></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://macked.org/">Cmacked</a></td>
+<td></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://mac-torrent-download.net/">Mac Torrent</a></td>
+<td></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://cmacked.com/">Cmacked</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>正版应用</strong></td>
+<td></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://setapp.com">SetApp</a></td>
+<td></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.lizhi.io">荔枝数码</a></td>
+<td></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.taobao.com">淘宝</a></td>
+<td>在淘宝购买的价格，往往要比官方价格低很多，拼多多同理。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://store.steampowered.com">Steam</a></td>
+<td>很多 Mac 端游戏上不了 App Store，只能在 Steam 发布。</td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<h2>七、安卓</h2>
+更新中....
+
+<p>&nbsp;</p>
+<h2>八、iOS</h2>
+
+更新中....
+
+
+
+</article></div>
+<a class="github-fork-ribbon" href="https://www.runningcheese.com/aaa" target="_blank" data-ribbon="查看完整内容！" title="查看完整内容！">Fork me on GitHub</a>
+</body></html>
