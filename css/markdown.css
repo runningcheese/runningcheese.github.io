@@ -303,7 +303,7 @@ body {
 }
 
 .markdown-body table {
-  border-spacing: 4px;
+  border-spacing: 0px;
   border-collapse: separate;
   display: inline-table;
   width: 100%;
@@ -677,19 +677,29 @@ body {
 
 .markdown-body table th,
 .markdown-body table td {
-  padding: 6px 13px;
-  border: 1px solid var(--color-border-default);
+  padding: 8px 13px;
+  border: 0px solid var(--color-border-default);
   text-align: left;
 }
 
-.markdown-body table tr {
-  background-color: var(--color-canvas-default);
-  border-top: 1px solid var(--color-border-muted);
+.markdown-body table {
+  border: 1px solid var(--color-border-muted);
 }
 
 .markdown-body table tr:nth-child(2n) {
   background-color: var(--color-canvas-subtle);
 }
+
+
+.markdown-body table tr th {
+  background-color: var(--color-canvas-subtle);
+  border-bottom: 1px solid var(--color-border-muted);
+}
+
+.markdown-body table th:nth-child(1),
+.markdown-body table td:nth-child(1) {
+border-right: 1px solid var(--color-border-muted);
+} 
 
 .markdown-body table img {
   background-color: transparent;
