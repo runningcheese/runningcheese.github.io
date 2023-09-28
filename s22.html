@@ -9,16 +9,55 @@
 		<!--<script type='text/javascript' src='toc.js'></script>-->
         <a id="github-fork-ribbon" href="https://www.runningcheese.com/aaa" target="_blank" data-ribbon="查看完整内容！" title="查看完整内容！"></a>
 	    <style> #github-fork-ribbon {width: 12.1em;height: 12.1em;position: absolute;overflow: hidden;top: 0;right: 0;z-index: 9999;pointer-events: none;font-size: 13px;text-decoration: none;}#github-fork-ribbon.fixed {position: fixed;}#github-fork-ribbon:active, #github-fork-ribbon:hover {background-color: rgba(0,0,0,0);}#github-fork-ribbon:after, #github-fork-ribbon:before {position: absolute;display: block;width: 15.38em;height: 1.54em;top: 3.23em;right: -3.23em;box-sizing: content-box;transform: rotate(45deg);}#github-fork-ribbon:before {content: "";padding: .38em 0;background-color: #000;background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.15));box-shadow: 0 .15em .23em 0 rgba(0,0,0,.5);pointer-events: auto;}#github-fork-ribbon:hover:before {background-color: #a00;}#github-fork-ribbon:after {content: attr(data-ribbon);color: #fff;font: 700 1em "Helvetica Neue",Helvetica,Arial,sans-serif;line-height: 1.54em;text-decoration: none;text-shadow: 0 -.08em rgba(0,0,0,.5);text-align: center;text-indent: 0;padding: .15em 0;margin: .15em 0;border-width: .08em 0;border-style: dotted;border-color: #fff;border-color: rgba(255,255,255,.7);}#github-fork-ribbon.left-bottom, #github-fork-ribbon.left-top {right: auto;left: 0;}#github-fork-ribbon.left-bottom, #github-fork-ribbon.right-bottom {top: auto;bottom: 0;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before {right: auto;left: -3.23em;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {top: auto;bottom: 3.23em;}#github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {transform: rotate(-45deg);}</style>
+
+	
+	  <style>
+      .callapse .item .title {
+      display: flex;
+      align-items: center;
+      line-height: 40px;
+      }
+
+     .callapse .item .title::after{
+      content: '';
+      display: block;
+      width: 7px;
+      height: 7px;
+      border-top: 1px solid #303030;
+      border-right: 1px solid #303030;
+      margin-left: auto;
+      transform: rotate(45deg);
+      transition: all .5s;
+      margin-bottom: -10px;
+    }
+
+    .callapse .item.active .title::after{
+      transform:rotate(135deg) !important;
+    }
+
+      .callapse .item.active .content {
+        height: auto;
+      }
+
+      .callapse .item .content {
+        height: 0;
+        overflow: hidden !important;
+        transition: all 0.3s;
+      }
+    </style>
+
+
+
 	</head>
 	<body>
 	<article class="markdown-body">
 
-<p align="center"> <a href="javascript:! function() {%22use strict%22;const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22;let _;const l = () => {const o = [];let _ = 0;for (const t of e) if (document.querySelectorAll(t).length) {document.querySelectorAll(t).forEach(t => {t.querySelectorAll(n).forEach(t => {var e;o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) });break }let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>';if (o.length) {let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0;o.forEach(t => {var e = +t.tagName.replace(/H/g, %22%22);n = n + e - _, n = n < 0 ? 0 : n, _ = e;const o = document.createElement(%22span%22);o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) }return l += '<li class=%22toc_menu_item_footer%22></li>', l };(() => {const t = document.createElement(%22div%22);_ = t.attachShadow({mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 5px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #AAAAAC;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 2px .5em;font-size: 16px;font-weight: 400;line-height: 1.6;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 1em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 3em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 4em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_toggle_button%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t);const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22);o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => {e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }();void(0);"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s22logo.png" width="148" height="148"/></a></p> 
+<p align="center"> <a href="javascript:! function() {%22use strict%22;const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22;let _;const l = () => {const o = [];let _ = 0;for (const t of e) if (document.querySelectorAll(t).length) {document.querySelectorAll(t).forEach(t => {t.querySelectorAll(n).forEach(t => {var e;o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) });break }let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>';if (o.length) {let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0;o.forEach(t => {var e = +t.tagName.replace(/H/g, %22%22);n = n + e - _, n = n < 0 ? 0 : n, _ = e;const o = document.createElement(%22span%22);o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) }return l += '<li class=%22toc_menu_item_footer%22></li>', l };(() => {const t = document.createElement(%22div%22);_ = t.attachShadow({mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 5px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #AAAAAC;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 2px .5em;font-size: 16px;font-weight: 400;line-height: 1.6;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 1em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 3em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 4em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_toggle_button%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t);const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22);o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => {e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }();void(0);(function(){var night=function(w){(function(d){var css='.callapse .item .content{overflow:hidden!important;height:auto!important;}';var s=d.getElementsByTagName('style');for(var i=0,si;si=s[i];i++){if(si.innerHTML==css){si.parentNode.removeChild(si);return}};var heads=d.getElementsByTagName('head');if(heads.length){var node=d.createElement('style');node.type='text/css';node.appendChild(d.createTextNode(css));heads[0].appendChild(node)}})(w.document);for(var i=0,f;f=w.frames[i];i++){try{arguments.callee(f)}catch(e){}}};night(window)})();"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s22logo.png" width="148" height="148"/></a></p> 
 
 <h1 align="center">电子书导航</h1>
 <p align="center">没有找不到的电子书，就怕你没时间看！</p>
-<p align="center">最后更新：2023-09-26</p>
-
+<p align="center">最后更新：2023-09-27</p>
+<p align="center">点击图标有惊喜</p>
 
 
 
@@ -53,11 +92,15 @@
 </tbody>
 </table>
 
-
+<div class="container">
+<div class="callapse">
 
 
 <p>&nbsp;</p>
-<h2>1、Z-library</h2>
+<div class="item">
+<h2 class="title">1、Z-library</h2>
+<div class="content">
+
 <table>
 <thead>
 <tr>
@@ -196,9 +239,15 @@
 </tr>
 </tbody>
 </table>
+ 
 
-<p>&nbsp;</p>
-<h2>2、超星</h2>
+ </div>
+ </div>
+
+<div class="item">
+<h2 class="title">2、超星</h2>
+<div class="content">
+
 <table>
 <thead>
 <tr>
@@ -246,13 +295,17 @@
 </tbody>
 </table>
 
+</div>
+</div>
 
 
+<div class="item">
+<h2 class="title">3、搜索引擎</h2>
+<div class="content">
 
-<h2>3、搜索引擎</h2>
-<p>&nbsp;</p>
 <p>最基础的找书方法，是在百度、必应、谷歌这样的搜索引擎里，用“<strong>书名+关键字</strong>”的方法搜索。</p>
 <p>但是，你还可以用下面这些垂直搜索引擎，搜索更加精准。</p>
+
 <table>
 <thead>
 <tr>
@@ -318,10 +371,14 @@
 <p>这里特别说一下 <a href="https://filepursuit.com">FilePursuit</a>。</p>
 <p>它不但支持电子书、音频、视频、软件、压缩包等文件，就算被下架的资源也能搜索得到，而且还支持中文。</p>
 
+</div>
+</div>
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h2>4、博客论坛</h2>
+
+<div class="item">
+<h2 class="title">4、博客论坛</h2>
+<div class="content">
+
 <table>
 <thead>
 <tr>
@@ -502,10 +559,15 @@
 </table>
 
 
+</div>
+</div>
 
 
-<p>&nbsp;</p>
-<h2>5、PDF 书籍</h2>
+<div class="item">
+<h2 class="title">5、PDF 书籍</h2>
+<div class="content">
+
+
 <table>
 <thead>
 <tr>
@@ -610,8 +672,14 @@
 </table>
 
 
-<p>&nbsp;</p>
-<h2>6、英文书籍</h2>
+</div>
+</div>
+
+
+<div class="item">
+<h2 class="title">6、英文书籍</h2>
+<div class="content">
+
 <p>&nbsp;</p>
 <table>
 <thead>
@@ -622,7 +690,7 @@
 </thead>
 <tbody>
 <tr>
-<td>🌐 <a href="https://www.gutenberg.org/">Project Gutenberg</a></td>
+<td>🌐 <a href="https://www.gutenberg.org/">古腾堡计划</a></td>
 <td>最早的数字图书馆，书籍多为公有领域的书籍原本，以英文作品居多。</td>
 </tr>
 <tr>
@@ -674,11 +742,11 @@
 <td>收集了超过 50000 本电子书，提供多种格式下载。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.e-booksdirectory.com/">E-Books Directory</a></td>
+<td>🌐 <a href="https://www.e-booksdirectory.com/">E-Books Dir</a></td>
 <td>超过 10655 本 709 个分类的电子书。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://onlinebooks.library.upenn.edu/">The Online Books</a></td>
+<td>🌐 <a href="https://onlinebooks.library.upenn.edu/">TheOnlineBooks</a></td>
 <td>超过 300 万本可在网上免费阅读的在线图书的索引。</td>
 </tr>
 <tr>
@@ -690,9 +758,14 @@
 
 
 
-<p>&nbsp;</p>
-<p>&nbsp;&nbsp;</p>
-<h2>7、杂志期刊</h2>
+</div>
+</div>
+
+
+<div class="item">
+<h2 class="title">7、杂志期刊</h2>
+<div class="content">
+
 <table>
 <thead>
 <tr>
@@ -738,12 +811,12 @@
 <td>在线免费英文杂志外刊下载网站，无需注册即可直接下载。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.freepdfmagazine.com/">Free PDF Magazine</a></td>
+<td>🌐 <a href="https://www.freepdfmagazine.com/">Free PDF Magaz</a></td>
 <td>在线免费英文杂志外刊下载网站，无需注册即可直接下载。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://freemagazinepdf.com/">FreeMagazinePDF</a></td>
-<td></td>
+<td>🌐 <a href="https://freemagazinepdf.com/">FreeMagazine</a></td>
+<td>在线免费英文杂志外刊下载网站，无需注册即可直接下载</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://github.com/hehonghui/awesome-english-ebooks">经济学人外刊杂志</a></td>
@@ -768,12 +841,14 @@
 </tbody>
 </table>
 
+</div>
+</div>
 
 
+<div class="item">
+<h2 class="title">8、网文小说</h2>
+<div class="content">
 
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<h2>8、网文小说</h2>
 <table>
 <thead>
 <tr>
@@ -911,6 +986,14 @@
 <td>各种安卓小说 App 的去广告 VIP 会员版，由 423Down 维护。</td>
 </tr>
 <tr>
+<td>📥 <a href="https://www.stoneread.com/">石头阅读器</a></td>
+<td>支持 Android、iOS，支持小说的智能阅读。</td>
+</tr>
+<tr>
+<td>📥 <a href="https://github.com/eprendre/tingshu">我的听书</a></td>
+<td>支持 Android，可在线播放多个听书站点的 APP。</td>
+</tr>
+<tr>
 <td></td>
 <td></td>
 </tr>
@@ -933,14 +1016,98 @@
 </tbody>
 </table>
 
-
-<p>&nbsp;</p>
-<h2>9、有声书</h2>
-更新中....
+</div>
+</div>
 
 
-<p>&nbsp;</p>
-<h2>10、古籍</h2>
+<div class="item">
+<h2 class="title">9、有声书</h2>
+<div class="content">
+
+<table>
+<thead>
+<tr>
+<th>▼ <strong>有声书</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://www.lrts.me/">懒人听书</a></td>
+<td>满足各年龄、各类别收听人群的“全内容收听需求”。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.ximalaya.com/">喜马拉雅</a></td>
+<td>有声小说、听书、听小说、听故事、听广播</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.gotist.com/">得到主义</a></td>
+<td>用 AI 配音，让白嫖更优雅，但网站有时候打不开。</td>
+</tr>
+<tr>
+<td>🌐 <a href="http://www.tingdongfang.com/">听东方</a></td>
+<td>有声读物，各种内容题材的都有。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.yiyeting.com">一夜听书网</a></td>
+<td>有声小说在线听。</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>评书网站</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.pingshu365.com/">天天评书网</a></td>
+<td>评书、相声、有声小说</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.zgpingshu.com/">评书网</a></td>
+<td>评书、相声、有声小说</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.pingshu8.com/">评书吧</a></td>
+<td>评书、相声、有声小说</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.tingbook.com/">天方听书</a></td>
+<td>评书、相声、有声小说、要登录</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>国外网站</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.scribd.com/">Scribd</a></td>
+<td>Ebooks, Audiobooks &amp; More - Read Free for 30 Days</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.readbeyond.it/ebooks.html">ReadBeyond</a></td>
+<td>国外名著朗读，并支持下载 epub 格式的有声电子书到本地。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://librivox.org/">LibriVox</a></td>
+<td>精品有声书，公共领域用品的有声电子书。</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+
+
+<div class="item">
+<h2 class="title">10、古籍</h2>
+<div class="content">
+
 <table>
 <thead>
 <tr>
@@ -951,71 +1118,59 @@
 <tbody>
 <tr>
 <td>🌐 <a href="https://www.shuge.org/">书格</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://cnkgraph.com/">知识图谱</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="http://guoxue.er07.com/">爱如生论坛</a></td>
-<td>需要登录</td>
+<td>自由开放的在线古籍图书馆。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://www.shidianguji.com/">识典古籍</a></td>
 <td>古籍在线阅读平台</td>
 </tr>
 <tr>
+<td>🌐 <a href="https://cnkgraph.com/">知识图谱</a></td>
+<td>古籍领域的知识图谱。</td>
+</tr>
+<tr>
+<td>🌐 <a href="http://guoxue.er07.com/">爱如生论坛</a></td>
+<td>国学典籍。（需要登录）</td>
+</tr>
+<tr>
 <td>🌐 <a href="http://find.nlc.cn/">文津搜索</a></td>
-<td></td>
+<td>古籍搜索。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://www.wenxianxue.cn/">中国古典文献导航</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://wenyuan.aliyun.com/home">汉典重光</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="http://d.gushu.net.cn/">古书网导航</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://ctext.org/search.pl?if=gb&amp;remap=gb">中国哲学书电子化计划</a></td>
-<td>诸子百家电子化计划</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.guxuo.com/">梦远书城</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="http://202.96.31.78/xlsworkbench/publish">全國古籍普查登記基本數據庫</a></td>
-<td></td>
+<td>古籍导航。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://www.zdic.net/">漢典</a></td>
-<td></td>
+<td>古籍辞典。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://www.shuowen.org/">说文解字</a></td>
-<td></td>
+<td>古籍辞典。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.allhistory.com/">全历史</a></td>
-<td></td>
+<td>🌐 <a href="https://jiapu.library.sh.cn/#/">中国家谱知识服务平台</a></td>
+<td>家谱检索。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://wenyuan.aliyun.com/home">汉典重光</a></td>
+<td>首批海外回归数字化古籍。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://ctext.org/search.pl?if=gb&amp;remap=gb">中国哲学书电子化计划</a></td>
+<td>诸子百家电子化计划。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://5000yan.com/">5000言</a></td>
-<td>国学经典-传统文化</td>
+<td>国学经典-传统文化。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://www.daodejing.org/">道德经网</a></td>
-<td>老子道德经全文及译文</td>
+<td>老子道德经全文及译文。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://www.8bei8.com/">太极书馆</a></td>
-<td></td>
+<td>古籍经典。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://www.wenshuoge.com/">文硕阁</a></td>
@@ -1023,11 +1178,7 @@
 </tr>
 <tr>
 <td>🌐 <a href="https://www.neohytung.com/">瀚堂近代报刊数据库</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://jiapu.library.sh.cn/#/">中国家谱知识服务平台</a></td>
-<td></td>
+<td>近代报刊资料库。</td>
 </tr>
 <tr>
 <td></td>
@@ -1035,182 +1186,194 @@
 </tr>
 <tr>
 <td>▼ <strong>古诗词</strong></td>
-<td></td>
+<td><strong>简介</strong></td>
 </tr>
 <tr>
 <td>🌐 <a href="https://www.gushiwen.cn/">古诗文网</a></td>
-<td>古诗文经典传承</td>
+<td>古诗文经典传承。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://shici.store/huajianji/">中文诗歌</a></td>
-<td></td>
+<td>最全中华古诗词数据库， 近 5.5 万首唐诗，26 万首宋诗。</td>
 </tr>
 <tr>
 <td>🌐 <a href="http://www.shiren.org/">中国诗人资料馆</a></td>
-<td></td>
+<td>收藏古今中外数万名诗人的数十万首诗歌</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://github.com/Werneror/Poetry">非常全的古诗词数据</a></td>
-<td>收录了从先秦到现代的共计85万余首古诗词</td>
+<td>收录了从先秦到现代的共计85万余首古诗词。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.guxuo.com/">梦远书城</a></td>
+<td>古典文学，包括唐诗、宋诗、戏曲、小说。</td>
 </tr>
 </tbody>
 </table>
 
+</div>
+</div>
 
-<p>&nbsp;</p>
-<h2>11、编程技术</h2>
-<p>&nbsp;</p>
+
+<div class="item">
+<h2 class="title">11、行业书籍</h2>
+<div class="content">
+
 <table>
 <thead>
 <tr>
-<th>▼ <strong>下载网站</strong></th>
+<th>▼ <strong>教材课件</strong></th>
 <th><strong>简介</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>🌐 <a href="https://www.jb51.net/books/">脚本之家电子书</a></td>
-<td>注意甄别真正的下载地址</td>
+<td>🌐 <a href="http://discx.yuntu.io/">联图云</a></td>
+<td>提供各类书籍的随书光盘下载。</td>
 </tr>
 <tr>
-<td>🌐 <a href="http://www.banshujiang.cn/">搬书匠</a></td>
-<td></td>
+<td>🌐 <a href="http://www.pptkj.net/">ppt课件网</a></td>
+<td>免费 PPT 课件下载。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.ituring.com.cn/">图灵社区</a></td>
-<td></td>
+<td>🌐 <a href="http://www.goodkejian.com/index.htm">好课件吧</a></td>
+<td>小学课件下载，无需注册免费下载。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://itpanda.net/book/">IT熊猫</a></td>
-<td></td>
+<td>🌐 <a href="https://www.ruiwen.com/jiaocai/">瑞文网</a></td>
+<td>教材电子课本，需要关注公众号。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.werebook.com/">书堆阅读</a></td>
-<td></td>
+<td>🌐 <a href="https://book.sciencereading.cn/shop/main/Login/shopFrame.do">科学文库</a></td>
+<td>各类学科教材，但下载需要教育网 IP。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.xz577.com/">码农之家</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.manongbook.com/">码农书籍网</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.bookstack.cn/">书栈网</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.52doc.com/">我爱电子书</a></td>
-<td>百度网盘下载。</td>
+<td>🌐 <a href="https://basic.smartedu.cn/">智慧教育平台</a></td>
+<td>国家中小学智慧教育平台，人教版教育电子版下载。</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>▼ <strong>中文书籍</strong></td>
+<td>▼ <strong>儿童读物</strong></td>
 <td><strong>简介</strong></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://github.com/forthespada/CS-Books">CS-Books</a></td>
-<td>超过1000本的计算机经典书籍、个人笔记资料</td>
+<td>🌐 <a href="https://bbs.ibabyzone.cn/showtype-15-153.html">宝宝地带</a></td>
+<td>儿童绘本在线阅读、儿童绘本下载</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://github.com/jobbole/awesome-programming-books">经典编程书籍大全</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://github.com/royeo/awesome-programming-books">Awesome-programming</a></td>
-<td>📚 经典技术书籍推荐，持续更新..</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费计算机编程书籍</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://github.com/justjavac/free-programming-books-zh_CN">免费编程中文书籍索引</a></td>
-<td></td>
-</tr>
-<tr>
-<td>🌐 <a href="http://it-ebooks.flygon.net">IT-ebooks-archive</a></td>
-<td>Github：<a href="https://github.com/opendoccn/it-ebooks-archive">https://github.com/opendoccn/it-ebooks-archive</a></td>
+<td>🌐 <a href="http://www.huajuanma.com/">花卷妈</a></td>
+<td>儿童绘本下载。</td>
 </tr>
 <tr>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td>▼ <strong>英文书籍</strong></td>
-<td><strong>简介</strong></td>
-</tr>
-<tr>
-<td>🌐 <a href="https://www.9080hou.com/">好资源收集站</a></td>
-<td>英文原版编程电子书资源下载，主要收集 O’Reilly 等大厂的编程电子书</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://github.com/EbookFoundation/free-programming-books">Free-programming-books</a></td>
-<td>Free Ebook Foundation 的免费计算机类图书</td>
-</tr>
-<tr>
-<td>🌐 <a href="https://github.com/prakhar1989/awesome-courses">Awesome CS Courses</a></td>
+<td>▼ <strong>医学百科</strong></td>
 <td></td>
 </tr>
 <tr>
-<td>🌐 <a href="https://www.freebookcentre.net/">Free Books Centre</a></td>
-<td>免费下载技术类书籍，包括计算机科学、编程、物理学、医学等类型。</td>
+<td>🌐 <a href="http://www.kanyixue.com/">看医学网</a></td>
+<td>需要关注公众号。</td>
 </tr>
 <tr>
-<td>🌐 <a href="https://salttiger.com/">SaltTiger</a></td>
-<td>每天一本编程书，最新出版的技术类英文原版书。</td>
+<td>🌐 <a href="https://www.med2.cn/">新叶医学网</a></td>
+<td>需要登陆。</td>
+</tr>
+<tr>
+<td>🌐 <a href="http://www.bzfxw.com/yiyao.html">学兔兔</a></td>
+<td>需要登陆，部分收费，可用淘宝代下。</td>
+</tr>
+<tr>
+<td>🌐 <a href="http://freebooks4doctors.com/">Medical Books</a></td>
+<td>英文，拥有 369 册医学电子书。</td>
+</tr>
+<tr>
+<td>🌐 <a href="http://www.a-hospital.com/">A+医学百科</a></td>
+<td>一个开放的在线医学百科全书网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.msdmanuals.cn/">默克诊疗手册</a></td>
+<td>涵盖了医学所有领域成千上万主题的广泛医学信息来源。</td>
 </tr>
 </tbody>
 </table>
 
+</div>
+</div>
 
 
+<div class="item">
+<h2 class="title">12、图书馆</h2>
+<div class="content">
 
-<p>&nbsp;</p>
-<h2>12、儿童读物</h2>
-<p>&nbsp;</p>
-更新中....
+<table>
+<thead>
+<tr>
+<th>▼ <strong>图书馆</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://www.nlc.cn/web/index.shtml">中国国家图书馆</a></td>
+<td>中国国家数字图书馆。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://atimebook.com/">时光图书馆</a></td>
+<td>杂志、老照片、古画、书法、连环画、乐谱、古籍等资源。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.modernhistory.org.cn/#/">抗日战争数据平台</a></td>
+<td>抗日战争与近代中日关系文献数据平台</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>出版社</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.readinglife.com/">新经典</a></td>
+<td>中国国家数字图书馆</td>
+</tr>
+<tr>
+<td>🌐 <a href="http://www.zhbc.com.cn/zhsj/fg/home/home.html">中华书局有限公司</a></td>
+<td>中华书局有限公司</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.cp.com.cn/">商务印书馆</a></td>
+<td>商务印书馆</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.ilixiangguo.com/">理想国</a></td>
+<td>想象另一种可能</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.hinabook.com/">后浪出版公司</a></td>
+<td>后浪出版社</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://fangsuo.com/">方所图书馆</a></td>
+<td>广州方所图书馆</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
 
 
-
-<p>&nbsp;</p>
-<h2>13、教材课件</h2>
-<p>&nbsp;</p>
-更新中....
+<div class="item">
+<h2 class="title">13、工具</h2>
+<div class="content">
 
 
-
-<p>&nbsp;</p>
-<h2>14、其他行业</h2>
-<p>&nbsp;</p>
-更新中....
-
-
-<p>&nbsp;</p>
-<h2>15、图书馆</h2>
-<p>&nbsp;</p>
-更新中....
-
-
-<p>&nbsp;</p>
-<h2>16、出版社</h2>
-<p>&nbsp;</p>
-更新中....
-
-
-<p>&nbsp;</p>
-<h2>17、书单</h2>
-<p>&nbsp;</p>
-更新中....
-
-
-<p>&nbsp;</p>
-<h2>18、工具</h2>
-<p>&nbsp;</p>
 <table>
 <thead>
 <tr>
@@ -1221,7 +1384,7 @@
 <tbody>
 <tr>
 <td>📜 <a href="https://greasyfork.org/zh-CN/scripts/329484">豆瓣资源下载大师</a></td>
-<td>聚合数百家资源网站，通过右侧边栏1秒告诉你哪些网站能下载豆瓣页面上的电影</td>
+<td>聚合数百家资源网站，通过右侧边栏告诉你哪里可以下载电子书。</td>
 </tr>
 <tr>
 <td>🌐 <a href="https://v.magiconch.com/epub-transform.html">ePub 繁简转换</a></td>
@@ -1251,13 +1414,48 @@
 <td>📥 <a href="https://github.com/Davy-Zhou/zip2pdf">zip2pdf</a></td>
 <td>基于 Python 自动化解压压缩包成 PDG，PDG 合成 PDF</td>
 </tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>电子书格式</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>📖 可重排格式</td>
+<td>txt、rtf、doc、epub。epub 是首选，且最为广泛的格式。</td>
+</tr>
+<tr>
+<td>📖 亚马逊格式</td>
+<td>azw、azw3、mobi、kfx 都是亚马逊开发，现在只出版 kfx 格式了。</td>
+</tr>
+<tr>
+<td>📖 PDF 格式</td>
+<td>PDF 通用性最强，有可编辑版本（体积小）和不可编辑版本（体积大）。</td>
+</tr>
+<tr>
+<td>📖 扫描格式</td>
+<td>Djvu 是国外扫描格式，Pdg 是国内超星扫描格式。</td>
+</tr>
+<tr>
+<td>📖 知网格式</td>
+<td>CAJ 中国知网专门电子书格式，可转为 PDF。</td>
+</tr>
+<tr>
+<td>📖 其它格式</td>
+<td>exe、chm、ebk3、fb2、umd...</td>
+</tr>
 </tbody>
 </table>
 
+</div>
+</div>
 
-<p>&nbsp;</p>
-<h2>19、阅读器</h2>
-<p>&nbsp;</p>
+<div class="item">
+<h2 class="title">14、阅读器</h2>
+<div class="content">
+
 <table>
 <thead>
 <tr>
@@ -1276,15 +1474,15 @@
 </tr>
 <tr>
 <td>📥 <a href="https://reader.960960.xyz/#/manager/home">Koodo Reader</a></td>
-<td>支持 Win、Mac、Linux、Web</td>
+<td>支持 Win、Mac、Linux、Web。</td>
 </tr>
 <tr>
 <td>📥 <a href="https://neat-reader.cn/">Neat Reader</a></td>
-<td></td>
+<td>支持 Win、Mac、iOS、安卓，付费。🪟by <a href="https://www.52pojie.cn/thread-1715250-1-1.html">@夜泉</a></td>
 </tr>
 <tr>
 <td>📥 <a href="https://apps.apple.com/cn/app/clearview-x/id1557106464?mt=12">Clearview X</a></td>
-<td>支持 Mac。</td>
+<td>支持 Mac，付费。<a href="">🍎</a> by <a href="https://xclient.info/s/clearview-x.html">@Xclient</a></td>
 </tr>
 <tr>
 <td>📥 <a href="https://calibre-ebook.com/download">Calibre</a></td>
@@ -1294,16 +1492,113 @@
 <td></td>
 <td></td>
 </tr>
+<tr>
+<td>▼ <strong>手机应用</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>📥 <a href="https://gedoor.github.io/">开源阅读</a></td>
+<td>支持 Android，支持导入 [<a href="https://www.yckceo.com/yuedu/shuyuan/index.html">书源</a>]</td>
+</tr>
+<tr>
+<td>📥 <a href="https://www.moondownload.com/chinese.html">静读天下</a></td>
+<td>支持 Android，获得 Google Play 顶级电子书阅读器荣誉。</td>
+</tr>
+<tr>
+<td>📥 <a href="https://ereader.link/">英阅阅读器</a></td>
+<td>支持  Android、iOS。蒙哥阅读器，支持英文小说，外刊杂志轻松读。</td>
+</tr>
 </tbody>
 </table>
 
+</div>
+</div>
+
+<div class="item">
+<h2 class="title">15、电子书资源</h2>
+<div class="content">
+
+<table>
+<thead>
+<tr>
+<th>▼ <strong>电子书资源</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://pan.quark.cn/s/53bbffed27f2">34种行业电子书</a></td>
+<td>包括编程、财务、职场、营销、哲学、小说、销售等，夸克网盘下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://115.com/s/sw3tgk73fwm#i8e9">Freembook书籍</a></td>
+<td>Freembook 15.72万册书籍，有书目索引，密码：i8e9</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://pan.quark.cn/s/23ba4ef5edd5">CSDN 1000 本</a></td>
+<td>CSDN 会员免费电子书 1000 本。</td>
+</tr>
+<tr>
+<td>🌐 <a href="http://d.sundx.cn/">时光印记经典珍藏</a></td>
+<td>时光印记经典珍藏系列，各类书籍都有。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://pan.baidu.com/s/1OimRJxqUhAsUxpopEidehQ?pwd=ek2x">2023 樊登读书会</a></td>
+<td>2023 年度更新，提取码: ek2x。</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+
+<div class="item">
+<h2 class="title">结尾</h2>
+<div class="content">
+
+<p>本项目收集电子书内容，仅用于学习交流，切勿用于任何商业活动。</p>
+
+ </div>
+ </div>
 
 
-<p>&nbsp;</p>
-<h2>20、电子书资源</h2>
-<p>&nbsp;</p>
-更新中....
+<script>
+      const $ = (s) => document.querySelector(s);
+      const $$ = (s) => [...document.querySelectorAll(s)];
 
+      class Collapse {
+        constructor($container, accordion = false) {
+          this.$$items = $container.querySelectorAll(".callapse .item");
+          this.$$itemTittles = $container.querySelectorAll(".callapse .title");
+          this.type = accordion;
+
+          this.bind();
+        }
+
+        bind() {
+          const _self = this;
+          this.$$itemTittles.forEach(($title) => {
+            $title.onclick = function () {
+              console.log(_self.type);
+              if (_self.type) {
+                _self.$$items.forEach((item) => {
+                  item.classList.remove("active");
+                });
+                this.parentElement.classList.toggle("active");
+              } else {
+                this.parentElement.classList.toggle("active");
+              }
+            };
+          });
+        }
+      }
+
+      new Collapse($$(".container")[0]);
+      new Collapse($$(".container")[1], true);
+    </script>
 
 
 
