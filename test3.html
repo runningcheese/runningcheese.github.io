@@ -7,13 +7,87 @@
 		<meta name="color-scheme" content="light dark">
 		<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/css/markdown.css">
 		<!--<script type='text/javascript' src='toc.js'></script>-->
+<link href="https://cdn.jsdelivr.net/gh/yaohaixiao/outline.js/outline.min.css" rel="stylesheet" />
+
+
         <a id="github-fork-ribbon" href="https://www.runningcheese.com/aaa" target="_blank" data-ribbon="查看完整内容！" title="查看完整内容！"></a>
 	    <style> #github-fork-ribbon {width: 12.1em;height: 12.1em;position: absolute;overflow: hidden;top: 0;right: 0;z-index: 9999;pointer-events: none;font-size: 13px;text-decoration: none;}#github-fork-ribbon.fixed {position: fixed;}#github-fork-ribbon:active, #github-fork-ribbon:hover {background-color: rgba(0,0,0,0);}#github-fork-ribbon:after, #github-fork-ribbon:before {position: absolute;display: block;width: 15.38em;height: 1.54em;top: 3.23em;right: -3.23em;box-sizing: content-box;transform: rotate(45deg);}#github-fork-ribbon:before {content: "";padding: .38em 0;background-color: #000;background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.15));box-shadow: 0 .15em .23em 0 rgba(0,0,0,.5);pointer-events: auto;}#github-fork-ribbon:hover:before {background-color: #a00;}#github-fork-ribbon:after {content: attr(data-ribbon);color: #fff;font: 700 1em "Helvetica Neue",Helvetica,Arial,sans-serif;line-height: 1.54em;text-decoration: none;text-shadow: 0 -.08em rgba(0,0,0,.5);text-align: center;text-indent: 0;padding: .15em 0;margin: .15em 0;border-width: .08em 0;border-style: dotted;border-color: #fff;border-color: rgba(255,255,255,.7);}#github-fork-ribbon.left-bottom, #github-fork-ribbon.left-top {right: auto;left: 0;}#github-fork-ribbon.left-bottom, #github-fork-ribbon.right-bottom {top: auto;bottom: 0;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before {right: auto;left: -3.23em;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {top: auto;bottom: 3.23em;}#github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {transform: rotate(-45deg);}</style>
+    <style>
+#toc {
+    position: fixed;
+    right: -320px;
+    margin-top: 5%;
+    max-width: 280px;
+    background-color: var(--color-whtie);
+    border-left: 1px dotted var(--color-black);
+    z-index: 3;
+    font-size: 15px;
+    -webkit-transition: var(--transition);
+    transition: var(--transition);
+}
+
+#toc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#toc li {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#toc ul ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#toc ul ul li {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    border-left: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#toc a {
+    text-decoration: none;
+    color: inherit;
+}
+#toc a:hover {
+    color: var(--color-theme) !important;
+}
+#toc a.active {
+    color: var(--color-theme) !important;
+}
+
+@media (min-width: 1600px) {
+    #toc {
+        right: 40px;
+        animation: toc-in 1s cubic-bezier(0,0,.2,1);
+        background-color: transparent;
+    }
+
+    @keyframes toc-in {
+        0% {
+            transform: translatex(320px);
+        }
+        100% {
+            transform: translatex(0);
+        }
+    }
+}
+</style>
+<div id="toc"></div>
 	</head>
 	<body>
+
+
 	<article class="markdown-body">
 
-<p align="center"> <a href="javascript:! function() {%22use strict%22;const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22;let _;const l = () => {const o = [];let _ = 0;for (const t of e) if (document.querySelectorAll(t).length) {document.querySelectorAll(t).forEach(t => {t.querySelectorAll(n).forEach(t => {var e;o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) });break }let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>';if (o.length) {let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0;o.forEach(t => {var e = +t.tagName.replace(/H/g, %22%22);n = n + e - _, n = n < 0 ? 0 : n, _ = e;const o = document.createElement(%22span%22);o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) }return l += '<li class=%22toc_menu_item_footer%22></li>', l };(() => {const t = document.createElement(%22div%22);_ = t.attachShadow({mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 5px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #AAAAAC;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 2px .5em;font-size: 16px;font-weight: 400;line-height: 1.6;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 1em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 3em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 4em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_toggle_button%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t);const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22);o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => {e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }();void(0);"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s20logo.png" width="148" height="148"/></a></p>
+<p align="center"> <a href="javascript:! function() {%22use strict%22;const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22;let _;const l = () => {const o = [];let _ = 0;for (const t of e) if (document.querySelectorAll(t).length) {document.querySelectorAll(t).forEach(t => {t.querySelectorAll(n).forEach(t => {var e;o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) });break }let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>';if (o.length) {let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0;o.forEach(t => {var e = +t.tagName.replace(/H/g, %22%22);n = n + e - _, n = n < 0 ? 0 : n, _ = e;const o = document.createElement(%22span%22);o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) }return l += '<li class=%22toc_menu_item_footer%22></li>', l };(() => {const t = document.createElement(%22div%22);_ = t.attachShadow({mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 20px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 4px .5em;margin-right:40px;font-size: 15px;font-weight: 400;line-height: 1.8;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;display:none;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 1em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 3em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 4em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_menu_root%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t);const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22);o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => {e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }();void(0);"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s20logo.png" width="148" height="148"/></a></p>
 
 <h1 align="center">音乐导航</h1>
 <p align="center">纯路人，想听下架的《 只因你太美 》怎么办</p>
@@ -626,6 +700,86 @@
 </table>
 
 
+
+
+<script>
+// 获取文档中所有标题元素
+const headings = document.querySelectorAll('h2, h3, h4, h5, h6');
+
+// 如果文档中没有两个或以上标题，不显示目录
+if (headings.length < 2) {
+    const tocContainer = document.getElementById('toc');
+    tocContainer.style.display = 'none';
+} else {
+    // 生成目录项的HTML代码
+    let tocHtml = '<ul>';
+    let lastLevel = 1;
+    headings.forEach(heading => {
+        // 生成一个随机ID
+        const randomId = Math.random().toString(36).substr(2, 9);
+        heading.id = randomId;
+        const level = parseInt(heading.tagName.substring(1));
+        const indent = (level - 1) * 8;
+        if (level > lastLevel) {
+            tocHtml += '<ul><li>';
+        } else if (level < lastLevel) {
+            tocHtml += '</li>' + '</ul>'.repeat(lastLevel - level) + '<li>';
+        } else {
+            tocHtml += '</li><li>';
+        }
+        tocHtml += '<a href="#' + randomId + '" style="margin-left:' + indent + 'px;">' + heading.textContent + '</a>';
+        lastLevel = level;
+    });
+    tocHtml += '</li>' + '</ul>'.repeat(lastLevel - 1) + '</ul>';
+
+    // 将目录项添加到页面上
+    const tocContainer = document.getElementById('toc');
+    tocContainer.innerHTML = tocHtml;
+
+    // 监听滚动事件，更新目录项的高亮状态
+    let scrollHandler = () => {
+        const scrollPosition = window.scrollY;
+        let activeIndex = -1;
+        headings.forEach((heading, index) => {
+            if (scrollPosition >= heading.offsetTop) {
+                activeIndex = index;
+            }
+        });
+        document.querySelectorAll('#toc a').forEach(link => {
+            link.classList.remove('active');
+        });
+        if (activeIndex >= 0) {
+            document.querySelectorAll('#toc li')[activeIndex].querySelector('a').classList.add('active');
+        }
+    };
+
+    window.addEventListener('scroll', scrollHandler);
+
+    // 监听目录项的点击事件，更新目录项的高亮状态并滚动到对应标题处
+    document.querySelectorAll('#toc a').forEach(link => {
+        link.addEventListener('click', event => {
+            event.preventDefault();
+            // 暂时移除滚动事件监听器
+            window.removeEventListener('scroll', scrollHandler);
+            document.querySelectorAll('#toc a').forEach(link => {
+                link.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            const targetId = event.target.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            const offsetTop = targetElement.offsetTop;
+            window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+            });
+            // 等待滚动停止后再重新添加监听器
+            setTimeout(() => {
+                window.addEventListener('scroll', scrollHandler);
+            }, 1000);
+        });
+    });
+}
+</script>
 
 
 </article></div></body></html>
