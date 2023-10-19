@@ -1,0 +1,365 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+		<title>游戏导航 - 奔跑中的奶酪</title>
+		<meta name="color-scheme" content="light dark">
+		<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/css/markdown.css">
+		<!--<script type='text/javascript' src='toc.js'></script>-->
+        <a id="github-fork-ribbon" href="https://www.runningcheese.com/aaa" target="_blank" data-ribbon="查看完整内容！" title="查看完整内容！"></a>
+	    <style> #github-fork-ribbon {width: 12.1em;height: 12.1em;position: absolute;overflow: hidden;top: 0;right: 0;z-index: 9999;pointer-events: none;font-size: 13px;text-decoration: none;}#github-fork-ribbon.fixed {position: fixed;}#github-fork-ribbon:active, #github-fork-ribbon:hover {background-color: rgba(0,0,0,0);}#github-fork-ribbon:after, #github-fork-ribbon:before {position: absolute;display: block;width: 15.38em;height: 1.54em;top: 3.23em;right: -3.23em;box-sizing: content-box;transform: rotate(45deg);}#github-fork-ribbon:before {content: "";padding: .38em 0;background-color: #000;background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.15));box-shadow: 0 .15em .23em 0 rgba(0,0,0,.5);pointer-events: auto;}#github-fork-ribbon:hover:before {background-color: #a00;}#github-fork-ribbon:after {content: attr(data-ribbon);color: #fff;font: 700 1em "Helvetica Neue",Helvetica,Arial,sans-serif;line-height: 1.54em;text-decoration: none;text-shadow: 0 -.08em rgba(0,0,0,.5);text-align: center;text-indent: 0;padding: .15em 0;margin: .15em 0;border-width: .08em 0;border-style: dotted;border-color: #fff;border-color: rgba(255,255,255,.7);}#github-fork-ribbon.left-bottom, #github-fork-ribbon.left-top {right: auto;left: 0;}#github-fork-ribbon.left-bottom, #github-fork-ribbon.right-bottom {top: auto;bottom: 0;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before {right: auto;left: -3.23em;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {top: auto;bottom: 3.23em;}#github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {transform: rotate(-45deg);}</style>
+	</head>
+	<body>
+	<article class="markdown-body">
+
+<p align="center"> <a href="javascript:! function() {%22use strict%22;const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22;let _;const l = () => {const o = [];let _ = 0;for (const t of e) if (document.querySelectorAll(t).length) {document.querySelectorAll(t).forEach(t => {t.querySelectorAll(n).forEach(t => {var e;o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) });break }let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>';if (o.length) {let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0;o.forEach(t => {var e = +t.tagName.replace(/H/g, %22%22);n = n + e - _, n = n < 0 ? 0 : n, _ = e;const o = document.createElement(%22span%22);o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) }return l += '<li class=%22toc_menu_item_footer%22></li>', l };(() => {const t = document.createElement(%22div%22);_ = t.attachShadow({mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 5px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #AAAAAC;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 2px .5em;font-size: 16px;font-weight: 400;line-height: 1.6;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 1em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 3em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 4em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_toggle_button%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t);const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22);o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => {e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }();void(0);"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s27logo.png" width="148" height="148"/></a></p> 
+
+<h1 align="center">游戏导航</h1>
+<p align="center">做一回自由快乐小孩！</p>
+<p align="center">最后更新：2023-10-19</p>
+
+
+
+
+<p>&nbsp;</p>
+<h2>0、目录</h2>
+<table>
+<thead>
+<tr>
+<th><a href="https://www.runningcheese.cn/s16">S16-BT 导航</a></th>
+<th><a href="https://www.runningcheese.cn/s17">S17-音乐导航</a></th>
+<th><a href="https://www.runningcheese.cn/s18">S18-影视导航</a></th>
+<th><a href="https://www.runningcheese.cn/s19">S19-网盘导航</a></th>
+<th><a href="https://www.runningcheese.cn/s20">S20-软件导航</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.runningcheese.cn/s21">S21-Zlibrary</a></td>
+<td><a href="https://www.runningcheese.cn/s22">S22-电子书导航</a></td>
+<td>S23-学术导航</td>
+<td>S24-考研导航</td>
+<td>S25-学习导航</td>
+</tr>
+<tr>
+<td>S26-生活导航</td>
+<td>S27-游戏导航</td>
+<td>S28-工具导航</td>
+<td>S29-网站导航</td>
+<td>S30-资源导航</td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<h2>1、小游戏</h2>
+
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th>▼ <strong>打发时间</strong></th>
+<th>---</th>
+<th>---</th>
+<th>---</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://magickeyboard.io/">魔术键盘</a></td>
+<td><a href="https://eelslap.com/">海带鱼拍脸</a></td>
+<td><a href="https://tikolu.net/spot-the-difference/menu">指出不一样</a></td>
+<td><a href="https://vole.wtf/happy-birthday/">各式各样生日歌</a></td>
+</tr>
+<tr>
+<td><a href="https://humanclock.com/">人类时钟</a></td>
+<td><a href="https://www.slapkirk.com/play#spockmode">在线扇耳光</a></td>
+<td><a href="https://qake.se/fw/index.html">在线放烟花</a></td>
+<td><a href="https://theuselessweb.com/">无聊网站传送门</a></td>
+</tr>
+<tr>
+<td><a href="https://seoi.net/penint/">画线为雕</a></td>
+<td><a href="https://webapp.magicposer.com/">魔法人型师</a></td>
+<td><a href="https://yesno.wtf/">Yes Or No?</a></td>
+<td><a href="https://weirdorconfusing.com/">亚马逊雷人商品</a></td>
+</tr>
+<tr>
+<td><a href="https://thisissand.com/">堆沙子游戏</a></td>
+<td><a href="http://www.koalastothemax.com/">无限二分法</a></td>
+<td><a href="https://pointerpointer.com/">鼠标指针在哪？</a></td>
+<td><a href="https://www.twinsornot.com/">真不是双胞胎？</a></td>
+</tr>
+<tr>
+<td>▼ <strong>休闲解压</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://ac.yunyoujun.cn/#/">便携小空调</a></td>
+<td><a href="https://tv.hzfe.org/">童年小电视</a></td>
+<td><a href="https://driveandlisten.herokuapp.com/">全球自驾游体验</a></td>
+<td><a href="https://www.pixelthoughts.co/">深呼吸放松 60 秒</a></td>
+</tr>
+<tr>
+<td><a href="https://fan.elpsy.cn/">清凉小风扇</a></td>
+<td><a href="http://www.megamonalisa.com/">蒙娜丽莎展馆</a></td>
+<td><a href="https://9-eyes.com/">有趣谷歌街景图</a></td>
+<td><a href="https://works.yangerxiao.com/breathe-relaxer/">静心呼吸   感受平静</a></td>
+</tr>
+<tr>
+<td><a href="https://goldfishies.com/">在线养金鱼</a></td>
+<td><a href="https://www.petside.com/infinite-cat/">猫的无限循环</a></td>
+<td><a href="https://homeless-toys.netlify.app/#/">无家可归的玩偶</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://alexanderperrin.com.au/paper/shorttrip/">短暂的旅行</a></td>
+<td><a href="https://www.window-swap.com/Window">全球窗户共享</a></td>
+<td><a href="http://www.donothingfor2minutes.com/">2 分钟什么也不干</a></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>学会思考</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://dccxi.com/trust/">信任的进化</a></td>
+<td><a href="https://www.arealme.com/cn">各种各样的自我测试</a></td>
+<td><a href="https://thechoiceisyours.whatisthematrix.com/cn/">选择你相信的现实</a></td>
+<td><a href="https://neal.fun/life-checklist/">人生清单检查表</a></td>
+</tr>
+<tr>
+<td><a href="https://ncase.me/crowds/zh-CN.html">群体的智慧与愚蠢</a></td>
+<td><a href="http://www.20q.net/">20个问题猜你想什么</a></td>
+<td><a href="https://www.getbadnews.com/#intro">假新闻是怎样炼成的</a></td>
+<td><a href="https://www.futureme.org/">写给未来的自己 1</a></td>
+</tr>
+<tr>
+<td><a href="https://cn.puzzle-nonograms.com/">经典逻辑推理游戏</a></td>
+<td><a href="https://stylishsite.github.io/">贾斯纳的猫</a></td>
+<td><a href="https://ncase.me/remember/zh.html">如何记忆任何东西</a></td>
+<td><a href="https://www.hi2future.com/">写给未来的自己 2</a></td>
+</tr>
+<tr>
+<td><a href="http://www.iqsuperman.net/">IQ 测试题</a></td>
+<td><a href="https://types.yuzeli.com/survey">心理健康测试</a></td>
+<td><a href="https://neal.fun/paper/">一张纸折N次的厚度</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.piixemto.com/zh/">心理学测试</a></td>
+<td><a href="https://z-lyen.github.io/anxiety/">和焦虑一起冒险！</a></td>
+<td><a href="https://www.did-you-knows.com/">DidYouKnow 冷知识</a></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>身体测试</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="http://www.ultrasonic-ringtones.com/">听觉测试</a></td>
+<td><a href="https://michaelbach.de/ot/index.html">眼睛的幻觉</a></td>
+<td><a href="https://enchroma.com/pages/color-blindness-test">色盲色弱测试</a></td>
+<td><a href="http://illusionoftheyear.com/">全球视觉错觉收集</a></td>
+</tr>
+<tr>
+<td><a href="https://checkboxrace.com/">点击选择框</a></td>
+<td><a href="http://mp3ornot.com/">音质区别测试</a></td>
+<td><a href="https://www.qijishow.com/Brand/cool/index.html">带你体验扭曲幻觉</a></td>
+<td><a href="https://humanbenchmark.com/">记忆力反应力测试</a></td>
+</tr>
+<tr>
+<td>▼ <strong>生活技能</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://yong.dgod.net/webim/index.html">在线输入法</a></td>
+<td><a href="https://api.ihint.me/shuang/">双拼指法练习</a></td>
+<td><a href="https://qwerty.kaiyi.cool/">英语指法练习 1</a></td>
+<td><a href="https://vultr.youmu.moe/quiz/">中国行政区划测试</a></td>
+</tr>
+<tr>
+<td><a href="https://www.type.fun/">轻松学打字</a></td>
+<td><a href="http://www.chaiwubi.com/bmcx/">五笔编码查询</a></td>
+<td><a href="https://www.typelit.io/">英语指法练习 2</a></td>
+<td><a href="https://www.foldnfly.com/#/1-1-1-1-1-1-1-1-2">教你如何拆纸飞机</a></td>
+</tr>
+<tr>
+<td><a href="https://www.typingclub.com/da-zi">键盘指法练习</a></td>
+<td><a href="https://werneror.github.io/FingerMemory/">五笔指法练习</a></td>
+<td><a href="https://www.keybr.com/">英语指法练习 3</a></td>
+<td><a href="https://www.animatedknots.com/">教你如何绳子打结</a></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+
+<h2>2、在线游戏</h2>
+
+<p>&nbsp;</p>
+
+<table>
+<thead>
+<tr>
+<th>▼ <strong>游戏网站</strong></th>
+<th>---</th>
+<th>---</th>
+<th>---</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.4399.com/">4399</a></td>
+<td><a href="https://poki.cn/">Poki</a></td>
+<td><a href="https://neal.fun/">Neal.Fun</a></td>
+<td><a href="https://www.bestgames.com/">Best Games</a></td>
+</tr>
+<tr>
+<td><a href="https://www.17173.com/">17173</a></td>
+<td><a href="https://frvr.com/">FRVR</a></td>
+<td><a href="https://zh.y8.com/">Y8 Games</a></td>
+<td><a href="https://www.crazygames.com/">Crazy Games</a></td>
+</tr>
+<tr>
+<td>▼ <strong>在线游戏</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://game.hullqin.cn/">线下聚会游戏</a></td>
+<td><a href="https://flash.zczc.cz/">Flash 保存计划</a></td>
+<td><a href="https://nes.heheda.top/">红白机游戏盒</a></td>
+<td><a href="https://likexia.gitee.io/game/index.html#/">Git 游戏</a></td>
+</tr>
+<tr>
+<td><a href="https://dos.lol/">在线   DOS 游戏</a></td>
+<td><a href="https://game.haiyong.site/">100个摸鱼小游戏</a></td>
+<td><a href="https://zaixianwan.app/">老游戏在线玩</a></td>
+<td><a href="https://g8hh.com.cn/#/">锅巴汉化</a></td>
+</tr>
+<tr>
+<td><a href="https://www.yikm.net/">小霸王，其乐无穷</a></td>
+<td><a href="https://famicn.com/index.html">中文家用游戏博物馆</a></td>
+<td><a href="http://www.gbarom.cn/">掌机迷</a></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>动作游戏</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://www.4399.com/flash/145201_2.htm">拳皇97</a></td>
+<td><a href="https://pvz.heheda.top/">植物大战僵尸</a></td>
+<td><a href="http://oos.moxiecode.com/js_webgl/ping_pong/">3D 乒乓球</a></td>
+<td><a href="http://www.sinuousgame.com/">鼠标躲避球游戏</a></td>
+</tr>
+<tr>
+<td><a href="https://krunker.io/?game=SV:umt2g">在线 CS</a></td>
+<td><a href="https://classic.minecraft.net/?join=XeFyaTfaMDn-1-Px">我的世界</a></td>
+<td><a href="https://www.linerider.com/">轨道滑行者</a></td>
+<td><a href="https://www.foddy.net/Athletics.html">QWOP 跑步游戏</a></td>
+</tr>
+<tr>
+<td><a href="https://bruno-simon.com/">在线开车</a></td>
+<td><a href="https://fn.heheda.top/">水果忍者</a></td>
+<td><a href="http://canvasrider.com/">轨道滑行者 2</a></td>
+<td><a href="https://img.youquhome.com/wp-ziyuan/nanren20.htm">是男人坚持20秒</a></td>
+</tr>
+<tr>
+<td><a href="https://game.chronodivide.com/">红色警戒 2</a></td>
+<td><a href="https://squid-game.io/">鱿鱼游戏</a></td>
+<td><a href="https://tusenpo.github.io/FlappyFrog/">Excited 的小鸟 ▲</a></td>
+<td><a href="https://edition.cnn.com/interactive/2021/03/cnnix-steership/">苏伊士运河模拟器</a></td>
+</tr>
+<tr>
+<td><a href="https://playcsol.com/">反恐精英   1.6</a></td>
+<td><a href="http://www.heyzxz.me/pcol/">斯诺克</a></td>
+<td><a href="https://www.geo-fs.com/">在线飞行模拟器</a></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>棋牌游戏</strong></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://playtictactoe.org/">井字棋</a></td>
+<td><a href="https://huazhechen.gitee.io/cuber/">三阶魔方 1</a></td>
+<td><a href="https://knots.netlify.app/">环形结拼图</a></td>
+<td><a href="https://yorg.io/">塔防生存游戏</a></td>
+</tr>
+<tr>
+<td><a href="https://lichess.org/">国际象棋</a></td>
+<td><a href="https://iamthecu.be/">三阶魔方 2</a></td>
+<td><a href="https://kirilllive.github.io/Fifteen_puzzle_maker/">滑动拼图</a></td>
+<td><a href="https://printablecreative.com/">益智游戏图生成器</a></td>
+</tr>
+<tr>
+<td><a href="https://lines.frvr.com/">连线游戏</a></td>
+<td><a href="https://blocks.ovh/">七巧板</a></td>
+<td><a href="https://slices.ovh/">益智切图</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="http://farter.cn/tetr.js/">俄罗斯方块 1</a></td>
+<td><a href="https://ruyihe.com/sxx">疯狂数星星</a></td>
+<td><a href="https://maze.toys/mazes/mini/">迷宫游戏</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://chvin.github.io/react-tetris/">俄罗斯方块 2</a></td>
+<td><a href="http://www.jigzone.com/">拼图游戏</a></td>
+<td><a href="https://www.webhek.com/post/draw-a-stickman/">请画一个小人</a></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+
+<h2>3、PC 游戏</h2>
+
+<p>&nbsp;</p>
+
+更新中...
+
+
+<p>&nbsp;</p>
+
+<h2>4、Mac 游戏</h2>
+
+<p>&nbsp;</p>
+
+更新中...
+
+
+<p>&nbsp;</p>
+
+<h2>5、游戏工具</h2>
+
+<p>&nbsp;</p>
+
+更新中...
+
+
+
+
+
+
+
+</article></div></body></html>
