@@ -1,0 +1,459 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+		<title>图标导航 - 奔跑中的奶酪</title>
+		<meta name="color-scheme" content="light dark">
+		<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/css/markdown.css">
+		<!--<script type='text/javascript' src='toc.js'></script>-->
+        <a id="github-fork-ribbon" href="https://www.runningcheese.com/aaa" target="_blank" data-ribbon="查看完整内容！" title="查看完整内容！"></a>
+	    <style> #github-fork-ribbon {width: 12.1em;height: 12.1em;position: absolute;overflow: hidden;top: 0;right: 0;z-index: 9999;pointer-events: none;font-size: 13px;text-decoration: none;}#github-fork-ribbon.fixed {position: fixed;}#github-fork-ribbon:active, #github-fork-ribbon:hover {background-color: rgba(0,0,0,0);}#github-fork-ribbon:after, #github-fork-ribbon:before {position: absolute;display: block;width: 15.38em;height: 1.54em;top: 3.23em;right: -3.23em;box-sizing: content-box;transform: rotate(45deg);}#github-fork-ribbon:before {content: "";padding: .38em 0;background-color: #000;background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.15));box-shadow: 0 .15em .23em 0 rgba(0,0,0,.5);pointer-events: auto;}#github-fork-ribbon:hover:before {background-color: #a00;}#github-fork-ribbon:after {content: attr(data-ribbon);color: #fff;font: 700 1em "Helvetica Neue",Helvetica,Arial,sans-serif;line-height: 1.54em;text-decoration: none;text-shadow: 0 -.08em rgba(0,0,0,.5);text-align: center;text-indent: 0;padding: .15em 0;margin: .15em 0;border-width: .08em 0;border-style: dotted;border-color: #fff;border-color: rgba(255,255,255,.7);}#github-fork-ribbon.left-bottom, #github-fork-ribbon.left-top {right: auto;left: 0;}#github-fork-ribbon.left-bottom, #github-fork-ribbon.right-bottom {top: auto;bottom: 0;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before {right: auto;left: -3.23em;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {top: auto;bottom: 3.23em;}#github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {transform: rotate(-45deg);}</style>
+	</head>
+	<body>
+	<article class="markdown-body">
+
+<p align="center"> <a href="javascript:! function() {%22use strict%22;const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22;let _;const l = () => {const o = [];let _ = 0;for (const t of e) if (document.querySelectorAll(t).length) {document.querySelectorAll(t).forEach(t => {t.querySelectorAll(n).forEach(t => {var e;o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) });break }let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>';if (o.length) {let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0;o.forEach(t => {var e = +t.tagName.replace(/H/g, %22%22);n = n + e - _, n = n < 0 ? 0 : n, _ = e;const o = document.createElement(%22span%22);o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) }return l += '<li class=%22toc_menu_item_footer%22></li>', l };(() => {const t = document.createElement(%22div%22);_ = t.attachShadow({mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 5px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #AAAAAC;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 2px .5em;font-size: 16px;font-weight: 400;line-height: 1.6;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 1em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 3em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 4em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_toggle_button%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t);const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22);o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => {e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }();void(0);"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s31logo.png" width="148" height="148"/></a></p> 
+
+<h1 align="center">图标导航</h1>
+<p align="center">解密，奶酪创作素材大放送！</p>
+<p align="center">最后更新：2023-10-22</p>
+
+
+
+
+<p>&nbsp;</p>
+<h2>0、目录</h2>
+<table>
+<thead>
+<tr>
+<th><a href="https://www.runningcheese.cn/s16">S16-BT 导航</a></th>
+<th><a href="https://www.runningcheese.cn/s17">S17-音乐导航</a></th>
+<th><a href="https://www.runningcheese.cn/s18">S18-影视导航</a></th>
+<th><a href="https://www.runningcheese.cn/s19">S19-网盘导航</a></th>
+<th><a href="https://www.runningcheese.cn/s20">S20-软件导航</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.runningcheese.cn/s21">S21-Zlibrary</a></td>
+<td><a href="https://www.runningcheese.cn/s22">S22-电子书导航</a></td>
+<td>S23-学术导航</td>
+<td>S24-考研导航</td>
+<td>S25-学习导航</td>
+</tr>
+<tr>
+<td>S26-生活导航</td>
+<td><a href="https://www.runningcheese.cn/s27">S27-游戏导航</a></td>
+<td>S28-工具导航</td>
+<td>S29-网站导航</td>
+<td>S30-资源导航</td>
+</tr>
+<tr>
+<td><a href="https://www.runningcheese.cn/s317">S31-Icon素材</a></td>
+<td>S32-Logo素材</td>
+<td>S33-PNG素材</td>
+<td>S34-矢量插画</td>
+<td>S35-图片素材</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+<h2>1、Web图标</h2>
+<p>&nbsp;</p>
+<p><a href="https://icon-sets.iconify.design">Iconify Design</a> 是一个聚合类型的图标搜索网站。</p>
+<p>资源丰富程度之多让人惊讶，几乎所有的图标库资源，在这里你都能搜索得到，唯一的缺点是不支持中文。</p>
+<p>网站提供了 React、Vue、CSS 等 API 的一键插入，而且还支持 SVG 和 data:url 下载。</p>
+<p>而这些都是免费的，说它是“<strong>众神之王</strong>”一点不为过。</p>
+<table>
+<p>&nbsp;</p>
+
+<thead>
+<tr>
+<th>▼ <strong>Web图标</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://icon-sets.iconify.design/">Iconify</a></td>
+<td>免登录、多格式支持、无下载限制，图标搜索的“<strong>众神之王</strong>”。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icones.js.org/collection/all/">Icônes</a></td>
+<td>免登录、多格式支持、无下载限制，开源、免费。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://yesicon.app/">Yesicon</a></td>
+<td>免登录、多格式支持、无下载限制，开源、免费。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icons8.com/icons">icons8 </a></td>
+<td>免登录、多格式支持、无下载限制，100+ 万图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://igoutu.cn/icons">Icons8 中文 </a></td>
+<td>免登录、多格式支持、无下载限制，100+ 万图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://iconduck.com/">Iconduck</a></td>
+<td>免登录、多格式支持、无下载限制，30+ 万图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://iconbuddy.app/">Iconbuddy</a></td>
+<td>免登录、多格式支持、无下载限制，18+ 万图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.iconhunt.site/">IconHunt</a></td>
+<td>免登录、多格式支持、无下载限制，18+ 万图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icongo.github.io/#/">icongo</a></td>
+<td>免登录、多格式支持、无下载限制，7+ 万图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.iconfont.cn/">Iconfont </a></td>
+<td><strong>要登录</strong>、多格式支持、无下载限制，阿里巴巴出品。</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>2、矢量图标</h2>
+<p>&nbsp;</p>
+<p>如果你的图标不单单用于网页，而是用于平面设计 ，那下面这些网站可以帮到你。</p>
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th>▼ <strong>矢量图标</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://www.svgrepo.com/">SVG Repo</a></td>
+<td>免登录、多格式支持、无下载限制。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://iconscout.com/free-icons">IconScout</a></td>
+<td>免登录、多格式支持、无下载限制。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.iconfinder.com/">Iconfinder </a></td>
+<td>免登录、多格式支持、无下载限制。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icon-icons.com/">Icon-Icons </a></td>
+<td>免登录、多格式支持、无下载限制。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.iconninja.com/">Icon Ninja</a></td>
+<td>免登录、多格式支持、无下载限制。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.iconbolt.com/">IconBolt</a></td>
+<td>免登录、多格式支持、无下载限制。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.youicons.com/">YouIcons</a></td>
+<td>免登录、多格式支持、无下载限制，需要署名。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.flaticon.com/">FlatIcon</a></td>
+<td>免登录、多格式支持、矢量图标需要付费。</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>3、字体图标</h2>
+<p>&nbsp;</p>
+<p>图标字体，是字体文件，是专门用于网页设计的图标，可以使用 CSS@font-face 在 Web 浏览器里展示。</p>
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th>▼ <strong>品牌图标库</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://fontawesome.com/">Font Awesome</a></td>
+<td>最受欢迎的图标库，有免费版（已经够用）和付费版。<a href="https://github.com/FortAwesome/Font-Awesome">GitHub 仓库</a></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icons8.com/line-awesome">Line Awesome</a></td>
+<td>Iocn8 出品的图标库，类似于 FontAwesome。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://themify.me/themify-icons">Themify Icons</a></td>
+<td>一款类似 iOS 的图库，简洁好看，开源免费。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://legacy-zurb.netlify.app/playground/foundation-icon-fonts-3">Foundation Icon</a></td>
+<td>Foundation 前端框架推出的图标字体。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.s-ings.com/typicons/">Typicons</a></td>
+<td>一款在 GitHub 上完全开源的图标字体。</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>4、图标库</h2>
+<p>&nbsp;</p>
+<p>下面是一些有特色的图标库，绝大多数是开源免费的。</p>
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th>▼ <strong>Mac 图标库</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://macosicons.com/#/">macOS Icons</a></td>
+<td>目前最全最全的 Mac、iOS 图标下载网站，5500+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.iosicongallery.com/">iOS Icon Gallery</a></td>
+<td>支持 Mac、iOS、WatchOS 图标下载，还支持专题下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icon.yukonga.top/">HQ ICON</a></td>
+<td>从 App Store 获取高清图标，支持 Mac 和 iOS 两个版本。</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>品牌图标库</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://iconpark.oceanengine.com/official">ByteDance Icons</a></td>
+<td>抖音 图标，支持多种格式下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://react-icons.github.io/react-icons">React Icons</a></td>
+<td>React 图标，同时还是多个图标库的聚合网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icons.getbootstrap.com/">Bootstrap Icons</a></td>
+<td>Bootstrap 图标，支持多种格式下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://notionv5.vyshnav.xyz/">Notion Icons</a></td>
+<td>Notion 图标，支持在线下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.overflow.design/ni-duotone.html">Notion Icons</a></td>
+<td>Notion 图标，支持在 Figma 中打开。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://developer.wordpress.org/resource/dashicons/">Dashicons</a></td>
+<td>WordPress 图标，支持多种格式下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://primer.style/design/foundations/icons">Octicons</a></td>
+<td>Github 图标，支持多种格式下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://aws-icons.com">AWS Icons</a></td>
+<td>Amazon 图标，支持多种格式下载。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://fonts.google.com/icons">Material Icons</a></td>
+<td>Google 图标，支持多种格式下载。</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>简约图标库</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://feathericons.com/">Feather</a></td>
+<td>简约图标，300+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://iconsvg.xyz/">ICONSVG</a></td>
+<td>简约图标，Feather Icons 的开源加强版，增加到了 1000+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://lucide.dev/icons/">Lucide</a></td>
+<td>简约图标，Feather Icons 的开源加强版，增加到了 1000+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icomoon.io/#preview-free">IcoMoon</a></td>
+<td>简约图标，5500+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://ionic.io/ionicons">Ionicons</a></td>
+<td>简约图标，5500+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://remixicon.com/">Remix Icon</a></td>
+<td>简约图标，2600+ 图标</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.mingcute.com/">MingCute</a></td>
+<td>简约图标，2670+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://phosphoricons.com/">Phosphor Icons</a></td>
+<td>简约图标，7500+ 图标</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://iconmonstr.com/">iconmonstr</a></td>
+<td>简约图标，5000+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://iconic.app/">Iconic</a></td>
+<td>简约图标，1300+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.radix-ui.com/icons">Radix Icons</a></td>
+<td>简约图标，500+ 图标，15×15px 像素，比常规小一号。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://sargamicons.com/">Sargam Icons</a></td>
+<td>简约图标，700+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icons.download/">icons.download</a></td>
+<td>简约图标，260+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://heroicons.com/">Heroicons</a></td>
+<td>简约图标，300+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icons.mono.company/">Mono Icons</a></td>
+<td>简约图标，170+ 图标。</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>特色图标库</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://akveo.github.io/eva-icons/#/">Eva Icons</a></td>
+<td>动效图标，480+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://unicornicons.com/icons">Unicorn icons</a></td>
+<td>动效图标，100+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://useanimations.com/#explore">UseAnimations</a></td>
+<td>动效图标，480+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://cssicon.space/#/">CSS ICON</a></td>
+<td>CSS 图标，500+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://css.gg/app">CSS GG</a></td>
+<td>CSS 图标，700+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://pixelarticons.com/">Pixelarticons</a></td>
+<td>像素图标，480+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://khushmeen.com/icons.html">Doodle icons </a></td>
+<td>手绘图标，400+ 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://github.com/get-icon/geticon">Geticon</a></td>
+<td>编程图标，编程领域的图标库。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://futicons.com/">Futicons</a></td>
+<td>VR 图标，关于 AR、VR 的图标库。</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>5、图标工具</h2>
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th>▼ <strong>图标工具</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🔷 <a href="https://svgexport.io/">SVG Export</a></td>
+<td>可自动获取当前打开网页里的 SVG 图标。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icon.ray.so/">Raycast</a></td>
+<td>在线应用图标生成器，支持 SVG 下载，完全免费。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://formito.com/tools/favicon">Free Favicon Maker</a></td>
+<td>在线应用图标生成器，支持直接输入文字，完全免费。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://icon.kitchen">IconKitchen</a></td>
+<td>在线应用图标生成器，支持 安卓、iOS、Web 等多个版本。</td>
+</tr>
+<tr>
+<td>📥 <a href="https://img2icnsapp.com/">Image2icon</a></td>
+<td>桌面应用图标生成器，支持 安卓、iOS、Web 等多个版本，只支持 Mac。</td>
+</tr>
+<tr>
+<td>📥 <a href="https://iconset.io/">Iconset</a></td>
+<td>图标管理器，一款集合了多家图标库的管理器，支持 Mac 和 Windows。</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>▼ <strong>SVG 编辑</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>📥 <a href="https://inkscape.org/">Inkscape</a></td>
+<td>开源的桌面 SVG 编辑器，支持多个平台。</td>
+</tr>
+<tr>
+<td>📥 <a href="https://boxy-svg.com/">Boxy SVG</a></td>
+<td>可能是体验最好的桌面 SVG 编辑器，但只支持 Mac 平台。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://boxy-svg.com/app">Boxy SVG Editor</a></td>
+<td>Boxy SVG 在线版，免费，而且可能是体验最好的，但下载需要登录。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://vecta.io/">Vecta.io</a></td>
+<td>开源免费，并支持图标的在线搜索和导入。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://drawsvg.org/drawsvg.html">DrawSVG</a></td>
+<td>类似应用：<a href="https://svgeditoronline.com/editor/">SVG Editor</a>、<a href="https://vectorpaint.yaks.co.nz/">Vector Paint</a>、<a href="https://editor.method.ac/">Method Draw</a>、<a href="https://svgomg.netlify.app/">SVGOMG</a>。</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+</article></div></body></html>
