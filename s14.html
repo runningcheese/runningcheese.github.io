@@ -1,0 +1,248 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+		<title>问答导航 - 奔跑中的奶酪</title>
+		<meta name="color-scheme" content="light dark">
+		<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/css/markdown.css">
+		<!--<script type='text/javascript' src='toc.js'></script>-->
+        <a id="github-fork-ribbon" href="https://www.runningcheese.com/aaa" target="_blank" data-ribbon="查看完整内容！" title="查看完整内容！"></a>
+	    <style> #github-fork-ribbon {width: 12.1em;height: 12.1em;position: absolute;overflow: hidden;top: 0;right: 0;z-index: 9999;pointer-events: none;font-size: 13px;text-decoration: none;}#github-fork-ribbon.fixed {position: fixed;}#github-fork-ribbon:active, #github-fork-ribbon:hover {background-color: rgba(0,0,0,0);}#github-fork-ribbon:after, #github-fork-ribbon:before {position: absolute;display: block;width: 15.38em;height: 1.54em;top: 3.23em;right: -3.23em;box-sizing: content-box;transform: rotate(45deg);}#github-fork-ribbon:before {content: "";padding: .38em 0;background-color: #000;background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.15));box-shadow: 0 .15em .23em 0 rgba(0,0,0,.5);pointer-events: auto;}#github-fork-ribbon:hover:before {background-color: #a00;}#github-fork-ribbon:after {content: attr(data-ribbon);color: #fff;font: 700 1em "Helvetica Neue",Helvetica,Arial,sans-serif;line-height: 1.54em;text-decoration: none;text-shadow: 0 -.08em rgba(0,0,0,.5);text-align: center;text-indent: 0;padding: .15em 0;margin: .15em 0;border-width: .08em 0;border-style: dotted;border-color: #fff;border-color: rgba(255,255,255,.7);}#github-fork-ribbon.left-bottom, #github-fork-ribbon.left-top {right: auto;left: 0;}#github-fork-ribbon.left-bottom, #github-fork-ribbon.right-bottom {top: auto;bottom: 0;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before {right: auto;left: -3.23em;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {top: auto;bottom: 3.23em;}#github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {transform: rotate(-45deg);}</style>
+	</head>
+	<body>
+	<article class="markdown-body">
+
+<p align="center"> <a href="javascript:! function() {%22use strict%22;const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22;let _;const l = () => {const o = [];let _ = 0;for (const t of e) if (document.querySelectorAll(t).length) {document.querySelectorAll(t).forEach(t => {t.querySelectorAll(n).forEach(t => {var e;o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) });break }let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>';if (o.length) {let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0;o.forEach(t => {var e = +t.tagName.replace(/H/g, %22%22);n = n + e - _, n = n < 0 ? 0 : n, _ = e;const o = document.createElement(%22span%22);o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) }return l += '<li class=%22toc_menu_item_footer%22></li>', l };(() => {const t = document.createElement(%22div%22);_ = t.attachShadow({mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 5px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #AAAAAC;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 2px .5em;font-size: 16px;font-weight: 400;line-height: 1.6;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 1em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 3em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 4em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_toggle_button%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t);const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22);o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => {e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }();void(0);"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s14logo.png" width="148" height="148"/></a></p> 
+
+<h1 align="center">问答导航</h1>
+<p align="center">除了“知乎”，还有什么问答网站？</p>
+<p align="center">最后更新：2023-11-07</p>
+
+
+
+
+<p>&nbsp;</p>
+<h2>0、目录</h2>
+<table>
+<thead>
+<tr>
+<th>S01-搜索思路</th>
+<th>S02-搜索引擎</th>
+<th>S03-关键字搜索</th>
+<th>S04-多重搜索</th>
+<th>S05-右键搜索</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S06-侧边栏搜索</td>
+<td>S07-聚合搜索</td>
+<td>S08-百度搜索</td>
+<td>S09-必应搜索</td>
+<td>S10-谷歌搜索</td>
+</tr>
+<tr>
+<td>S11-互联网存档</td>
+<td>S12-版权协议</td>
+<td>S13-以图搜图</td>
+<td><a href="https://www.runningcheese.cn/s14">S14-问答导航</a></td>
+<td><a href="https://www.runningcheese.cn/s15">S15-百科导航</a></td>
+</tr>
+<tr>
+<td><a href="https://www.runningcheese.cn/s16">S16-BT 导航</a></td>
+<td><a href="https://www.runningcheese.cn/s17">S17-音乐导航</a></td>
+<td><a href="https://www.runningcheese.cn/s18">S18-影视导航</a></td>
+<td><a href="https://www.runningcheese.cn/s19">S19-网盘导航</a></td>
+<td><a href="https://www.runningcheese.cn/s20">S20-软件导航</a></td>
+</tr>
+<tr>
+<td><a href="https://www.runningcheese.cn/s21">S21-Zlibrary</a></td>
+<td><a href="https://www.runningcheese.cn/s22">S22-电子书导航</a></td>
+<td>S23-学术导航</td>
+<td>S24-考研导航</td>
+<td>S25-学习导航</td>
+</tr>
+<tr>
+<td>S26-生活导航</td>
+<td><a href="https://www.runningcheese.cn/s27">S27-游戏导航</a></td>
+<td>S28-工具导航</td>
+<td>S29-网站导航</td>
+<td>S30-资源导航</td>
+</tr>
+<tr>
+<td><a href="https://www.runningcheese.cn/s31">S31-图标导航</a></td>
+<td><a href="https://www.runningcheese.cn/s32">S32-Logo导航</a></td>
+<td><a href="https://www.runningcheese.cn/s33">S33-图片导航</a></td>
+<td><a href="https://www.runningcheese.cn/s34">S34-素材导航</a></td>
+<td><a href="https://www.runningcheese.cn/s35">S35-字体导航</a></td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>1、国内问答</h2>
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th>▼ <strong>国外网站</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://www.zhihu.com/">知乎</a></td>
+<td>国内最受欢迎的问答网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://zhidao.baidu.com/">百度知道</a></td>
+<td>曾经国内最受欢迎的问答网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://jingyan.baidu.com/">百度经验</a></td>
+<td>更加详细具体的“百度知道”。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.zsxq.com/">知识星球</a></td>
+<td>付费问答社区，付费社群。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.asklib.com/">问答库</a></td>
+<td>考试题库网站，不仅是大学生之友，而且还非常适合需要考证的人。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.examcoo.com/">考试酷</a></td>
+<td>考试题库网站，免费的电子作业与在线考试系统云平台。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.yulucn.com/">雨露学习互助</a></td>
+<td>考试题库网站，主要向面初高中学生。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://segmentfault.com/questions">SegmentFault</a></td>
+<td>国内类似 StackOverflow 的技术问答网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://ask.seowhy.com/">搜外问答</a></td>
+<td>专注站长 SEO 交流的平台。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://wen.woshipm.com/">天天问</a></td>
+<td>产品经理互助问答社区。</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>2、国外问答</h2>
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th>▼ <strong>国外网站</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://www.quora.com/">Quora</a></td>
+<td>国外最受欢迎的问答网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.answers.com/">Answers</a></td>
+<td>国外版“百度知道”。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.reddit.com/r/AskReddit/">AskReddit</a></td>
+<td>美国版“贴吧”，新出 <strong>AskReddit</strong> 又类似国内的“知乎”。现在风头正盛。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://zh.wikihow.com/%E9%A6%96%E9%A1%B5">WikiHow</a></td>
+<td>全球最实用的百科指南、生活指南、万事指南。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.wolframalpha.com/">Wolfram Alpha</a></td>
+<td>知识搜索网站，能根据问题就可以直接给出答案的网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://stackexchange.com/">Stack Exchange</a></td>
+<td>多领域问答网站，主打“<strong>专业人士</strong>”的知识交流平台。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://stackoverflow.com/">Stack Overflow</a></td>
+<td>StackExchange 的<a href="https://stackexchange.com/sites#">子网站</a>，但单独出来了，主攻“<strong>技术编程</strong>”类内容。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.diffen.com/">Diffen</a></td>
+<td>输入任意两个内容，都可以进行全方位的对比。</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2>3、社交网络</h2>
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th>▼ 国内网站</th>
+<th>简介</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="http://s.weibo.com/">微博</a></td>
+<td>随时随地发现“<strong>新鲜事</strong>”。</td>
+</tr>
+<tr>
+<td><a href="http://weixin.sogou.com/weixin?type=2&amp;query={searchTerms}&amp;ie=utf8">微信</a></td>
+<td>微信搜索引擎，包括公众号、视频号、服务号。</td>
+</tr>
+<tr>
+<td><a href="https://www.douban.com/">豆瓣</a></td>
+<td>图书、电影、音乐的推荐和评论，以及城市独特的文化生活。</td>
+</tr>
+<tr>
+<td><a href="https://www.zhihu.com/">知乎</a></td>
+<td>国内知名问答社区，连接各行各业用户。</td>
+</tr>
+<tr>
+<td><a href="https://www.guokr.com">果壳</a></td>
+<td>提供有趣，贴近生活的泛科技主题网站。</td>
+</tr>
+<tr>
+<td><a href="https://tieba.baidu.com/">贴吧</a></td>
+<td>国内互联网里的“卢浮宫”，涉及方方面面。</td>
+</tr>
+<tr>
+<td><a href="https://twitter.com/">Twitter</a></td>
+<td>看看世界上的“<strong>新鲜事</strong>”。</td>
+</tr>
+<tr>
+<td><a href="https://www.facebook.com/">Facebook</a></td>
+<td>美国最大社交网站。</td>
+</tr>
+<tr>
+<td><a href="https://www.instagram.com/">Instagram</a></td>
+<td>图片视频社交网站。</td>
+</tr>
+<tr>
+<td><a href="https://medium.com/">Medium</a></td>
+<td>英文版简书。</td>
+</tr>
+<tr>
+<td><a href="https://www.quora.com/">Quora</a></td>
+<td>英文版知乎。</td>
+</tr>
+<tr>
+<td><a href="https://www.reddit.com/">Reddit</a></td>
+<td>美国版贴吧。</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+</article></div></body></html>
