@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+		<title>以图搜图 - 奔跑中的奶酪</title>
+		<meta name="color-scheme" content="light dark">
+		<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/css/markdown.css">
+		<!--<script type='text/javascript' src='toc.js'></script>-->
+        <a id="github-fork-ribbon" href="https://www.runningcheese.com/aaa" target="_blank" data-ribbon="查看完整内容！" title="查看完整内容！"></a>
+	    <style> #github-fork-ribbon {width: 12.1em;height: 12.1em;position: absolute;overflow: hidden;top: 0;right: 0;z-index: 9999;pointer-events: none;font-size: 13px;text-decoration: none;}#github-fork-ribbon.fixed {position: fixed;}#github-fork-ribbon:active, #github-fork-ribbon:hover {background-color: rgba(0,0,0,0);}#github-fork-ribbon:after, #github-fork-ribbon:before {position: absolute;display: block;width: 15.38em;height: 1.54em;top: 3.23em;right: -3.23em;box-sizing: content-box;transform: rotate(45deg);}#github-fork-ribbon:before {content: "";padding: .38em 0;background-color: #000;background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.15));box-shadow: 0 .15em .23em 0 rgba(0,0,0,.5);pointer-events: auto;}#github-fork-ribbon:hover:before {background-color: #a00;}#github-fork-ribbon:after {content: attr(data-ribbon);color: #fff;font: 700 1em "Helvetica Neue",Helvetica,Arial,sans-serif;line-height: 1.54em;text-decoration: none;text-shadow: 0 -.08em rgba(0,0,0,.5);text-align: center;text-indent: 0;padding: .15em 0;margin: .15em 0;border-width: .08em 0;border-style: dotted;border-color: #fff;border-color: rgba(255,255,255,.7);}#github-fork-ribbon.left-bottom, #github-fork-ribbon.left-top {right: auto;left: 0;}#github-fork-ribbon.left-bottom, #github-fork-ribbon.right-bottom {top: auto;bottom: 0;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before {right: auto;left: -3.23em;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {top: auto;bottom: 3.23em;}#github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {transform: rotate(-45deg);}</style>
+	</head>
+	<body>
+	<article class="markdown-body">
+
+<p align="center"> <a href="javascript:! function() {%22use strict%22;const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22;let _;const l = () => {const o = [];let _ = 0;for (const t of e) if (document.querySelectorAll(t).length) {document.querySelectorAll(t).forEach(t => {t.querySelectorAll(n).forEach(t => {var e;o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) });break }let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>';if (o.length) {let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0;o.forEach(t => {var e = +t.tagName.replace(/H/g, %22%22);n = n + e - _, n = n < 0 ? 0 : n, _ = e;const o = document.createElement(%22span%22);o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) }return l += '<li class=%22toc_menu_item_footer%22></li>', l };(() => {const t = document.createElement(%22div%22);_ = t.attachShadow({mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 5px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #AAAAAC;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 2px .5em;font-size: 16px;font-weight: 400;line-height: 1.6;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 1em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 3em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 4em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_toggle_button%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t);const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22);o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => {e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }();void(0);"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s13logo.png" width="148" height="148"/></a></p> 
+
+<h1 align="center">以图搜图</h1>
+<p align="center">关于“以图搜图”的所有问题，看这一篇就够了！</p>
+<p align="center">最后更新：2023-11-22</p>
+
+
+<p>&nbsp;</p>
+<h2>目录</h2>
+<table>
+<thead>
+<tr>
+<th><strong>▼ 高效搜索指南</strong></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S01-搜索思路</td>
+<td>S02-搜索引擎</td>
+<td>S03-<a href="https://mp.weixin.qq.com/s/1h82Xj05a_w24vIl9K9Clg">关键字搜索</a></td>
+<td>S04-<a href="https://mp.weixin.qq.com/s/lxNDYTOX5XyexoHesHPRbg">多重搜索</a></td>
+<td>S05-<a href="https://mp.weixin.qq.com/s/QHa8ZrGNfQLMbC1dkvJylg">右键搜索</a></td>
+</tr>
+<tr>
+<td><a href="https://mp.weixin.qq.com/s/x4VOK6syRSzwwiWERil_MA">S06-侧边栏搜索</a></td>
+<td>S07-聚合搜索</td>
+<td>S08-百度搜索</td>
+<td>S09-必应搜索</td>
+<td>S10-谷歌搜索</td>
+</tr>
+<tr>
+<td>S11-互联网存档</td>
+<td>S12-版权协议</td>
+<td>S13-<a href="https://www.runningcheese.cn/s13">以图搜图</a></td>
+<td>S14-<a href="https://www.runningcheese.cn/s14">问答导航</a></td>
+<td>S15-<a href="https://www.runningcheese.cn/s15">百科导航</a></td>
+</tr>
+<tr>
+<td>S16-<a href="https://www.runningcheese.cn/s16">BT 导航</a></td>
+<td>S17-<a href="https://www.runningcheese.cn/s17">音乐导航</a></td>
+<td>S18-<a href="https://www.runningcheese.cn/s18">影视导航</a></td>
+<td>S19-<a href="https://www.runningcheese.cn/s19">网盘导航</a></td>
+<td>S20-<a href="https://www.runningcheese.cn/s20">软件导航</a></td>
+</tr>
+<tr>
+<td>S21-<a href="https://www.runningcheese.cn/s21">Zlibrary</a></td>
+<td>S22-<a href="https://www.runningcheese.cn/s22">电子书导航</a></td>
+<td>S23-学术导航</td>
+<td>S24-考研导航</td>
+<td>S25-学习导航</td>
+</tr>
+<tr>
+<td>S26-生活导航</td>
+<td>S27-<a href="https://www.runningcheese.cn/s27">游戏导航</a></td>
+<td>S28-工具导航</td>
+<td>S29-网站导航</td>
+<td>S30-资源导航</td>
+</tr>
+<tr>
+<td>S31-<a href="https://www.runningcheese.cn/s31">图标导航</a></td>
+<td>S32-<a href="https://www.runningcheese.cn/s32">Logo导航</a></td>
+<td>S33-<a href="https://www.runningcheese.cn/s33">图库导航</a></td>
+<td>S34-<a href="https://www.runningcheese.cn/s34">素材导航</a></td>
+<td>S35-<a href="https://www.runningcheese.cn/s35">字体导航</a></td>
+</tr>
+<tr>
+<td>S36-<a href="https://www.runningcheese.cn/s36">壁纸导航</a></td>
+<td>S37-GIF 导航</td>
+<td>S38-设计导航</td>
+<td>S39-<a href="https://www.runningcheese.cn/s39">音乐素材</a></td>
+<td>S40-<a href="https://www.runningcheese.cn/s40">视频素材</a></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+<h2>一、以图搜图网站</h2>
+<p>&nbsp;</p>
+
+<table>
+<thead>
+<tr>
+<th>▼ <strong>通用搜索</strong></th>
+<th><strong>简介</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>🌐 <a href="https://images.google.com/">Google Images</a></td>
+<td>国外第一，可能是最好用的。👍</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://yandex.com/images/">Yandex Images</a></td>
+<td>国外第二，谷歌的最佳补充，免魔法，用有“<strong>老司机引擎</strong>”的称号。👍</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.bing.com/visualsearch">Bing Images</a></td>
+<td>国外第三，效果不如谷歌，差异化也不如 Yandex。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://tineye.com/">TinEye Images</a></td>
+<td>国外老牌，有自己独立的数据库，但效果不尽人意。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://graph.baidu.com/pcpage/index?tpl_from=pc">百度识图</a></td>
+<td>国内第一，但效果不尽人意。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://pic.sogou.com/">搜狗识图</a></td>
+<td>国内第二，但效果不尽人意。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://image.so.com/">360 识图</a></td>
+<td>国内第三，但效果不尽人意。</td>
+</tr>
+<tr>
+<td>▼ <strong>聚合搜索</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://imgops.com/">ImgOps</a></td>
+<td>可同时搜索多个搜索引擎。👍</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.reverseimagesearch.org/zh">Reverse Image</a></td>
+<td>可同时搜索 Google、Bing、Yandex、Baidu 四个引擎。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.reverseimagesearch.com/zh">Reverse Image</a></td>
+<td>可同时搜索 Google、Bing、Yandex、Baidu 四个引擎。</td>
+</tr>
+<tr>
+<td>▼ <strong>图库搜索</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.immerse.zone/">immerse</a></td>
+<td>基于 AI 驱动，内容主要来自 Pixabay、Pexels、Unsplash 等免费图库。👍</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.pinterest.com">Pinterest</a></td>
+<td>有自己独立数据库，可用扩展 <a href="https://github.com/dessant/search-by-image">Search By Image</a> 来实现。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://wallhaven.cc/">Wallhaven</a></td>
+<td>有自己独立数据库，全球最大的壁纸网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.freepik.com/">Freepik</a></td>
+<td>有自己独立数据库，国外的知名素材网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.soutushenqi.com/recognizePicture">搜图神器</a></td>
+<td>有自己独立数据库，国内的知名素材网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://findthatmeme.com/">FindThatMeme</a></td>
+<td>有自己独立数据库，国外表情包搜索网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.dbbqb.com/">逗比拯救世界</a></td>
+<td>有自己独立数据库，国外表情包搜索网站。</td>
+</tr>
+<tr>
+<td>▼ <strong>AI 搜索</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://lexica.art/">Lexica</a></td>
+<td>以图搜图，但 AI 图库，可用于搜索类似图片。👍</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.enterpix.app/search/visual">Enterpix</a></td>
+<td>以图搜图，但 AI 图库，可用于搜索类似图片。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://haveibeentrained.com/">BeenTrained？</a></td>
+<td>以图搜图，但 AI 图库，可用于确定你的照片是否被用于 AI 训练。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.imageidentify.com/">Image Identify</a></td>
+<td>图片识别，上传图片后会自动识别图片内容。</td>
+</tr>
+<tr>
+<td>▼ <strong>动漫搜索</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://iqdb.org/">IQDB.org</a></td>
+<td>二次元搜索，包括动画、动漫、游戏、壁纸图片等内容。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://3d.iqdb.org/">3D IQDB</a></td>
+<td>三次元搜索。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://saucenao.com/">SauceNA</a></td>
+<td>二次元搜索，内容主要来自 <a href="https://www.pixiv.net/">Pixiv</a>。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://ascii2d.net/">Ascii2d</a></td>
+<td>二次元搜索，内容主要来自 <a href="https://www.pixiv.net/">Pixiv</a>、<a href="https://twitter.com/s">Twitter</a> 等。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://trace.moe/">Trace.moe</a></td>
+<td>动漫搜索，提供一张截图即可获得动漫来源，还有截图片段所在位置。</td>
+</tr>
+<tr>
+<td>▼ <strong>商品搜索</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.taobao.com/">淘宝</a></td>
+<td>电脑浏览器上已无法使用，需要使用手机 APP。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.jd.com/">京东</a></td>
+<td>需要登录才能使用。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.1688.com/">阿里1688</a></td>
+<td>无需登录。</td>
+</tr>
+<tr>
+<td>🔷 <a href="https://www.aliprice.com/">AliPrice卖家助手</a></td>
+<td>可同时聚合搜索多家电商平台的图库。</td>
+</tr>
+<tr>
+<td>▼ <strong>人脸识别</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="https://pimeyes.com/en">PimEyes</a></td>
+<td>人脸搜索，号称最先进的人脸反向搜索引擎，但需要付费。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://xslist.org/zh">Xslist</a></td>
+<td>人脸识别，老司机搜索引擎，主要向面日本小姐姐。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://pornstarbyface.com/">Pornstarbyface</a></td>
+<td>人脸识别，老司机搜索引擎，主要向面欧美小姐姐。</td>
+</tr>
+<tr>
+<td>▼ <strong>其它搜索</strong></td>
+<td><strong>简介</strong></td>
+</tr>
+<tr>
+<td>🌐 <a href="http://www.nsii.org.cn/2017/birdApp.php">NSII</a></td>
+<td>鸟类识别，野生鸟类图像识别。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www.iplant.cn/stu">iPlant 植物智</a></td>
+<td>植物识别，植物物种图像识别。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://plant.id/">Plant.id</a></td>
+<td>植物识别，植物物种图像识别，国外网站。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://euipo.europa.eu/eSearch/">EUIPO</a></td>
+<td>专利搜索，欧洲专利局。</td>
+</tr>
+<tr>
+<td>🌐 <a href="https://www3.wipo.int/madrid/monitor/en/#">WIPO</a></td>
+<td>专利搜索，欧洲专利局。</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+<h2>二、以图搜图工具</h2>
+<p>&nbsp;</p>
+更新中...，还需要做最后的验证...
+
+<p>&nbsp;</p>
+<h2>三、以图搜图经验</h2>
+<p>&nbsp;</p>
+
+更新中...，还需要做最后的验证...
+
+
+</article></div></body></html>
