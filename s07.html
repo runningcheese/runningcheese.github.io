@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+		<title>聚合搜索 - 奔跑中的奶酪</title>
+		<meta name="color-scheme" content="light dark">
+		<link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/css/markdown.css">
+		<!--<script type='text/javascript' src='toc.js'></script>-->
+        <a id="github-fork-ribbon" href="https://www.runningcheese.com/aaa" target="_blank" data-ribbon="查看完整内容！" title="查看完整内容！"></a>
+	    <style> #github-fork-ribbon {width: 12.1em;height: 12.1em;position: absolute;overflow: hidden;top: 0;right: 0;z-index: 9999;pointer-events: none;font-size: 13px;text-decoration: none;}#github-fork-ribbon.fixed {position: fixed;}#github-fork-ribbon:active, #github-fork-ribbon:hover {background-color: rgba(0,0,0,0);}#github-fork-ribbon:after, #github-fork-ribbon:before {position: absolute;display: block;width: 15.38em;height: 1.54em;top: 3.23em;right: -3.23em;box-sizing: content-box;transform: rotate(45deg);}#github-fork-ribbon:before {content: "";padding: .38em 0;background-color: #000;background-image: linear-gradient(to bottom,rgba(0,0,0,0),rgba(0,0,0,.15));box-shadow: 0 .15em .23em 0 rgba(0,0,0,.5);pointer-events: auto;}#github-fork-ribbon:hover:before {background-color: #a00;}#github-fork-ribbon:after {content: attr(data-ribbon);color: #fff;font: 700 1em "Helvetica Neue",Helvetica,Arial,sans-serif;line-height: 1.54em;text-decoration: none;text-shadow: 0 -.08em rgba(0,0,0,.5);text-align: center;text-indent: 0;padding: .15em 0;margin: .15em 0;border-width: .08em 0;border-style: dotted;border-color: #fff;border-color: rgba(255,255,255,.7);}#github-fork-ribbon.left-bottom, #github-fork-ribbon.left-top {right: auto;left: 0;}#github-fork-ribbon.left-bottom, #github-fork-ribbon.right-bottom {top: auto;bottom: 0;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before {right: auto;left: -3.23em;}#github-fork-ribbon.left-bottom:after, #github-fork-ribbon.left-bottom:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {top: auto;bottom: 3.23em;}#github-fork-ribbon.left-top:after, #github-fork-ribbon.left-top:before, #github-fork-ribbon.right-bottom:after, #github-fork-ribbon.right-bottom:before {transform: rotate(-45deg);}</style>
+	</head>
+	<body>
+	<article class="markdown-body">
+
+<p align="center"> <a href="javascript:! function() {%22use strict%22;const e = [%22article%22, %22section%22, %22main%22, %22content%22, %22#article%22, %22.article%22, %22#main%22, %22.main%22, %22#content%22, %22.content%22, %22#post%22, %22.post%22, %22body%22], n = %22h1, h2, h3, h4, h5, h6%22;let _;const l = () => {const o = [];let _ = 0;for (const t of e) if (document.querySelectorAll(t).length) {document.querySelectorAll(t).forEach(t => {t.querySelectorAll(n).forEach(t => {var e;o.push(t), t.id ? t.dataset.headerMark = t.id : (e = %22toc_index_%22 + _++, t.dataset.headerMark = e, t.id = e) }) });break }let l = '<li class=%22toc_menu_item_title%22>目录大纲</li>';if (o.length) {let _ = +o[0].tagName.replace(/H/g, %22%22), n = 0;o.forEach(t => {var e = +t.tagName.replace(/H/g, %22%22);n = n + e - _, n = n < 0 ? 0 : n, _ = e;const o = document.createElement(%22span%22);o.innerText = t.innerText, l += `<li class=%22toc_menu_item toc_header_level_` + n + `%22><a href=%22#` + t.dataset.headerMark + '%22>' + o.innerHTML + `</a></li>` }) }return l += '<li class=%22toc_menu_item_footer%22></li>', l };(() => {const t = document.createElement(%22div%22);_ = t.attachShadow({mode: %22open%22 }), t.id = %22toc_menu_root%22, _.innerHTML = `<style>#toc_menu_root {position: fixed;left: 0;top: 0;max-width: 360px;height: 100%;z-index: 2147483647;backdrop-filter: blur(8px);}#toc_menu_root.toc_hidden {width: 18px;height: 18px;}#toc_menu_root.toc_hidden > ul#toc_menu_list {display: none;}#toc_menu_root > #toc_toggle_button {position: absolute;width: 36px;height: 36px;left: -18px;top: -18px;background: #0063dc;border-radius: 18px;}#toc_menu_root > #toc_toggle_button:hover {background: #0063dc;}#toc_menu_root > ul#toc_menu_list {box-sizing: border-box !important;margin: 0;padding: 24px 18px 18px;height: 100%;overflow: scroll;background: rgba(255, 255, 255, .9);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {list-style: none !important;margin: 0;padding: 0;font-size: 16px;border-left: 3px solid rgba(255, 255, 255, 0);}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_title {font-size: 22px;font-weight: 700;border-bottom: 1px solid #CCCCCF;margin-bottom: 5px;color:#000;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item:hover {background: #F3F3F3;border-left: 3px solid #AAAAAC;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:visited {display: block;padding: 2px .5em;font-size: 16px;font-weight: 400;line-height: 1.6;color: #222226;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:hover,#toc_menu_root > ul#toc_menu_list > li.toc_menu_item > a:active {color: #0063dc;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a,#toc_menu_root > ul#toc_menu_list > li.toc_header_level_0 > a:visited {font-weight: 700;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_1 {padding-left: 1em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_2 {padding-left: 2em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_3 {padding-left: 3em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_4 {padding-left: 4em;}#toc_menu_root > ul#toc_menu_list > li.toc_header_level_5 {padding-left: 5em;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer {font-size: 14px;color: #99999C;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a {color: #AAAAAE;text-decoration: none;}#toc_menu_root > ul#toc_menu_list > li.toc_menu_item_footer > a:hover {color: #0063dc;}</style><div id=%22toc_menu_root%22><div id=%22toc_toggle_button%22></div><ul id=%22toc_menu_list%22></ul></div>`, document.querySelector(%22html%22).appendChild(t);const e = _.querySelector(%22#toc_menu_root%22), o = _.querySelector(%22#toc_menu_list%22);o.innerHTML = l(), _.querySelector(%22#toc_toggle_button%22).addEventListener(%22click%22, () => {e.classList.toggle(%22toc_hidden%22), e.classList.contains(%22toc_hidden%22) ? o.innerHTML = %22%22 : o.innerHTML = l() }) })() }();void(0);"><img src="https://gcore.jsdelivr.net/gh/runningcheese/runningcheese.github.io/images/s07logo.png" width="148" height="148"/></a></p> 
+
+<h1 align="center">聚合搜索</h1>
+<p align="center">聚合搜索，教你做一个属于自己的搜索引擎！</p>
+<p align="center">最后更新：2023-12-01</p>
+
+
+<p>&nbsp;</p>
+<h2>目录</h2>
+<table>
+<thead>
+<tr>
+<th><strong>▼ 高效搜索指南</strong></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S01-搜索思路</td>
+<td>S02-<a href="https://www.runningcheese.cn/s02">搜索引擎</a></td>
+<td>S03-<a href="https://mp.weixin.qq.com/s/1h82Xj05a_w24vIl9K9Clg">关键字搜索</a></td>
+<td>S04-<a href="https://mp.weixin.qq.com/s/lxNDYTOX5XyexoHesHPRbg">多重搜索</a></td>
+<td>S05-<a href="https://mp.weixin.qq.com/s/QHa8ZrGNfQLMbC1dkvJylg">右键搜索</a></td>
+</tr>
+<tr>
+<td><a href="https://mp.weixin.qq.com/s/x4VOK6syRSzwwiWERil_MA">S06-侧边栏搜索</a></td>
+<td>S07-聚合搜索</td>
+<td>S08-百度搜索</td>
+<td>S09-必应搜索</td>
+<td>S10-谷歌搜索</td>
+</tr>
+<tr>
+<td>S11-互联网存档</td>
+<td>S12-版权协议</td>
+<td>S13-以图搜图</td>
+<td>S14-<a href="https://www.runningcheese.cn/s14">问答导航</a></td>
+<td>S15-<a href="https://www.runningcheese.cn/s15">百科导航</a></td>
+</tr>
+<tr>
+<td>S16-<a href="https://www.runningcheese.cn/s16">BT 导航</a></td>
+<td>S17-<a href="https://www.runningcheese.cn/s17">音乐导航</a></td>
+<td>S18-<a href="https://www.runningcheese.cn/s18">影视导航</a></td>
+<td>S19-<a href="https://www.runningcheese.cn/s19">网盘导航</a></td>
+<td>S20-<a href="https://www.runningcheese.cn/s20">软件导航</a></td>
+</tr>
+<tr>
+<td>S21-<a href="https://www.runningcheese.cn/s21">Zlibrary</a></td>
+<td>S22-<a href="https://www.runningcheese.cn/s22">电子书导航</a></td>
+<td>S23-学术导航</td>
+<td>S24-考研导航</td>
+<td>S25-学习导航</td>
+</tr>
+<tr>
+<td>S26-生活导航</td>
+<td>S27-<a href="https://www.runningcheese.cn/s27">游戏导航</a></td>
+<td>S28-工具导航</td>
+<td>S29-网站导航</td>
+<td>S30-资源导航</td>
+</tr>
+<tr>
+<td>S31-<a href="https://www.runningcheese.cn/s31">图标导航</a></td>
+<td>S32-<a href="https://www.runningcheese.cn/s32">Logo导航</a></td>
+<td>S33-<a href="https://www.runningcheese.cn/s33">图库导航</a></td>
+<td>S34-<a href="https://www.runningcheese.cn/s34">素材导航</a></td>
+<td>S35-<a href="https://www.runningcheese.cn/s35">字体导航</a></td>
+</tr>
+<tr>
+<td>S36-<a href="https://www.runningcheese.cn/s36">壁纸导航</a></td>
+<td>S37-GIF 导航</td>
+<td>S38-设计导航</td>
+<td>S39-<a href="https://www.runningcheese.cn/s39">音乐素材</a></td>
+<td>S40-<a href="https://www.runningcheese.cn/s40">视频素材</a></td>
+</tr>
+</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+<h2>导读</h2>
+<p>很多事情都会经历“<strong>从无到有</strong>”，再“<strong>从有到优</strong>”，再到“<strong>从优到精</strong>”的过程，<strong>搜索引擎也如此</strong>。</p>
+<p>一开始我们只会用百度，到后来有了几十个搜索引擎，如今又想高效地使用它们。</p>
+<p>今天我们来讲讲 —— <strong>聚合搜索</strong>。</p>
+<p>&nbsp;</p>
+<h2>一、聚合搜索的现状</h2>
+<p>&nbsp;</p>
+<p>为什么会有“<strong>聚合搜索</strong>”这样的需求，我们先来看看原因。</p>
+<p>&nbsp;</p>
+<h3>1.1、多重搜索</h3>
+<p>&nbsp;</p>
+<p>催生“<strong>聚合搜索</strong>”最主要的原因，是没有哪个搜索引擎是全能的，很多情况下，我们需要对比多个搜索引擎。</p>
+<p>比如我们想同时搜索“<strong>谷歌、百度、必应</strong>”这三家搜索引擎，要怎么实现呢？</p>
+<p>日前最好的方法在《<a href="https://mp.weixin.qq.com/s/lxNDYTOX5XyexoHesHPRbg">S04-多重搜索</a>》里有专门的介绍。</p>
+<p>也就是通过“<strong>小书签</strong>”来实现。</p>
+<p>在地址栏里输入关键字 <strong>bg</strong>，就可以同时搜索百度和谷歌，<strong>bgy</strong> 则可以同时搜索百度、谷歌和必应。</p>
+<p><img src="https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/7a6a15d5gy1h2i9w2ya0tj225e1eee81.jpg" alt="S04_搜索方法"></p>
+<p>&nbsp;</p>
+<h3>1.2、垂直搜索</h3>
+<p>&nbsp;</p>
+<p>同时，由于谷歌这样的通用性搜索引擎，结果不够精确，因此我们还需要用专门的“<strong>垂直搜索引擎</strong>”来搜索。</p>
+<p>比如搜索免版权的图片时，在专业图库网站 Pixabay、Pexels 、Unsplash 上搜索，会更加直接。</p>
+<p>目前最全的搜索引擎合集，在文章《<a href="https://www.runningcheese.com/search-engines">S02-搜索引擎</a>》里已有介绍。</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke357zyo4j228c1ec1kx.jpg" alt="S07_垂直搜索"></p>
+<p>&nbsp;</p>
+<h3>1.3、聚合搜索</h3>
+<p>&nbsp;</p>
+<p>要同时实现“<strong>多重搜索</strong>”和“<strong>垂直搜索</strong>”的话，仅仅通过「<a href="https://mp.weixin.qq.com/s/1h82Xj05a_w24vIl9K9Clg"><strong>搜索关键字</strong></a>」来调用搜索引擎，已经变得力不从心了。</p>
+<p>这时候，我们就需要有一个“<strong>可视化</strong>”的和“<strong>既垂直又全面</strong>”的“<strong>聚合搜索引擎</strong>”。</p>
+<p>目前主流的实现方法是<strong>聚合搜索网站</strong>，比如“<a href="http://s.maxthon.com/">遨游搜索</a>”。</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke3591s3zj228c1ec4qp.jpg" alt="S07_聚合搜索"></p>
+<p>类似的“<strong>聚合搜索网站</strong>”还有很多，而这些网站的缺点也很明显的。</p>
+<p>比如无法自定义搜索引擎，而且还必须依托于第三方网站，操作步骤多了一个环节不说，稳定性还无法保障。</p>
+<p>很多搜索引擎还不允许通过 <strong>iframe</strong> 框架，来将搜索引擎嵌入到第三方网站。</p>
+<p>这些聚合搜索网站的功能，<strong>注定是不完善的</strong>。</p>
+<p>&nbsp;</p>
+<h2>二、聚合搜索的实现</h2>
+<p>&nbsp;</p>
+<p>那我们如何将“<strong>聚合搜索引擎</strong>”本地化到浏览器上呢？</p>
+<p>&nbsp;</p>
+<h3>2.1、浏览器扩展</h3>
+<p>&nbsp;</p>
+<p>首先，可以使用搜索扩展 <strong>ContextSearch web-ext</strong>。</p>
+<p>它有单独的搜索引擎窗口，按快捷键 <strong>Alt+2</strong> 即可一键呼出，而且还支持自动读取剪贴板上的内容。</p>
+<p>点击搜索引擎后，窗口还能继续保持不关闭的状态。</p>
+<p>就像操作“<strong>浏览器书签</strong>”一样。</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke359vmuij228c1ecb29.jpg" alt="S07_浏览器扩展"></p>
+<p>&nbsp;</p>
+<h3>2.2、右键搜索</h3>
+<p>&nbsp;</p>
+<p>当要搜索的内容就是网页上的文字时，<strong>ContextSearch web-ext</strong> 还有右键搜索，选中文字即可一键搜索。</p>
+<p>具体的配置，奶酪在文章《<a href="https://www.runningcheese.com/context-search">S05-右键搜索</a>》里已有详细说明。</p>
+<p>奶酪配置：</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke35ai8khj228c1ec1kx.jpg" alt="S07_右键搜索"></p>
+<p>&nbsp;</p>
+<h3>2.3、搜索跳转</h3>
+<p>&nbsp;</p>
+<p>还有一种实现方法，就是在用“<strong><a href="https://www.runningcheese.com/keyword-search">关键字搜索</a></strong>”得到的结果不满意时，随时切换到其它引擎。</p>
+<p>脚本 <strong><a href="https://greasyfork.org/zh-CN/scripts/27752">searchEngineJump</a></strong> 正是解决这个问题的好帮手。</p>
+<p>它的设计思路，是在各大网站搜索框的下方，添加一行用于在各个搜索引擎之间跳转的按钮，</p>
+<p>点击图标即可以一键切换。</p>
+<p><img src="https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/7a6a15d5gy1h1ew78txfxj229q1fqnpd.jpg" alt="i47_搜索跳转"></p>
+<p>至于搜索引擎配置。</p>
+<p>我们可以让它与 <strong>ContextSearch web-ext</strong> 的配置保持一致，以减少记忆成本。</p>
+<p>奶酪的配置，你可以通过下面的链接一键导入：</p>
+<p>&nbsp;</p>
+<p>地址 1：<a href="https://www.lanzouy.com/b07oczuyd">https://www.lanzouy.com/b07oczuyd</a>（推荐）</p>
+<p>地址 2：<a href="https://cdn.jsdelivr.net/gh/runningcheese/RunningCheese-Firefox/Restore/SearchEngineJump.txt">https://cdn.jsdelivr.net/gh/runningcheese/RunningCheese-Firefox/Restore/SearchEngineJump.txt</a></p>
+<p>&nbsp;</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke35bgxfvj22oa1jynpd.jpg" alt="S07_右键搜索_配置"></p>
+<p>&nbsp;</p>
+<h2>三、聚合搜索的配置</h2>
+<p>&nbsp;</p>
+<p>下面我们来细说一下搜索引擎，里面可讲的门道很多，甚至脚本原作者都不知道可以这么玩。</p>
+<p>&nbsp;</p>
+<h3>3.1、网页搜索</h3>
+<p>&nbsp;</p>
+<p>排在最前面的是“<strong>网页搜索</strong>”。</p>
+<p>在这里，你可以不用点击展开菜单，<strong>直接点击图标</strong>，默认就会调用菜单的<strong>第一个引擎进行搜索</strong>。</p>
+<p><strong>使用拖拽</strong>，你还可以同时<strong>搜索多个引擎</strong>。</p>
+<p>同时，奶酪还特意给脚本配置了一些高级搜索命令。</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke35cy49lj228c1ec7wh.jpg" alt="S07_右键搜索_功能"></p>
+<p>首先是“<strong>语言转换</strong>”。</p>
+<p>点击“<strong>转到谷歌英文</strong>”和“<strong>转到谷歌中文</strong>”，可以方便你<strong>搜索不同的语言</strong>，“<strong>完全匹配模式</strong>”还能一键加“<strong>双冒号</strong>”。</p>
+<p><img src="https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/7a6a15d5gy1h1ew7afs3lj228w1f2e81.jpg" alt="i47_高级搜索2"></p>
+<p>其次是“<strong>多重搜索</strong>”。</p>
+<p>点击菜单里的“<strong>网页多重搜索</strong>”，可同时打开“<strong>百度、必应、谷歌</strong>”进行搜索，同样还有<strong>图片、视频</strong>的多重搜索。</p>
+<p><img src="https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/7a6a15d5gy1h1ew7b63obj229q1fqnpd.jpg" alt="i47_高级搜索2"></p>
+<p>&nbsp;</p>
+<h3>3.2、图片搜索</h3>
+<p>&nbsp;</p>
+<p>第二栏“<strong>图片搜索</strong>”还有“<strong>聚合搜索</strong>”功能。</p>
+<p>点击菜单里的“<strong>图片聚合搜索</strong>”，那么搜索结果就会限定在内置的 <strong>CC0 免版权图库</strong>里，避免了侵权的风险。</p>
+<p>同样，还有“<strong>PNG 聚合搜索、软件聚合搜索、开发聚合搜索</strong>”。</p>
+<p>此外，图片搜索还特意添加了“<strong>关闭安全模式</strong>”。</p>
+<p><img src="https://image.baidu.com/search/down?url=https://tvax1.sinaimg.cn/large/7a6a15d5gy1h1ew7c60p3j229q1fqe82.jpg" alt="i47_高级搜索3"></p>
+<p>&nbsp;</p>
+<h3>3.3、词典翻译</h3>
+<p>&nbsp;</p>
+<p>词典翻译主要分成了“<strong>翻译</strong>”和“<strong>百科</strong>”两大类，同样也有“<strong>多重搜索</strong>”。</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke35dev79j228c1ecao6.jpg" alt="S07_奶酪配置_词典"></p>
+<p>另外，想要使用“<strong>谷歌翻译</strong>”，可在电脑 hosts 里加入以下内容。</p>
+<pre><code># Google Translate
+108.177.97.100 translate.googleapis.com
+108.177.97.100 translate.google.com
+</code></pre><p>&nbsp;</p>
+<h3>3.4、社交网络</h3>
+<p>&nbsp;</p>
+<p>社交网络主要分成了“<strong>国外</strong>”和“<strong>国外</strong>”两大类，同样也有“<strong>多重搜索</strong>”。</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke35dzq5qj228c1ec1kx.jpg" alt="S07_奶酪配置_社交"></p>
+<p>&nbsp;</p>
+<h3>3.5、影音搜索</h3>
+<p>&nbsp;</p>
+<p>影音搜索主要分成了“<strong>视频</strong>”和“<strong>音乐</strong>”两大类，另外还有“<strong>短视频</strong>”。</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke35eoazuj228c1echdt.jpg" alt="S07_奶酪配置_影音"></p>
+<p>&nbsp;</p>
+<h3>3.6、资源搜索</h3>
+<p>&nbsp;</p>
+<p>资源搜索包括了“<strong>网盘、磁力、电子书、电影</strong>”等内容，默认自带的引擎都是业界的佼佼者。</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke35gaidcj228c1ece81.jpg" alt="S07_奶酪配置_资源"></p>
+<p>&nbsp;</p>
+<h3>3.7、软件开发</h3>
+<p>&nbsp;</p>
+<p>软件开发包括了“<strong>软件下载</strong>”和“<strong>编程开发</strong>”两部分。</p>
+<p>软件下载包括了 <strong>Windows、Mac、iOS、安卓</strong> 四大平台，默认的搜索引擎都是业界的<strong>头部网站</strong>。</p>
+<p>编程开发则主要选择了 <strong>Github</strong> 和 <strong>StackOverflow</strong> 两个网站。</p>
+<p><img src="https://fc.sinaimg.cn//large/7a6a15d5gy1hke35gyz6sj228c1ece81.jpg" alt="S07_右键搜索_软件"></p>
+<p>&nbsp;</p>
+
+
+
+
+
+
+</article></div></body></html>
