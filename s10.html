@@ -118,7 +118,7 @@
 <tbody>
 <tr>
 <td>|</td>
-<td>同时搜索多个关键词, 可以用 OR 代替, OR 要大写。例：<a href="https://www.google.com/search?q=apple%7Cgoogle">apple|google</a>，<a href="https://www.google.com/search?q=apple+OR+google">apple OR google</a></td>
+<td>同时搜索多个关键词, 可以用 OR 代替。例：<a href="https://www.google.com/search?q=apple%7Cgoogle">apple|google</a>，<a href="https://www.google.com/search?q=apple+OR+google">apple OR google</a></td>
 </tr>
 <tr>
 <td>-</td>
@@ -126,11 +126,11 @@
 </tr>
 <tr>
 <td>&quot; &quot;</td>
-<td>要求查询结果完全匹配，不包括演变形式。例：<a href="https://www.google.com/search?q=%22Failure+is+the+mother+of+success%22">&quot;Failure is the mother of success&quot;</a></td>
+<td>关键字完全匹配，不包括演变形式。例：<a href="https://www.google.com/search?q=%22Failure+is+the+mother+of+success%22">&quot;Failure is the mother of success&quot;</a></td>
 </tr>
 <tr>
 <td>*</td>
-<td>作通配符使用，可替代任意关键字，用于模糊搜索。例：<a href="https://www.google.com/search?q=\*+is+the+mother+of+success">* is the mother of success</a></td>
+<td>通配符，可替代任意关键字，用于模糊搜索。例：<a href="https://www.google.com/search?q=\*+is+the+mother+of+success">* is the mother of success</a></td>
 </tr>
 <tr>
 <td>《》</td>
@@ -181,7 +181,7 @@
 <h2>2、谷歌搜索参数</h2>
 <p>&nbsp;</p>
 <p>除此之外，谷歌还有一种更进阶的搜索方法。</p>
-<p>如果说“<strong>搜索指令</strong>”是图形化的搜索，那么”<strong>搜索参数</strong>“则是命令行式搜索方法，你可以自定义任意你想搜索的内容。</p>
+<p>如果说“<strong>搜索指令</strong>”是图形化的搜索，那么”<strong>搜索参数</strong>“则是命令行式的搜索方法，你可以自定义搜索任意内容。</p>
 <p>下面是我总结的 14 个常用搜索参数。</p>
 <p>&nbsp;</p>
 <table>
@@ -210,7 +210,7 @@
 </tr>
 <tr>
 <td><strong>&amp;hl</strong></td>
-<td>Interface Language（界面语言），意为设置界面语言。en 为英语，zh-CN 为简体中文。</td>
+<td>Host Language（界面语言），意为设置界面语言。en 英语，zh-CN 中文。</td>
 </tr>
 <tr>
 <td></td>
@@ -218,7 +218,7 @@
 </tr>
 <tr>
 <td><strong>&amp;lr</strong></td>
-<td>Language Restrict（语言限定），意为设置搜索语言。en 为英语，zh-CN 为简体中文。</td>
+<td>Language Restrict（语言限定），意为设置搜索语言。en 英语，zh-CN 中文。</td>
 </tr>
 <tr>
 <td></td>
@@ -226,7 +226,7 @@
 </tr>
 <tr>
 <td><strong>&amp;cr</strong></td>
-<td>Country Restrict（地区限定），意为设置地区内容。CN 为 中国，JP 是日本。</td>
+<td>Country Restrict（地区限定），意为设置地区内容。CN 中国，JP 日本。</td>
 </tr>
 <tr>
 <td></td>
@@ -242,7 +242,7 @@
 </tr>
 <tr>
 <td><strong>&amp;num</strong></td>
-<td>Number（数量），意为设置搜索结果数量，默认 10 条一页，我们可以设置为 100。</td>
+<td>Number（数量），意为设置搜索结果数量，默认 10 条一页，可设置为 100。</td>
 </tr>
 <tr>
 <td></td>
@@ -250,7 +250,7 @@
 </tr>
 <tr>
 <td><strong>&amp;as_q</strong></td>
-<td>Advanced Search Query（高级搜索），单独出现无意义，需要与其它参数进行组合。</td>
+<td>Advanced Search Query（高级搜索），单独出现无意义，需要组合使用。</td>
 </tr>
 <tr>
 <td></td>
@@ -258,7 +258,7 @@
 </tr>
 <tr>
 <td><strong>&amp;as_qdr</strong></td>
-<td>Date Restrict（时间限制），设置搜索结果的更新时间，as_qdr=h24 表示过去 24 小时。</td>
+<td>Date Restrict（时间限制），设置搜索更新时间，as_qdr=h24 为 24 小时内。</td>
 </tr>
 <tr>
 <td></td>
@@ -274,7 +274,7 @@
 </tr>
 <tr>
 <td><strong>&amp;as_occt</strong></td>
-<td>关键字出现问题。相当于搜索指令中的 intitle，有 any、title、body、url、links 可选。</td>
+<td>关键字位置。相当于搜索指令 intitle，有 any、title、body、url、links 可选。</td>
 </tr>
 <tr>
 <td></td>
